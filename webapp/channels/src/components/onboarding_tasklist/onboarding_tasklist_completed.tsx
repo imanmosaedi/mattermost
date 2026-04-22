@@ -82,7 +82,7 @@ const CompletedWrapper = styled.div`
         width: 90%;
         margin-top: 15px;
         color: rgba(var(--center-channel-color-rgb), 0.75);
-        font-family: "Open Sans";
+        font-family: "Iran Sans";
         font-style: normal;
         font-weight: normal;
         line-height: 16px;

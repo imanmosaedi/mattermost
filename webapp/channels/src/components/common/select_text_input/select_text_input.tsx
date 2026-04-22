@@ -47,7 +47,7 @@ const styles = {
         ...baseStyles,
         padding: '4px 6px 4px 10px',
         color: 'var(--center-channel-color)',
-        fontFamily: 'Open Sans',
+        fontFamily: 'Iran Sans',
         fontSize: '10px',
         fontWeight: 600,
         lineHeight: '12px',

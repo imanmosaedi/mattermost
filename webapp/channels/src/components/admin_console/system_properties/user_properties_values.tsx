@@ -246,7 +246,7 @@ const styles: SelectProps['styles'] = {
     multiValueLabel: (base) => ({
         ...base,
         color: 'var(--center-channel-color)',
-        fontFamily: 'Open Sans',
+        fontFamily: 'Iran Sans',
         fontSize: '12px',
         fontStyle: 'normal',
         fontWeight: 600,

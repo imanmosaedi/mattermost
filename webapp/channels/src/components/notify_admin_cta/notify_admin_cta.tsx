@@ -11,7 +11,7 @@ import {NotifyStatus, useGetNotifyAdmin} from 'components/common/hooks/useGetNot
 import type {NotifyStatusValues} from 'components/common/hooks/useGetNotifyAdmin';
 
 const Span = styled.span`
-    font-family: 'Open Sans';
+    font-family: 'Iran Sans';
     font-size: 12px;
     font-style: normal;
     font-weight: 600;

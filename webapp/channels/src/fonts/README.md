@@ -1,4 +1,4 @@
-# Google Fonts Open Sans
+# Google Fonts Iran Sans
 The OpenSans fonts used in this project are sourced from Google Fonts. The specific file formats are generated using the [google-webfonts-helper](https://google-webfonts-helper.herokuapp.com/fonts/open-sans?subsets=cyrillic,cyrillic-ext,greek,greek-ext,latin,latin-ext,vietnamese), with the following settings.
 
 ## Charsets

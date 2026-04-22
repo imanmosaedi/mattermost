@@ -85,7 +85,7 @@ const Title = styled.div`
 `;
 
 const Description = styled.p`
-    font-family: Open Sans;
+    font-family: Iran Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
