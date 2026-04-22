@@ -64,6 +64,13 @@ export function loadTranslations(locale: string, url: string): ActionFuncAsync {
                 console.error(error); //eslint-disable-line no-console
             }
         }
+        else {
+            try {
+                document.documentElement.dir = 'ltr';
+            } catch (error) {
+                console.error(error); //eslint-disable-line no-console
+            }
+        }
         dispatch({
             type: ActionTypes.RECEIVED_TRANSLATIONS,
             data: {
