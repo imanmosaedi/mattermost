@@ -11,6 +11,8 @@ import {ActionTypes} from 'utils/constants';
 import type {ActionFuncAsync, ThunkActionFunc} from 'types/store';
 import type {Translations} from 'types/store/i18n';
 
+import { isRTL } from 'utils/rtl';
+
 const pluginTranslationSources: Record<string, TranslationPluginFunction> = {};
 
 export type TranslationPluginFunction = (locale: string) => Translations
@@ -52,6 +54,12 @@ export function loadTranslations(locale: string, url: string): ActionFuncAsync {
             try {
                 const serverTranslations = await Client4.getTranslations(url);
                 Object.assign(translations, serverTranslations);
+            } catch (error) {
+                console.error(error); //eslint-disable-line no-console
+            }
+
+            try {
+                document.documentElement.dir = isRTL(locale) ? 'rtl' : 'ltr';
             } catch (error) {
                 console.error(error); //eslint-disable-line no-console
             }

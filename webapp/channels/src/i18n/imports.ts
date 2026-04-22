@@ -6,13 +6,14 @@
 /* eslint-disable */
 
 import fa from './fa.json';
+import ar from './ar.json';
 
 type TranslationsMap = {
     [id: string]: string,
 };
 
-export const langIDs = ["fa"];
+export const langIDs = ["fa", "ar"];
 
-export const langLabels = {"fa":"فارسی"};
+export const langLabels = {"fa":"فارسی", "ar":"عربی"};
 
-export const langFiles: {[langID: string]: TranslationsMap} = {fa};
+export const langFiles: {[langID: string]: TranslationsMap} = {fa, ar};
