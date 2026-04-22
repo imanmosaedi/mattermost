@@ -60,6 +60,7 @@ export function loadTranslations(locale: string, url: string): ActionFuncAsync {
 
             try {
                 document.documentElement.dir = isRTL(locale) ? 'rtl' : 'ltr';
+                window.location.reload();
             } catch (error) {
                 console.error(error); //eslint-disable-line no-console
             }
@@ -67,6 +68,7 @@ export function loadTranslations(locale: string, url: string): ActionFuncAsync {
         else {
             try {
                 document.documentElement.dir = 'ltr';
+                window.location.reload();
             } catch (error) {
                 console.error(error); //eslint-disable-line no-console
             }
