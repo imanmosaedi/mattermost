@@ -214,15 +214,30 @@ ol {
         url('../fonts/open-sans-v18-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* iran-sans-600 */
+@font-face {
+    font-family: 'Iran Sans';
+    font-style: normal;
+    font-weight: 600;
+    src:
+        local(''),
+        url('../fonts/IRANSansWeb.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/IRANSansWeb.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 .app__body.font--open_sans {
     font-family: 'Open Sans', sans-serif;
+}
+
+.app__body.font--iran_sans {
+    font-family: 'Iran Sans', sans-serif;
 }
 
 .app__body {
     h1,
     h2,
     h3 {
-        font-family: Metropolis, sans-serif;
+        font-family: 'Iran Sans', sans-serif;
     }
 }
 
