@@ -2855,6 +2855,7 @@
   "generic_icons.warning": "نماد هشدار",
   "generic_modal.cancel": "انصراف",
   "generic_modal.confirm": "تایید",
+  "generic_modal.close": "بستن",
   "get_app.continueToBrowser": "مشاهده در مرورگر",
   "get_app.dontHaveTheDesktopApp": "برنامه دسکتاپ ندارید؟",
   "get_app.dontHaveTheMobileApp": "اپلیکیشن موبایل را ندارید؟",
