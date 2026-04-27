@@ -162,6 +162,7 @@ function PostComponent(props: Props) {
     const [hasReceivedA11yFocus, setHasReceivedA11yFocus] = useState(false);
     const [burnOnReadRevealing, setBurnOnReadRevealing] = useState(false);
     const [burnOnReadRevealError, setBurnOnReadRevealError] = useState<string | null>(null);
+    const [openDotMenuRequest, setOpenDotMenuRequest] = useState(0);
 
     const {locale} = useIntl();
 
@@ -349,6 +350,7 @@ function PostComponent(props: Props) {
         e.preventDefault();
         setHover(true);
         setAlt(e.altKey);
+        setOpenDotMenuRequest((current) => current + 1);
     }, []);
 
     const handleMouseLeave = useCallback(() => {
@@ -868,6 +870,7 @@ function PostComponent(props: Props) {
                                 removePost={props.actions.removePost}
                                 handleJumpClick={handleJumpClick}
                                 isPostHeaderVisible={getPostHeaderVisible()}
+                                openDotMenuRequest={openDotMenuRequest}
                             />
                             }
                         </div>

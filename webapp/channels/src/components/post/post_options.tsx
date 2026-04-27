@@ -55,6 +55,7 @@ type Props = {
     isChannelAutotranslated: boolean;
     isBurnOnReadPost?: boolean;
     shouldDisplayBurnOnReadConcealed?: boolean;
+    openDotMenuRequest?: number;
     actions: {
         emitShortcutReactToLastPostFrom: (emittedFrom: 'CENTER' | 'RHS_ROOT' | 'NO_WHERE') => void;
     };
@@ -64,6 +65,7 @@ const PostOptions = (props: Props): JSX.Element => {
     const [showEmojiPicker, setShowEmojiPicker] = useState(false);
     const [showDotMenu, setShowDotMenu] = useState(false);
     const [showActionsMenu, setShowActionsMenu] = useState(false);
+    const dotMenuButtonId = `${props.location}_button_${props.post.id}`;
 
     const toggleEmojiPicker = useCallback((show: boolean) => {
         setShowEmojiPicker(show);
@@ -71,6 +73,7 @@ const PostOptions = (props: Props): JSX.Element => {
     }, [props.handleDropdownOpened]);
 
     const lastEmittedFrom = useRef(props.shortcutReactToLastPostEmittedFrom);
+    const lastOpenDotMenuRequest = useRef(props.openDotMenuRequest);
     useEffect(() => {
         // Confirm that lastEmittedFrom actually changed to avoid toggling the emoji picker when another dependency
         // changes without the user pressing the hotkey again
@@ -90,6 +93,21 @@ const PostOptions = (props: Props): JSX.Element => {
         }
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [props.isLastPost, props.shortcutReactToLastPostEmittedFrom, props.location, props.isPostHeaderVisible, showEmojiPicker]);
+
+    useEffect(() => {
+        if (!props.openDotMenuRequest || props.openDotMenuRequest === lastOpenDotMenuRequest.current) {
+            return;
+        }
+
+        lastOpenDotMenuRequest.current = props.openDotMenuRequest;
+
+        if (showDotMenu) {
+            return;
+        }
+
+        const dotMenuButton = document.getElementById(dotMenuButtonId) as HTMLButtonElement | null;
+        dotMenuButton?.click();
+    }, [dotMenuButtonId, props.openDotMenuRequest, showDotMenu]);
 
     const {
         channelIsArchived,

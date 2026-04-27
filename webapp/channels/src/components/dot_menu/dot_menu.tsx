@@ -605,8 +605,7 @@ export class DotMenuClass extends React.PureComponent<Props, State> {
             !isSystemMessage &&
             !this.props.isReadOnly &&
             this.props.oneClickReactionsEnabled &&
-            this.props.enableEmojiPicker &&
-            this.props.recentEmojis?.length,
+            this.props.enableEmojiPicker,
         );
         const showFollowPost = this.props.canFollowThread;
         const showMarkAsUnread = Boolean(!isSystemMessage && !this.props.channelIsArchived && this.props.location !== Locations.SEARCH);
