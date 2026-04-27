@@ -346,6 +346,7 @@ function PostComponent(props: Props) {
     }, [togglePostMenu]);
 
     const handleContextMenu = useCallback((e: MouseEvent<HTMLDivElement>) => {
+        e.preventDefault();
         setHover(true);
         setAlt(e.altKey);
     }, []);
