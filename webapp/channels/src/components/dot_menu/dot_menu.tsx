@@ -655,7 +655,7 @@ export class DotMenuClass extends React.PureComponent<Props, State> {
                                 postId={this.props.post.id}
                                 teamId={this.props.teamId}
                                 emojis={this.props.recentEmojis || []}
-                                size={3}
+                                size={6}
                             />
                             <li>
                                 <PostReaction
@@ -665,13 +665,21 @@ export class DotMenuClass extends React.PureComponent<Props, State> {
                                     teamId={this.props.teamId}
                                     showEmojiPicker={this.state.showEmojiPicker}
                                     setShowEmojiPicker={this.setShowEmojiPicker}
+                                    className='dot-menu__emoji-all-button'
+                                    label={
+                                        <FormattedMessage
+                                            id='post_info.dot_menu.reactions.all'
+                                            defaultMessage='All emojis'
+                                        />
+                                    }
+                                    trailingElement={
+                                        <span className='dot-menu__emoji-dropdown-icon'>
+                                            <ChevronDownIcon size={14}/>
+                                        </span>
+                                    }
                                 />
-                                <span className='dot-menu__emoji-dropdown-icon'>
-                                    <ChevronDownIcon size={14}/>
-                                </span>
                             </li>
                         </ul>
-                        <Menu.Separator/>
                     </div>
                 )}
                 menuButtonTooltip={{

@@ -3,6 +3,7 @@
 
 import classNames from 'classnames';
 import React, {useCallback} from 'react';
+import type {ReactNode} from 'react';
 import {useIntl} from 'react-intl';
 
 import type {Emoji} from '@mattermost/types/emojis';
@@ -24,6 +25,9 @@ export type Props = {
     location?: keyof typeof Locations;
     setShowEmojiPicker: (showEmojiPicker: boolean) => void;
     showEmojiPicker: boolean;
+    label?: ReactNode;
+    trailingElement?: ReactNode;
+    className?: string;
     actions: {
         toggleReaction: (postId: string, emojiName: string) => void;
     };
@@ -36,6 +40,9 @@ export default function PostReaction({
     teamId,
     showEmojiPicker,
     setShowEmojiPicker,
+    label,
+    trailingElement,
+    className,
     actions: {
         toggleReaction,
     },
@@ -74,12 +81,14 @@ export default function PostReaction({
                     data-testid='post-reaction-emoji-icon'
                     id={`${location}_reaction_${postId}`}
                     aria-label={ariaLabel}
-                    className={classNames('post-menu__item', 'post-menu__item--reactions', {
+                    className={classNames('post-menu__item', 'post-menu__item--reactions', className, {
                         'post-menu__item--active': showEmojiPicker,
                     })}
                     {...getReferenceProps()}
                 >
                     <EmojiIcon className='icon icon--small'/>
+                    {label && <span className='post-reaction__label'>{label}</span>}
+                    {trailingElement}
                 </button>
             </WithTooltip>
             {emojiPicker}

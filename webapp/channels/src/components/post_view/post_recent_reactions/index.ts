@@ -26,7 +26,7 @@ function mapDispatchToProps(dispatch: Dispatch) {
 function mapStateToProps(state: GlobalState) {
     const locale = getCurrentLocale(state);
     const emojiMap = getEmojiMap(state);
-    const defaultEmojis = [emojiMap.get('thumbsup'), emojiMap.get('grinning'), emojiMap.get('white_check_mark')] as Emoji[];
+    const defaultEmojis = [emojiMap.get('thumbsup'), emojiMap.get('grinning'), emojiMap.get('white_check_mark')].filter(Boolean) as Emoji[];
 
     return {
         defaultEmojis,
