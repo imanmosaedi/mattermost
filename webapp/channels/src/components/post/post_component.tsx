@@ -331,6 +331,8 @@ function PostComponent(props: Props) {
             'mention-comment': props.isCommentMention,
             'post--thread': isRHS,
             'post--modal': isModal,
+            'post--chat-bubble': props.location === Locations.CENTER && !isSystemMessage,
+            'post--chat-bubble-me': props.location === Locations.CENTER && !isSystemMessage && props.currentUserId === post.user_id,
         });
     };
 
