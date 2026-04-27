@@ -1,4 +1,30 @@
 .dot-menu {
+    &__context-menu {
+        border-radius: 14px;
+        overflow: hidden;
+    }
+
+    &__emoji-header {
+        padding: 8px 12px 0;
+    }
+
+    &__emoji-header-list {
+        display: flex;
+        padding: 0;
+        margin: 0 0 8px;
+        list-style: none;
+        gap: 4px;
+        align-items: center;
+    }
+
+    &__emoji-dropdown-icon {
+        display: inline-flex;
+        align-items: center;
+        color: rgba(var(--center-channel-color-rgb), 0.64);
+        margin-left: -6px;
+        pointer-events: none;
+    }
+
     &__item-new-badge {
         display: flex;
         align-items: center;

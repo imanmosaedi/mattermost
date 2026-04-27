@@ -11,6 +11,7 @@ import {
     ArrowRightBoldOutlineIcon,
     BookmarkIcon,
     BookmarkOutlineIcon,
+    ChevronDownIcon,
     ContentCopyIcon,
     DotsHorizontalIcon,
     EmoticonPlusOutlineIcon,
@@ -26,6 +27,7 @@ import {
     TranslateIcon,
     TrashCanOutlineIcon,
 } from '@mattermost/compass-icons/components';
+import type {Emoji} from '@mattermost/types/emojis';
 import type {Post} from '@mattermost/types/posts';
 import type {UserThread} from '@mattermost/types/threads';
 
@@ -40,6 +42,8 @@ import ForwardPostModal from 'components/forward_post_modal';
 import * as Menu from 'components/menu';
 import MoveThreadModal from 'components/move_thread_modal';
 import ChannelPermissionGate from 'components/permissions_gates/channel_permission_gate';
+import PostReaction from 'components/post_view/post_reaction';
+import PostRecentReactions from 'components/post_view/post_recent_reactions';
 
 import {createBurnOnReadDeleteModalHandlers} from 'hooks/useBurnOnReadDeleteModal';
 import {Locations, ModalIdentifiers, Constants} from 'utils/constants';
@@ -92,6 +96,8 @@ type Props = {
     isLicensed?: boolean; // TechDebt: Made non-mandatory while converting to typescript
     postEditTimeLimit?: string; // TechDebt: Made non-mandatory while converting to typescript
     enableEmojiPicker?: boolean; // TechDebt: Made non-mandatory while converting to typescript
+    oneClickReactionsEnabled?: boolean;
+    recentEmojis?: Emoji[];
     channelIsArchived?: boolean; // TechDebt: Made non-mandatory while converting to typescript
     teamUrl?: string; // TechDebt: Made non-mandatory while converting to typescript
     isMobileView: boolean;
@@ -180,6 +186,7 @@ type Props = {
 type State = {
     canEdit: boolean;
     canDelete: boolean;
+    showEmojiPicker: boolean;
 }
 
 export class DotMenuClass extends React.PureComponent<Props, State> {
@@ -198,6 +205,7 @@ export class DotMenuClass extends React.PureComponent<Props, State> {
         this.state = {
             canEdit: props.canEdit && !props.isReadOnly,
             canDelete: props.canDelete && !props.isReadOnly,
+            showEmojiPicker: false,
         };
     }
 
@@ -248,9 +256,13 @@ export class DotMenuClass extends React.PureComponent<Props, State> {
     };
 
     handleAddReactionMenuItemActivated = () => {
-        if (this.props.handleAddReactionClick) {
-            this.props.handleAddReactionClick(true);
-        }
+        this.setState({showEmojiPicker: true});
+        this.props.handleAddReactionClick?.(true);
+    };
+
+    setShowEmojiPicker = (showEmojiPicker: boolean) => {
+        this.setState({showEmojiPicker});
+        this.props.handleAddReactionClick?.(showEmojiPicker);
     };
 
     copyLink = () => {
@@ -588,6 +600,14 @@ export class DotMenuClass extends React.PureComponent<Props, State> {
         const showReply = !isSystemMessage && !isBurnOnReadPost && this.props.location === Locations.CENTER;
         const showForward = this.props.canForward;
         const showReactions = Boolean(isMobile && !isSystemMessage && !this.props.isReadOnly && this.props.enableEmojiPicker);
+        const showRecentReactionsHeader = Boolean(
+            !isMobile &&
+            !isSystemMessage &&
+            !this.props.isReadOnly &&
+            this.props.oneClickReactionsEnabled &&
+            this.props.enableEmojiPicker &&
+            this.props.recentEmojis?.length,
+        );
         const showFollowPost = this.props.canFollowThread;
         const showMarkAsUnread = Boolean(!isSystemMessage && !this.props.channelIsArchived && this.props.location !== Locations.SEARCH);
         const showSave = !isSystemMessage && !this.props.isUnrevealedBurnOnReadPost;
@@ -625,8 +645,36 @@ export class DotMenuClass extends React.PureComponent<Props, State> {
                     'aria-label': formatMessage({id: 'post_info.menuAriaLabel', defaultMessage: 'Post extra options'}),
                     onKeyDown: this.handleMenuKeydown,
                     width: '264px',
+                    className: 'dot-menu__context-menu',
                     onToggle: this.handleMenuToggle,
                 }}
+                menuHeader={showRecentReactionsHeader && (
+                    <div className='dot-menu__emoji-header'>
+                        <ul className='dot-menu__emoji-header-list'>
+                            <PostRecentReactions
+                                channelId={this.props.post.channel_id}
+                                postId={this.props.post.id}
+                                teamId={this.props.teamId}
+                                emojis={this.props.recentEmojis || []}
+                                size={3}
+                            />
+                            <li>
+                                <PostReaction
+                                    channelId={this.props.post.channel_id}
+                                    location={this.props.location}
+                                    postId={this.props.post.id}
+                                    teamId={this.props.teamId}
+                                    showEmojiPicker={this.state.showEmojiPicker}
+                                    setShowEmojiPicker={this.setShowEmojiPicker}
+                                />
+                                <span className='dot-menu__emoji-dropdown-icon'>
+                                    <ChevronDownIcon size={14}/>
+                                </span>
+                            </li>
+                        </ul>
+                        <Menu.Separator/>
+                    </div>
+                )}
                 menuButtonTooltip={{
                     text: formatMessage({id: 'post_info.dot_menu.tooltip.more', defaultMessage: 'More'}),
                     class: 'hidden-xs',
