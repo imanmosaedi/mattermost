@@ -17,10 +17,8 @@ import CommentIcon from 'components/common/comment_icon';
 import {usePluginVisibilityInSharedChannel} from 'components/common/hooks/usePluginVisibilityInSharedChannel';
 import DotMenu from 'components/dot_menu';
 import PostFlagIcon from 'components/post_view/post_flag_icon';
-import PostReaction from 'components/post_view/post_reaction';
-import PostRecentReactions from 'components/post_view/post_recent_reactions';
 
-import {Locations, Constants} from 'utils/constants';
+import {Locations} from 'utils/constants';
 import {isSystemMessage, fromAutoResponder} from 'utils/post_utils';
 
 import type {PostActionComponent} from 'types/store/plugins';
@@ -142,44 +140,6 @@ const PostOptions = (props: Props): JSX.Element => {
         );
     }
 
-    // Don't show reactions for unrevealed BoR posts - users can't react to concealed content
-    const showRecentlyUsedReactions = (!isMobileView && !isReadOnly && !isEphemeral && !post.failed && !systemMessage && !channelIsArchived && oneClickReactionsEnabled && props.enableEmojiPicker && hoverLocal && !props.shouldDisplayBurnOnReadConcealed);
-
-    let showRecentReactions: ReactNode;
-    if (showRecentlyUsedReactions) {
-        const showMoreReactions = props.isExpanded ||
-            props.location === 'CENTER' ||
-            (document.getElementById('sidebar-right')?.getBoundingClientRect().width ?? 0) > Constants.SIDEBAR_MINIMUM_WIDTH;
-
-        showRecentReactions = (
-            <PostRecentReactions
-                channelId={post.channel_id}
-                postId={post.id}
-                teamId={props.teamId}
-                emojis={props.recentEmojis}
-                size={showMoreReactions ? 3 : 1}
-            />
-        );
-    }
-
-    // Don't show emoji picker button for unrevealed BoR posts
-    const showReactionIcon = !systemMessage && !isReadOnly && !isEphemeral && !post.failed && props.enableEmojiPicker && !channelIsArchived && !props.shouldDisplayBurnOnReadConcealed;
-    let postReaction;
-    if (showReactionIcon) {
-        postReaction = (
-            <li>
-                <PostReaction
-                    channelId={post.channel_id}
-                    location={props.location}
-                    postId={post.id}
-                    teamId={props.teamId}
-                    showEmojiPicker={showEmojiPicker}
-                    setShowEmojiPicker={toggleEmojiPicker}
-                />
-            </li>
-        );
-    }
-
     // Don't show save button for unrevealed BoR posts
     let flagIcon: ReactNode = null;
     if (!isMobileView && (!isEphemeral && !post.failed && !systemMessage) && !props.shouldDisplayBurnOnReadConcealed) {
@@ -239,6 +199,8 @@ const PostOptions = (props: Props): JSX.Element => {
                 isReadOnly={isReadOnly || channelIsArchived}
                 isMenuOpen={showDotMenu}
                 enableEmojiPicker={props.enableEmojiPicker}
+                oneClickReactionsEnabled={oneClickReactionsEnabled}
+                recentEmojis={props.recentEmojis}
                 isChannelAutotranslated={props.isChannelAutotranslated}
             />
         </li>
@@ -297,14 +259,12 @@ const PostOptions = (props: Props): JSX.Element => {
                 data-testid={`post-menu-${props.post.id}`}
                 className={classnames('col post-menu', {'post-menu--position': !hoverLocal && showCommentIcon})}
             >
-                {!collapsedThreadsEnabled && !showRecentlyUsedReactions && dotMenu}
-                {showRecentReactions}
-                {postReaction}
+                {!collapsedThreadsEnabled && dotMenu}
                 {flagIcon}
                 {pluginItems}
                 {actionsMenu}
                 {commentIcon}
-                {(collapsedThreadsEnabled || showRecentlyUsedReactions) && dotMenu}
+                {collapsedThreadsEnabled && dotMenu}
             </ul>
         );
     }
