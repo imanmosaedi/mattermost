@@ -1,7 +1,7 @@
 @use 'sass:color';
 
 // Color Variables
-$primary-color: #166de0;
+$primary-color: #1da390;
 $primary-color--hover: color.adjust($primary-color, $lightness: -10%);
 $bg--gray: rgb(245, 245, 245);
 $white: rgb(255, 255, 255);
@@ -11,7 +11,7 @@ $yellow: rgb(255, 255, 0);
 $light-gray: rgba(0, 0, 0, 0.15);
 $gray: rgba(0, 0, 0, 0.3);
 $dark-gray: rgba(0, 0, 0, 0.5);
-$link-color: rgb(35, 137, 215);
+$link-color: rgb(29, 163, 144);
 $transparent: rgba(0, 0, 0, 0);
 $highlight-color: #fcea8d;
 
