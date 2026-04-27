@@ -345,7 +345,7 @@ function PostComponent(props: Props) {
         setDropdownOpened(opened);
     }, [togglePostMenu]);
 
-    const handleMouseOver = useCallback((e: MouseEvent<HTMLDivElement>) => {
+    const handleContextMenu = useCallback((e: MouseEvent<HTMLDivElement>) => {
         setHover(true);
         setAlt(e.altKey);
     }, []);
@@ -738,7 +738,7 @@ function PostComponent(props: Props) {
                 className={getClassName()}
                 style={props.preventClickInteraction ? preventInteractionStyle : undefined}
                 onClick={handlePostClick}
-                onMouseOver={handleMouseOver}
+                onContextMenu={handleContextMenu}
                 onMouseLeave={handleMouseLeave}
                 autotranslated={props.isChannelAutotranslated}
             >
