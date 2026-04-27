@@ -357,6 +357,23 @@ describe('components/dot_menu/DotMenu', () => {
         expect(menuItem).toBeVisible();
     });
 
+    test('should show emoji header with all emojis button when one-click reactions are enabled', async () => {
+        const props = {
+            ...baseProps,
+            oneClickReactionsEnabled: true,
+            recentEmojis: [],
+        };
+        renderWithContext(
+            <DotMenu {...props}/>,
+            initialState,
+        );
+
+        const button = screen.getByTestId(`PostDotMenu-Button-${baseProps.post.id}`);
+        await userEvent.click(button);
+
+        expect(screen.getByText('All emojis')).toBeInTheDocument();
+    });
+
     test('should not show mark as unread when channel is archived', async () => {
         const props = {
             ...baseProps,
