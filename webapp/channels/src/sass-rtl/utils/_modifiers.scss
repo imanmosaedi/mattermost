@@ -2,8 +2,8 @@ $positions: 't b l r';
 
 $positions: 't'top,
     'b'bottom,
-    'l'right,
-    'r'left;
+    'l'inset-inline-end,
+    'r'inset-inline-start;
 
 @for $i from 0 through 20 {
     @each $label,

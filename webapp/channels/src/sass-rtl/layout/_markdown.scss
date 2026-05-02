@@ -46,7 +46,7 @@ h6.markdown__heading {
     display: inline;
 
     +.markdown__paragraph-inline {
-        margin-right: 4px;
+        margin-inline-end: 4px;
     }
 }
 
@@ -90,7 +90,7 @@ h6.markdown__heading {
 
         .image-preview-utility-buttons-container {
             top: 14px;
-            left: 12px;
+            inset-inline-start: 12px;
         }
 
         .image-loaded-container {
@@ -169,7 +169,7 @@ h6.markdown__heading {
         padding: 0;
         background-color: inherit;
         font-size: 13px;
-        text-align: right;
+        text-align: end;
         white-space: pre;
     }
 
@@ -183,7 +183,7 @@ h6.markdown__heading {
 
     &:hover .post-code__overlay {
         top: 6px;
-        left: 1px;
+        inset-inline-start: 1px;
         padding: 4px 4px 0;
         border-radius: 4px;
         background: var(--center-channel-bg);
@@ -198,8 +198,8 @@ h6.markdown__heading {
     .post-code__line-numbers {
         min-width: 36px;
         padding: 0 4px 4px;
-        border-left: 1px solid #ccc;
-        margin-left: 12px;
+        border-inline-start: 1px solid #ccc;
+        margin-inline-start: 12px;
         color: #ccc;
         font-family: Menlo, Monaco, Consolas, "Courier New", monospace; // Match the fonts that code elements use
         user-select: none;
@@ -225,7 +225,7 @@ h6.markdown__heading {
     position: absolute;
     z-index: 5;
     top: 5px;
-    left: 0;
+    inset-inline-start: 0;
     display: flex;
     height: 36px;
     padding: 4px 4px 0;
@@ -243,7 +243,7 @@ h6.markdown__heading {
         width: 28px;
         height: 28px;
         border-radius: 4px;
-        margin-left: 0;
+        margin-inline-start: 0;
         cursor: pointer;
 
         &:hover {
@@ -261,7 +261,7 @@ h6.markdown__heading {
 
         >i {
             margin-top: 1px;
-            margin-right: -2px;
+            margin-inline-end: -2px;
             color: rgba(var(--center-channel-color-rgb), 0.75);
             font-size: 18px;
         }
@@ -277,7 +277,7 @@ h6.markdown__heading {
         height: 28px;
         padding: 4px 8px;
         border-radius: 4px;
-        margin-right: 4px;
+        margin-inline-end: 4px;
         background-color: rgba(var(--center-channel-color-rgb), 0.75);
         color: var(--center-channel-bg);
         user-select: none;
@@ -342,7 +342,7 @@ h6.markdown__heading {
             list-style-type: none;
 
             input[type="checkbox"] {
-                margin-right: -17px;
+                margin-inline-end: -17px;
                 vertical-align: top;
 
                 &:disabled {
@@ -365,9 +365,9 @@ ol.markdown__list {
 
         &::before {
             display: table-cell;
-            padding-left: 8px;
+            padding-inline-start: 8px;
             content: counter(list) ".";
-            text-align: left;
+            text-align: start;
             word-break: keep-all;
         }
         // Special rules for task items within ordered lists
@@ -378,8 +378,8 @@ ol.markdown__list {
             }
             input[type="checkbox"] {
                 // Margins are adjusted to align better the checkbox with the text
-                margin-left: 2px;
-                margin-right: -19px;
+                margin-inline-start: 2px;
+                margin-inline-end: -19px;
             }
         }
     }
@@ -388,7 +388,7 @@ ol.markdown__list {
 blockquote {
     position: relative;
     padding: 2px 12px 2px 12px;
-    border-right: 2px solid rgba(var(--center-channel-color-rgb), 0.20);
+    border-inline-end: 2px solid rgba(var(--center-channel-color-rgb), 0.20);
     margin: 6px 0 0 0;
     color: rgba(var(--center-channel-color-rgb), 0.72);
     font-size: inherit;

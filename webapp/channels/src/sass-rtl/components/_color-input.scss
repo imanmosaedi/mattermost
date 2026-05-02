@@ -7,9 +7,9 @@
         height: 36px;
 
         &:not(:focus) {
-            border-left: none !important;
-            border-bottom-left-radius: 0 !important;
-            border-top-left-radius: 0 !important;
+            border-inline-start: none !important;
+            border-bottom-inset-inline-start-radius: 0 !important;
+            border-top-inset-inline-start-radius: 0 !important;
         }
     }
 }
@@ -36,7 +36,7 @@
     position: absolute;
     z-index: 12;
     top: 100%;
-    left: 0;
+    inset-inline-start: 0;
     padding-top: 8px;
 }
 

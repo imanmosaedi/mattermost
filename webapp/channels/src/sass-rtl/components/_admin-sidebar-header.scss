@@ -45,7 +45,7 @@
         }
 
         .menu-icon {
-            margin-left: 10px;
+            margin-inline-start: 10px;
             fill: variables.$white;
             opacity: 0.8;
         }
@@ -63,6 +63,6 @@
     }
 
     .Menu {
-        margin-right: 16px;
+        margin-inline-end: 16px;
     }
 }
