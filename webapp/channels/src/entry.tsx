@@ -10,11 +10,12 @@ import store from 'stores/redux_store';
 
 import App from 'components/app';
 
+import {getCurrentLocale} from 'selectors/i18n';
+
 import {AnnouncementBarTypes} from 'utils/constants';
 import {setCSRFFromCookie} from 'utils/utils';
 
 // Import our styles
-import './sass/styles.scss';
 import 'katex/dist/katex.min.css';
 
 import '@mattermost/compass-icons/css/compass-icons.css';
@@ -52,6 +53,23 @@ function preRenderSetup(onPreRenderSetupReady: () => void) {
     onPreRenderSetupReady();
 }
 
+function applyLocaleDirection(locale: string) {
+    document.documentElement.setAttribute('dir', locale === 'fa' ? 'rtl' : 'ltr');
+}
+
+async function loadLocaleStyles() {
+    const locale = getCurrentLocale(store.getState());
+    applyLocaleDirection(locale);
+
+    if (locale === 'fa') {
+        await import('./sass-rtl/styles.scss');
+        return;
+    }
+
+    await import('./sass/styles.scss');
+}
+
+
 function renderReactRootComponent() {
     // We're using React 18, but we're using the deprecated way of starting React because ReactDOM.createRoot enables
     // new features such as automatic batching which breaks some components. This will need to be changed in the future
@@ -74,5 +92,19 @@ function appendOnDOMContentLoadedEvent(onDomContentReady: () => void) {
 
 appendOnDOMContentLoadedEvent(() => {
     // Do the pre-render setup and call renderReactRootComponent when done
-    preRenderSetup(renderReactRootComponent);
+    preRenderSetup(async () => {
+        await loadLocaleStyles();
+
+        let previousLocale = getCurrentLocale(store.getState());
+        store.subscribe(() => {
+            const locale = getCurrentLocale(store.getState());
+            if (locale !== previousLocale) {
+                previousLocale = locale;
+                applyLocaleDirection(locale);
+            }
+        });
+
+        renderReactRootComponent();
+    });
+
 });
