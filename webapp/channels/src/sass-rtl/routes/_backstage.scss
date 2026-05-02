@@ -16,7 +16,7 @@
     text-decoration: none;
 
     .fa {
-        margin-left: 7px;
+        margin-inline-start: 7px;
         font-size: 1.1em;
         font-weight: bold;
     }
@@ -37,7 +37,7 @@
 
 .backstage-content {
     max-width: 1200px;
-    padding-right: 135px;
+    padding-inline-end: 135px;
     margin: 46px auto;
     background-color: variables.$bg--gray;
     vertical-align: top;
@@ -58,8 +58,8 @@
         @include mixins.clearfix;
         border-radius: 2px;
 
-        border-left: 1px solid variables.$light-gray;
-        border-right: 1px solid variables.$light-gray;
+        border-inline-start: 1px solid variables.$light-gray;
+        border-inline-end: 1px solid variables.$light-gray;
     }
 }
 
@@ -103,7 +103,7 @@
 
     .category-title__text {
         position: absolute;
-        right: 2.5em;
+        inset-inline-end: 2.5em;
     }
 
     .sections {
@@ -121,7 +121,7 @@
     }
 
     .subsection-title {
-        padding-right: 3em;
+        padding-inline-end: 3em;
     }
 
     .section-title--active,
@@ -172,8 +172,8 @@
     }
 
     .divider {
-        margin-left: 8px;
-        margin-right: 8px;
+        margin-inline-start: 8px;
+        margin-inline-end: 8px;
     }
 }
 
@@ -186,12 +186,12 @@
     .fa {
         position: absolute;
         top: 11px;
-        right: 11px;
+        inset-inline-end: 11px;
         opacity: 0.4;
     }
 
     input {
-        padding-right: 30px;
+        padding-inline-end: 30px;
         background: variables.$white;
     }
 }
@@ -231,11 +231,11 @@
     }
 
     .item-actions {
-        margin-right: 6px;
+        margin-inline-end: 6px;
     }
 
     .item-details__trigger {
-        margin-right: 6px;
+        margin-inline-end: 6px;
     }
 
     .item-details__description,
@@ -314,23 +314,23 @@
     padding-top: 1.8em;
     border-top: 1px solid variables.$light-gray;
     margin-top: 2.5em;
-    text-align: left;
+    text-align: start;
 
     .has-error {
         max-width: 50%;
         margin: 0;
-        float: right;
+        float: inset-inline-end;
 
         .control-label {
             padding: 0;
-            text-align: right;
+            text-align: end;
         }
     }
 }
 
 .integration__icon {
     position: absolute;
-    left: 20px;
+    inset-inline-start: 20px;
     width: 80px;
     height: 80px;
 
@@ -416,7 +416,7 @@
         position: absolute;
         z-index: 5;
         top: 0;
-        right: 0;
+        inset-inline-end: 0;
         width: 100%;
         height: 100%;
         opacity: 0;
@@ -471,7 +471,7 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     margin-top: 10px;
     margin-bottom: 10px;
-    text-align: right;
+    text-align: end;
 
     span {
         padding: 0 10px;
@@ -496,8 +496,8 @@
     height: 32px;
     flex: 0 0 32px;
     border-radius: 50%;
-    margin-left: 15px;
-    float: right;
+    margin-inline-start: 15px;
+    float: inset-inline-end;
 }
 
 .bot-img {
@@ -516,7 +516,7 @@
 .bot-profile__remove {
     position: absolute;
     top: 4px;
-    right: 110px;
+    inset-inline-end: 110px;
     display: flex;
     width: 26px;
     height: 26px;
@@ -556,7 +556,7 @@
 .outgoing-oauth-connections-edit-secret {
     position: absolute;
     top: 8px;
-    left: 16px;
+    inset-inline-start: 16px;
     cursor: pointer;
 
     .icon-pencil-outline {
@@ -579,7 +579,7 @@
     }
 
     svg {
-        margin-left: 5px;
+        margin-inline-start: 5px;
         // margin-top: 2px;
     }
 
@@ -601,7 +601,7 @@
     }
 
     .outgoing-oauth-audience-match-message {
-        right: 42px;
+        inset-inline-end: 42px;
     }
 }
 

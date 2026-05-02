@@ -14,9 +14,9 @@
     }
 
     &.bottom,
-    &.left,
+    &.inset-inline-start,
     &.top,
-    &.right {
+    &.inset-inline-end {
         > .arrow {
             display: none;
 
@@ -36,18 +36,18 @@
         }
     }
 
-    &.right {
+    &.inset-inline-end {
         > .arrow {
             &::after {
-                border-right-color: var(--center-channel-bg);
+                border-inline-end-color: var(--center-channel-bg);
             }
         }
     }
 
-    &.left {
+    &.inset-inline-start {
         > .arrow {
             &::after {
-                border-left-color: var(--center-channel-bg);
+                border-inline-start-color: var(--center-channel-bg);
             }
         }
     }
@@ -78,7 +78,7 @@
 
         &::before {
             top: 0;
-            right: 2px;
+            inset-inline-end: 2px;
             font-size: 15px;
         }
     }
@@ -131,7 +131,7 @@
         > a,
         > button {
             i {
-                margin-left: 5px;
+                margin-inline-start: 5px;
             }
         }
     }
@@ -155,8 +155,8 @@
 
 .search-help-popover {
     top: 25px;
-    left: 0;
-    right: auto;
+    inset-inline-start: 0;
+    inset-inline-end: auto;
     width: 296px;
     max-width: 350px;
     opacity: 0;
@@ -195,7 +195,7 @@
 
     &.bottom > .arrow {
         top: -18px;
-        right: 30px;
+        inset-inline-end: 30px;
         border-width: 9px;
     }
 
@@ -238,7 +238,7 @@
             transition-timing-function: ease-out, step-start;
         }
 
-        body.enable-animations .sidebar--left & {
+        body.enable-animations .sidebar--inset-inline-start & {
             transition-delay: 0s;
             transition-duration: 0.3s;
             transition-property: opacity, visibility;
@@ -252,11 +252,11 @@
 
     .search_input {
         flex: 1;
-        margin-left: 16px;
-        margin-right: 16px;
+        margin-inline-start: 16px;
+        margin-inline-end: 16px;
     }
 
     .create_button {
-        margin-left: 16px;
+        margin-inline-start: 16px;
     }
 }

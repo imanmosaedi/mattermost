@@ -15,7 +15,7 @@
         iframe {
             position: absolute;
             top: 0;
-            right: 0;
+            inset-inline-end: 0;
             display: block;
             overflow: hidden;
             width: 100%;
@@ -43,7 +43,7 @@
             &::after {
                 position: absolute;
                 top: 0;
-                right: 0;
+                inset-inline-end: 0;
                 width: 100%;
                 height: 100%;
                 background-color: rgba(0, 0, 0, 0);
@@ -85,7 +85,7 @@
         .play-button {
             position: absolute;
             top: calc(50% - 28px);
-            right: calc(50% - 40px);
+            inset-inline-end: calc(50% - 40px);
             display: flex;
             width: 80px;
             height: 56px;
@@ -99,7 +99,7 @@
             i.icon-play {
                 position: relative;
                 top: -1px;
-                right: -1px;
+                inset-inline-end: -1px;
                 color: #fff;
                 font-size: 48px;
                 line-height: 1;
@@ -136,7 +136,7 @@
             height: 350px;
         }
 
-        .sidebar--left & {
+        .sidebar--inset-inline-start & {
             max-width: 100%;
         }
     }

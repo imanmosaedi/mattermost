@@ -6,11 +6,11 @@
     display: flex;
     flex-direction: column;
 
-    .post-left-root-message {
+    .post-inset-inline-start-root-message {
         padding: 1em 1em 0;
     }
 
-    .post-left-comments-container {
+    .post-inset-inline-start-comments-container {
         position: relative;
 
         .post {
@@ -22,7 +22,7 @@
                         &::before {
                             position: absolute;
                             top: -16px;
-                            right: 0;
+                            inset-inline-end: 0;
                             width: 100%;
                             height: 16px;
                             background: rgba(functions.v(center-channel-color-rgb), 0.04);
@@ -48,7 +48,7 @@
         div {
             z-index: 1;
             padding: 0 12px;
-            margin-right: 34px;
+            margin-inline-end: 34px;
             background: rgba(functions.v(center-channel-bg-rgb), 1);
             color: rgba(functions.v(center-channel-color-rgb), 0.72);
             font-size: 12px;
@@ -58,7 +58,7 @@
         &::before {
             position: absolute;
             top: calc(50% - 1px);
-            right: 0;
+            inset-inline-end: 0;
             display: block;
             width: 100%;
             border-top: 1px solid rgba(var(--center-channel-color-rgb), 0.12);
@@ -76,19 +76,19 @@
             }
 
             &.post--compact {
-                padding-right: 1em;
+                padding-inline-end: 1em;
             }
         }
 
         .post-pre-header__icons-container {
             width: 54px; // If the width of post__img changes, this needs to be adjusted accordingly;
-            padding-left: 12px; // If the padding of post__img changes, this needs to be adjusted accordingly;
-            margin-right: 0; // if right margin of post__content changes, this needs to be adjusted accordingly;
+            padding-inline-start: 12px; // If the padding of post__img changes, this needs to be adjusted accordingly;
+            margin-inline-end: 0; // if inset-inline-end margin of post__content changes, this needs to be adjusted accordingly;
         }
 
         .post__header {
             .post-menu {
-                text-align: left;
+                text-align: start;
             }
         }
 
@@ -103,7 +103,7 @@
 
         &.post--comment {
             .post__body {
-                border-right: none;
+                border-inline-end: none;
             }
         }
 
@@ -113,23 +113,23 @@
 
         .post__body {
             width: 100%;
-            padding-right: 0;
+            padding-inline-end: 0;
         }
 
         &.post--compact {
-            padding-right: 1em;
+            padding-inline-end: 1em;
 
             .post__body {
-                padding-right: 0;
+                padding-inline-end: 0;
             }
 
             &.same--root {
                 &.post--comment {
-                    padding-right: 1em;
+                    padding-inline-end: 1em;
 
                     .post__header {
                         height: auto;
-                        margin-right: 0;
+                        margin-inline-end: 0;
                         float: none;
 
                         .post__time {
@@ -158,7 +158,7 @@
 
         .post__img {
             width: 54px; // if this changes, the width of post-pre-header__icons-container needs to be adjusted accordingly;
-            padding: 2px 12px 0 0; // if the left padding changes, the padding of post-pre-header__icons-container needs to be adjusted accordingly;
+            padding: 2px 12px 0 0; // if the inset-inline-start padding changes, the padding of post-pre-header__icons-container needs to be adjusted accordingly;
         }
 
         .post-body {
@@ -206,14 +206,14 @@
             height: 20px;
             margin: 2px 0;
             color: rgba(var(--center-channel-color-rgb), 0.75);
-            float: right;
+            float: inset-inline-end;
             font-size: 12px;
             line-height: 16px;
         }
 
-        .post-left-comments-upload-in-progress {
+        .post-inset-inline-start-comments-upload-in-progress {
             padding: 6px 0;
-            margin-left: 10px;
+            margin-inline-start: 10px;
             opacity: 0.7;
         }
 
@@ -247,7 +247,7 @@
     }
 }
 
-.post-left-header {
+.post-inset-inline-start-header {
     height: 39px;
     padding: 10px 10px 0 15px;
     border-bottom: variables.$border-gray;
@@ -257,17 +257,17 @@
     text-transform: uppercase;
 }
 
-.post-left-root-container {
+.post-inset-inline-start-root-container {
     padding: 5px 10px;
     border-bottom: variables.$border-gray;
 
     ul {
-        padding-right: 0;
+        padding-inline-end: 0;
         margin-bottom: 2px;
     }
 }
 
-.post-left-channel__name {
+.post-inset-inline-start-channel__name {
     margin: 8px 0 12px;
     font-weight: 600;
 }
@@ -277,20 +277,20 @@
     font-weight: 600;
 }
 
-.post-left-root-container li {
+.post-inset-inline-start-root-container li {
     display: inline;
-    padding-left: 3px;
+    padding-inline-start: 3px;
     list-style-type: none;
 }
 
-.post-left-root-time {
+.post-inset-inline-start-root-time {
     color: #a8adb7;
 }
 
-.post-left-create-comment-container {
+.post-inset-inline-start-create-comment-container {
     position: absolute;
     bottom: 0;
-    right: 0;
+    inset-inline-end: 0;
     width: 100%;
     padding: 5px;
     margin-bottom: 18px;
@@ -307,6 +307,6 @@
     }
 }
 
-.post-left-comment-time {
+.post-inset-inline-start-comment-time {
     color: #a8adb7;
 }

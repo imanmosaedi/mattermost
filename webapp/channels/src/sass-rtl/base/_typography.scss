@@ -82,7 +82,7 @@ label {
 
 ul,
 ol {
-    padding-right: 22px;
+    padding-inline-end: 22px;
     margin-top: 3px;
     margin-bottom: 0.11em;
 }
@@ -227,7 +227,7 @@ ol {
 }
 
 .color--link--adminack {
-    padding-right: 20px;
+    padding-inline-end: 20px;
     color: variables.$white;
     cursor: pointer;
     text-decoration: underline;

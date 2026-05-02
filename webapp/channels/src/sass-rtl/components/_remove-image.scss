@@ -26,7 +26,7 @@
 .remove-image__btn {
     position: absolute;
     top: -8px;
-    left: -9px;
+    inset-inline-start: -9px;
     display: flex;
     width: 24px;
     height: 24px;
@@ -43,7 +43,7 @@
     }
 
     span {
-        margin-right: 1px;
+        margin-inline-end: 1px;
         line-height: 0;
     }
 }

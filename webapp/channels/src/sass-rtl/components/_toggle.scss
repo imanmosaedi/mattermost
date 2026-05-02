@@ -43,7 +43,7 @@ $toggle-default-font-size: 0.75rem;
     padding: 0;
     border: none;
     border-radius: $size;
-    float: left;
+    float: inset-inline-start;
 
     &:focus,
     &.focus {
@@ -56,21 +56,21 @@ $toggle-default-font-size: 0.75rem;
     > .handle {
         position: absolute;
         top: $handlePosition;
-        right: $handlePosition;
+        inset-inline-end: $handlePosition;
         width: $handleSize;
         height: $handleSize;
         border-radius: 1rem;
         background: #fff;
-        transition: right 0.25s;
+        transition: inset-inline-end 0.25s;
     }
 
     &.active {
         transition: background-color 0.25s;
 
         > .handle {
-            left: $handlePosition;
-            right: inherit;
-            transition: right 0.25s;
+            inset-inline-start: $handlePosition;
+            inset-inline-end: inherit;
+            transition: inset-inline-end 0.25s;
         }
     }
 }

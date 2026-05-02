@@ -17,7 +17,7 @@
     .badge {
         position: absolute;
         top: 8px;
-        left: 10px;
+        inset-inline-start: 10px;
         background: rgba(var(--center-channel-color-rgb), 0.48);
         color: var(--center-channel-bg);
         font-size: 10px;
@@ -36,7 +36,7 @@
     .shared-channel-icon {
         width: 16px;
         height: 16px;
-        margin-right: 8px;
+        margin-inline-end: 8px;
         color: rgba(var(--center-channel-color-rgb), 0.64);
         font-size: 16px;
         line-height: 16px;
@@ -68,7 +68,7 @@
     max-width: 100%;
     max-height: 292px;
     padding-bottom: 12px;
-    padding-right: 0;
+    padding-inline-end: 0;
     border: 1px solid rgba(var(--center-channel-color-rgb), 0.16);
     border-radius: 4px;
     background-color: functions.v(center-channel-bg);
@@ -123,7 +123,7 @@
 
 .slash-command__info {
     overflow: hidden;
-    margin-right: 12px;
+    margin-inline-end: 12px;
     line-height: 1;
 }
 
@@ -176,7 +176,7 @@
     &::before {
         position: absolute;
         top: -7px;
-        right: 0;
+        inset-inline-end: 0;
         width: 100%;
         height: 1px;
         background: rgba(var(--center-channel-color-rgb), 0.08);
@@ -215,7 +215,7 @@
         padding: 8px 3.2rem;
 
         .suggestion-list__team-name {
-            left: 32px;
+            inset-inline-start: 32px;
         }
     }
 
@@ -234,7 +234,7 @@
             white-space: nowrap;
 
             .suggestion-list__desc {
-                margin-right: 8px;
+                margin-inline-end: 8px;
                 color: rgba(var(--center-channel-color-rgb), 0.75);
             }
         }
@@ -265,7 +265,7 @@
             display: flex;
             width: 20px;
             height: 16px;
-            margin-right: 8px;
+            margin-inline-end: 8px;
         }
     }
 
@@ -322,7 +322,7 @@
     .shared-user-icon {
         width: 16px;
         height: 16px;
-        margin-right: 8px;
+        margin-inline-end: 8px;
         color: rgba(var(--center-channel-color-rgb), 0.64);
         font-size: 16px;
         line-height: 16px;
@@ -334,25 +334,25 @@
 
     .Avatar {
         display: block;
-        margin-left: 12px;
+        margin-inline-start: 12px;
         text-align: center;
     }
 
     .status-wrapper {
         overflow: visible;
         height: 24px;
-        margin-left: 12px;
+        margin-inline-start: 12px;
 
         .Avatar.Avatar-sm {
             margin: 0;
         }
 
         .status {
-            left: -4px;
+            inset-inline-start: -4px;
             bottom: -4px;
 
             svg {
-                right: 2px;
+                inset-inline-end: 2px;
                 max-width: 11px;
             }
         }
@@ -360,10 +360,10 @@
 
     .suggestion-list__team-name {
         position: absolute;
-        left: 20px;
+        inset-inline-start: 20px;
         overflow: hidden;
         max-width: 20%;
-        text-align: left;
+        text-align: start;
         text-overflow: ellipsis;
         white-space: nowrap;
     }
