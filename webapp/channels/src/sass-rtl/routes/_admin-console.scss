@@ -87,7 +87,7 @@
             }
         }
 
-        &.btn-spacing--left {
+        &.btn-spacing--inset-inline-start {
             margin-inline-start: 10px;
         }
 
@@ -872,7 +872,7 @@
         }
     }
 
-    .menu-icon--left {
+    .menu-icon--inset-inline-start {
         position: absolute;
         top: 8px;
         inset-inline-start: 12px;

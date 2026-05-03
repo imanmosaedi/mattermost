@@ -1,8 +1,8 @@
 @use "utils/functions";
 
 @media screen and (min-width: 1680px) {
-    .sidebar--left,
-    .sidebar--left--width-holder {
+    .sidebar--inset-inline-start,
+    .sidebar--inset-inline-start--width-holder {
         width: var(--overrideRhsWidth, 500px);
 
         .sidebar--right__title__channel {
@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 1800px) {
     .inner-wrap {
-        &.move--right {
+        &.move--inset-inline-end {
             .date-separator,
             .new-separator {
                 &.hovered--comment {
@@ -39,7 +39,7 @@
 
 @media screen and (max-width: 1440px) {
     .inner-wrap {
-        &.move--right {
+        &.move--inset-inline-end {
             .help__format-text {
                 display: none;
             }
@@ -52,7 +52,7 @@
 }
 
 @media screen and (max-width: 1280px) {
-    .inner-wrap.move--right {
+    .inner-wrap.move--inset-inline-end {
         .post-collapse__show-more,
         .post-attachment-collapse__show-more {
             margin-inline-end: 0;
@@ -73,7 +73,7 @@
 
 @media screen and (max-width: 1140px) {
     .inner-wrap {
-        &.move--right {
+        &.move--inset-inline-end {
             .file-overlay {
                 font-size: functions.em(18px);
 
@@ -93,7 +93,7 @@
 }
 
 @media (max-width: 1024px) {
-    .inner-wrap:not(.move--right) {
+    .inner-wrap:not(.move--inset-inline-end) {
         .channel-header,
         .GlobalThreads .Header {
             .search-bar__container {
@@ -114,7 +114,7 @@
     .channel__wrap {
 
         // indicates the RHS is open
-        &.move--right {
+        &.move--inset-inline-end {
 
             // adjust channel header width
             #channel-header {
@@ -125,8 +125,8 @@
 }
 
 @media (min-width: 1280px) {
-    .sidebar--left {
-        &.sidebar--left--expanded {
+    .sidebar--inset-inline-start {
+        &.sidebar--inset-inline-start--expanded {
             width: min(60vw, 96rem);
         }
     }

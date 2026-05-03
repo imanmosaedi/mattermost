@@ -11,7 +11,7 @@
     &::after {
         position: absolute;
         top: 8px;
-        left: 1rem;
+        inset-inline-start: 1rem;
         display: inline-block;
         content: '\F107';
         font: normal normal normal 14px/1 FontAwesome;

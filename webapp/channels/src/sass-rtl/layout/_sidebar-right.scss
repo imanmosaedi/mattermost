@@ -2,7 +2,7 @@
 @use "utils/mixins";
 @use "utils/variables";
 
-.sidebar--left--width-holder {
+.sidebar--inset-inline-start--width-holder {
     @media screen and (max-width: 768px) {
         display: none;
     }
@@ -14,13 +14,13 @@
     width: var(--overrideRhsWidth, 400px);
 }
 
-.sidebar--left {
+.sidebar--inset-inline-start {
     width: var(--overrideRhsWidth, 400px);
 
     &:not(.expanded):not(.resize-disabled) {
         min-width: 400px;
 
-        &.sidebar--left--width-holder {
+        &.sidebar--inset-inline-start--width-holder {
             @media screen and (min-width: 901px) and (max-width: 1200px) {
                 min-width: 304px;
                 max-width: 304px;
@@ -289,7 +289,7 @@
     }
 }
 
-#sidebar-left {
+#sidebar-inset-inline-start {
     overflow: hidden;
     height: 100%;
     border-inline-end: var(--border-default);
@@ -315,13 +315,13 @@
 // global header style adjustments
 @media screen and (min-width: 769px) {
     // adjust RHS position and height
-    #sidebar-left {
+    #sidebar-inset-inline-start {
         // If this is changed, the interaction with the App Bar icons must be tested
         //(see .app-bar__icon in components/app_bar/app_bar.scss)
         z-index: 20;
         box-shadow: var(--elevation-2);
 
-        .sidebar-left-container {
+        .sidebar-inset-inline-start-container {
             height: 100%;
         }
 

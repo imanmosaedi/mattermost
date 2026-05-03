@@ -105,7 +105,7 @@
         padding-inline-start: 0;
     }
 
-    .sidebar--left {
+    .sidebar--inset-inline-start {
         .post-collapse__show-more,
         .post-attachment-collapse__show-more {
             padding-inline-start: 0;
@@ -137,8 +137,8 @@
         }
     }
 
-    .sidebar--left {
-        &.move--right {
+    .sidebar--inset-inline-start {
+        &.move--inset-inline-end {
             transform: translateX(0);
 
             .search-bar__container {
@@ -146,14 +146,14 @@
             }
         }
 
-        &.sidebar--left--expanded {
+        &.sidebar--inset-inline-start--expanded {
             width: min(60vw, 75rem);
 
             .search-bar__container {
                 padding-inline-end: 10px;
             }
 
-            .sidebar-left-container {
+            .sidebar-inset-inline-start-container {
                 position: relative;
                 z-index: 5;
             }
@@ -351,10 +351,10 @@
                 }
             }
 
-            .sidebar--left & .card-icon__container {
+            .sidebar--inset-inline-start & .card-icon__container {
                 position: relative;
                 top: 2px;
-                right: auto;
+                inset-inline-end: auto;
             }
         }
 
@@ -378,7 +378,7 @@
                         top: 2px;
                         inset-inline-end: -8px;
 
-                        .sidebar--left & {
+                        .sidebar--inset-inline-start & {
                             top: 1px;
                         }
                     }
@@ -414,17 +414,17 @@
         z-index: 5;
     }
 
-    .sidebar--left {
+    .sidebar--inset-inline-start {
         z-index: 13;
         top: 0;
         transform: translateX(100%);
         transition: all 0.35s ease;
 
-        .sidebar-left-container {
+        .sidebar-inset-inline-start-container {
             height: 100%;
         }
 
-        &.move--right {
+        &.move--inset-inline-end {
             -webkit-transform: translateX(0) !important;
             -moz-transform: translateX(0) !important;
             -ms-transform: translateX(0) !important;
@@ -443,7 +443,7 @@
     }
 
     .inner-wrap {
-        &:not(.move--right) {
+        &:not(.move--inset-inline-end) {
             .app__content {
                 > #post-list {
                     margin-inline-start: 0 !important;
@@ -455,7 +455,7 @@
             }
         }
 
-        &.move--right {
+        &.move--inset-inline-end {
             .search-bar__container {
                 display: none;
             }
@@ -472,8 +472,8 @@
             }
         }
 
-        &.move--right,
-        &.move--left {
+        &.move--inset-inline-end,
+        &.move--inset-inline-start {
             .header-list__right {
                 // hide it behind the RHS
                 z-index: -1;

@@ -1,6 +1,6 @@
 
 .inner-wrap {
-    &.move--right {
+    &.move--inset-inline-end {
         .search-btns {
             display: none;
         }
@@ -11,7 +11,7 @@
             padding-inline-start: 0 !important;
             // the negative margin-inline-start is used
             // to prevent the icons in the header from
-            // moving to the right when the RHS is open
+            // moving to the inset-inline-end when the RHS is open
 
             // the below z-index is used to ensure the icons
             // stays on the top and don't get hidden by the
@@ -20,7 +20,7 @@
         }
     }
 
-    &.move--left {
+    &.move--inset-inline-start {
         .search-bar__container {
             display: none;
         }
@@ -36,7 +36,7 @@
             margin-inline-start: -18px;
             // the negative margin-inline-start is used
             // to prevent the icons in the header from
-            // moving to the right when the RHS is open
+            // moving to the inset-inline-end when the RHS is open
 
             // the below z-index is used to ensure the icons
             // stays on the top and don't get hidden by the

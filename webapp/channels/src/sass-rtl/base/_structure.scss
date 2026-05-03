@@ -214,12 +214,12 @@ body.app__body #root {
         overflow: auto;
     }
 
-    .sidebar--left--width-holder {
+    .sidebar--inset-inline-start--width-holder {
         grid-area: rhs;
         transform: none;
     }
 
-    #sidebar-left {
+    #sidebar-inset-inline-start {
         top: 0;
         inset-inline-start: 0;
 
@@ -248,7 +248,7 @@ body.app__body #root {
                 grid-area: main;
             }
 
-            #SidebarContainer.move--left {
+            #SidebarContainer.move--inset-inline-start {
                 position: relative;
             }
 
@@ -261,7 +261,7 @@ body.app__body #root {
                 #channel_view,
                 #SidebarContainer,
                 .product-wrapper,
-                #sidebar-left {
+                #sidebar-inset-inline-start {
                     grid-area: main;
                     border-radius: 0;
                 }
@@ -277,11 +277,11 @@ body.app__body #root {
 
     @media screen and (min-width: 768px) and (max-width: 1200px) {
         &.rhs-open-expanded {
-            .sidebar--left--width-holder {
+            .sidebar--inset-inline-start--width-holder {
                 display: none;
             }
 
-            #sidebar-left {
+            #sidebar-inset-inline-start {
                 position: absolute;
                 width: 100%;
                 grid-area: center;
@@ -292,7 +292,7 @@ body.app__body #root {
             --columns: min-content 1fr min-content;
         }
 
-        #sidebar-left {
+        #sidebar-inset-inline-start {
             transition: none;
         }
     }

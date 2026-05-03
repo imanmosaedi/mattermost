@@ -93,7 +93,7 @@
         }
 
         label {
-            &.text-right {
+            &.text-inset-inline-end {
                 text-align: end;
             }
 
@@ -102,7 +102,7 @@
             }
         }
 
-        .no-padding--right {
+        .no-padding--inset-inline-end {
             padding-inline-end: 0;
         }
 
@@ -712,7 +712,7 @@
 
 .member-menu {
     inset-inline-start: 0;
-    right: auto;
+    inset-inline-end: auto;
 }
 
 .member-list {

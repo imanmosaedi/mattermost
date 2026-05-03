@@ -13,7 +13,7 @@
 .post-attachment-dropdown {
     .select-suggestion-container {
         &::after {
-            right: 20rem;
+            inset-inline-end: 20rem;
         }
     }
 
@@ -62,7 +62,7 @@
         }
     }
 
-    .sidebar--left & {
+    .sidebar--inset-inline-start & {
         .attachment {
             .attachment-actions {
                 .alert {
@@ -383,7 +383,7 @@
             .alert {
                 position: absolute;
                 top: 0;
-                right: 23rem;
+                inset-inline-end: 23rem;
                 padding: 5px 10px;
             }
         }

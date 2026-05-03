@@ -35,7 +35,7 @@
                 position: absolute;
                 z-index: -1;
                 top: 0;
-                right: 50%;
+                inset-inline-end: 50%;
                 width: 32px;
                 height: 32px;
                 border-radius: 32px;
@@ -81,7 +81,7 @@
 
         .DayPicker-NavButton {
             top: 0;
-            left: 0.5rem;
+            inset-inline-start: 0.5rem;
             margin-top: 2px;
             outline: none;
         }

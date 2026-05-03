@@ -23,12 +23,14 @@
     ul,
     ol {
         padding-inline-end: 20px;
+        padding-inline-end: 20px;
     }
 }
 
 .search__font-icon {
     position: absolute;
     top: 0;
+    inset-inline-end: 4px;
     inset-inline-end: 4px;
     display: flex;
     height: 100%;
@@ -40,6 +42,7 @@
 .search__icon {
     position: absolute;
     top: 6px;
+    inset-inline-end: 9px;
     inset-inline-end: 9px;
     fill: rgba(var(--center-channel-color-rgb), 0.64);
     pointer-events: none;
@@ -57,6 +60,7 @@
 .input-clear {
     position: absolute;
     top: 0;
+    inset-inline-start: 2px;
     inset-inline-start: 2px;
     display: flex;
     width: 2.4rem;
@@ -97,6 +101,7 @@
 
     .searchTypeBadge {
         position: relative;
+        inset-inline-end: 26px;
         inset-inline-end: 26px;
         display: flex;
         align-items: center;
@@ -150,6 +155,7 @@
 
         .input-clear {
             inset-inline-start: 4px;
+            inset-inline-start: 4px;
         }
 
         &:hover {
@@ -164,9 +170,11 @@
             .search__icon {
                 top: 6px;
                 inset-inline-end: 8px;
+                inset-inline-end: 8px;
             }
 
             .input-clear {
+                inset-inline-start: 3px;
                 inset-inline-start: 3px;
             }
         }
@@ -179,13 +187,14 @@
         transition-timing-function: ease-in-out, ease-out;
     }
 
-    .inner-wrap.move--right & {
+    .inner-wrap.move--inset-inline-end & {
         width: 272px;
     }
 
     .LoadingSpinner {
         position: absolute;
         top: 4px;
+        inset-inline-start: 25px;
         inset-inline-start: 25px;
         font-size: 1em;
         opacity: 0.5;
@@ -279,10 +288,12 @@
         &:hover {
             .post__header {
                 padding-inline-start: 105px;
+                padding-inline-start: 105px;
             }
         }
 
         .post__header {
+            padding-inline-start: 70px;
             padding-inline-start: 70px;
         }
 
@@ -306,6 +317,8 @@
             flex-shrink: 0;
             margin-inline-end: 3px;
             float: inset-inline-start;
+            margin-inline-end: 3px;
+            float: inset-inline-start;
             opacity: 0.64;
 
             .channel-header-archived-icon {
@@ -319,6 +332,7 @@
             overflow: hidden;
             flex-shrink: 1;
             padding: 0 8px;
+            border-inline-end: 1px solid rgba(var(--center-channel-color-rgb), 0.5);
             border-inline-end: 1px solid rgba(var(--center-channel-color-rgb), 0.5);
             margin: 0 0 0 8px;
             font-size: 12px;
@@ -339,6 +353,7 @@
 .col__controls {
     position: absolute;
     top: -9px;
+    inset-inline-start: 0;
     inset-inline-start: 0;
     font-size: 13px;
 
@@ -385,9 +400,11 @@
     display: flex;
     box-sizing: border-box;
     justify-content: inset-inline-end;
+    justify-content: inset-inline-end;
     padding: 10px 24px;
     color: var(--center-channel-color);
     cursor: pointer;
+    text-align: end;
     text-align: end;
 
     &.highlighted {
@@ -410,6 +427,7 @@
 }
 
 .search-hint__suggestion-list__value {
+    margin-inline-end: 16px;
     margin-inline-end: 16px;
 }
 
@@ -436,6 +454,7 @@
         line-height: 1;
 
         .icon {
+            margin-inline-start: 6px;
             margin-inline-start: 6px;
             font-size: 14px;
         }
@@ -493,7 +512,7 @@
 
 .sidebar--right__subheader {
 
-    // Fighting specificity with _sidebar-left.scss (sidebar--left .sidebar--right__subheader ul)
+    // Fighting specificity with _sidebar-inset-inline-start.scss (sidebar--inset-inline-start .sidebar--right__subheader ul)
     ul.search-hint__suggestions-list {
         padding: 10px 0;
     }

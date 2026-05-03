@@ -36,7 +36,7 @@
     .spinner {
         position: absolute;
         top: 50%;
-        right: 50%;
+        inset-inline-end: 50%;
         width: 32px;
         height: 32px;
         margin-top: -16px;
@@ -436,14 +436,14 @@
     }
 
     &.normal {
-        background-position: top right;
+        background-position: top inset-inline-end;
     }
 
     .spinner {
         .file__loading {
             position: absolute;
             top: 50%;
-            right: 50%;
+            inset-inline-end: 50%;
             margin-top: -16px;
             margin-inline-end: -16px;
         }

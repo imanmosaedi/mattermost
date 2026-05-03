@@ -130,7 +130,7 @@
                                 background: none;
                             }
 
-                            .no-padding--right {
+                            .no-padding--inset-inline-end {
                                 padding-inline-end: 15px;
                             }
                         }
@@ -345,7 +345,7 @@
                 .post-pre-header__icons-container {
                     width: 44px; // If the width of post__img changes, this needs to be adjusted accordingly
                     padding-inline-start: 12px; // If the padding of post__img changes, this needs to be adjusted accordingly
-                    margin-inline-end: 0; // if right margin of post__content changes, this needs to be adjusted accordingly
+                    margin-inline-end: 0; // if inset-inline-end margin of post__content changes, this needs to be adjusted accordingly
                 }
             }
         }
@@ -699,7 +699,7 @@
         }
     }
 
-    .sidebar--right .team__header .Avatar,
+    .sidebar--inset-inline-end .team__header .Avatar,
     #SidebarContainer .team__header .Avatar {
         display: none;
     }
@@ -780,7 +780,7 @@
                 &::after {
                     bottom: 3px;
 
-                    .sidebar--left & {
+                    .sidebar--inset-inline-start & {
                         bottom: 0;
                     }
                 }
@@ -856,7 +856,7 @@
             display: none;
             visibility: visible;
 
-            .sidebar--left & {
+            .sidebar--inset-inline-start & {
                 display: inline-block;
             }
 
@@ -919,7 +919,7 @@
         .star-icon__container {
             position: relative;
             top: auto;
-            right: auto;
+            inset-inline-end: auto;
 
             &:not(.visible) {
                 display: none;
@@ -930,7 +930,7 @@
             .star-icon__container {
                 position: relative;
                 top: auto;
-                right: auto;
+                inset-inline-end: auto;
             }
 
             &.same--user {
@@ -1090,7 +1090,7 @@
             .dropdown-menu {
                 position: absolute;
                 inset-inline-start: 0;
-                right: auto;
+                inset-inline-end: auto;
                 background: var(--center-channel-bg);
             }
         }
@@ -1159,7 +1159,7 @@
         }
     }
 
-    .sidebar--right {
+    .sidebar--inset-inline-end {
         width: 290px;
         border: none;
         transform: translate3d(-290px, 0, 0);
@@ -1169,7 +1169,7 @@
             padding-top: 0;
         }
 
-        &.move--left {
+        &.move--inset-inline-start {
             transform: translate3d(0, 0, 0);
         }
 
@@ -1261,7 +1261,7 @@
             margin-inline-end: 0;
         }
 
-        &.move--left {
+        &.move--inset-inline-start {
             transform: translate3d(0, 0, 0);
         }
 
@@ -1369,7 +1369,7 @@
         }
     }
 
-    .sidebar--left {
+    .sidebar--inset-inline-start {
         inset-inline-start: 0;
         width: 100%;
         transform: translate3d(100%, 0, 0);
@@ -1460,7 +1460,7 @@
             }
         }
 
-        &.move--left {
+        &.move--inset-inline-start {
             transform: translate3d(0, 0, 0);
 
             &::before {
@@ -1470,7 +1470,7 @@
             }
         }
 
-        &.move--right-small {
+        &.move--inset-inline-end-small {
             transform: translate3d(-290px, 0, 0);
 
             &::before {
@@ -1480,7 +1480,7 @@
             }
         }
 
-        &.move--right {
+        &.move--inset-inline-end {
             margin: 0;
             transform: translate3d(-100%, 0, 0);
         }
@@ -1520,11 +1520,11 @@
             margin-inline-end: 0;
         }
 
-        .sidebar--right,
+        .sidebar--inset-inline-end,
         #SidebarContainer {
             inset-inline-end: 0;
 
-            &.move--left {
+            &.move--inset-inline-start {
                 inset-inline-end: 64px;
             }
         }
@@ -1532,7 +1532,7 @@
         .team-sidebar {
             display: none;
 
-            &.move--left {
+            &.move--inset-inline-start {
                 display: flex;
                 transform: translate3d(0, 0, 0);
             }
@@ -1544,8 +1544,8 @@
             .Menu {
                 .dropdown-menu {
                     top: 35%;
-                    left: 20%;
-                    right: unset;
+                    inset-inline-start: 20%;
+                    inset-inline-end: unset;
                 }
             }
         }
@@ -1764,7 +1764,7 @@
 
 @media screen and (max-width: 480px) {
     #user-profile-popover {
-        right: 50px !important;
+        inset-inline-end: 50px !important;
     }
 
     .emoji-picker__item {
@@ -1795,7 +1795,7 @@
         }
     }
 
-    .sidebar--left {
+    .sidebar--inset-inline-start {
         .post {
             &.post--compact {
                 .post__header {
@@ -1888,19 +1888,19 @@
         }
 
         .open > .dropdown-menu {
-            left: auto;
+            inset-inline-start: auto;
             inset-inline-end: 0;
         }
     }
 
-    .sidebar--right,
+    .sidebar--inset-inline-end,
     #SidebarContainer {
         width: 260px;
         transform: translate3d(-260px, 0, 0);
     }
 
     .inner-wrap {
-        &.move--left {
+        &.move--inset-inline-start {
             transform: translate3d(0, 0, 0);
         }
     }
@@ -1962,7 +1962,7 @@
     .post-attachment-dropdown {
         &::after {
             inset-inline-start: 12px;
-            right: auto;
+            inset-inline-end: auto;
         }
     }
 }
@@ -1993,7 +1993,7 @@
     }
 
     .multi-teams {
-        .sidebar--right,
+        .sidebar--inset-inline-end,
         #SidebarContainer {
             width: 220px;
         }

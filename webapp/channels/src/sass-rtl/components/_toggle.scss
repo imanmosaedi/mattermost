@@ -56,7 +56,7 @@ $toggle-default-font-size: 0.75rem;
     > .handle {
         position: absolute;
         top: $handlePosition;
-        right: $handlePosition;
+        inset-inline-end: $handlePosition;
         width: $handleSize;
         height: $handleSize;
         border-radius: 1rem;
@@ -68,8 +68,8 @@ $toggle-default-font-size: 0.75rem;
         transition: background-color 0.25s;
 
         > .handle {
-            left: $handlePosition;
-            right: inherit;
+            inset-inline-start: $handlePosition;
+            inset-inline-end: inherit;
             transition: inset-inline-end 0.25s;
         }
     }

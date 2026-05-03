@@ -85,7 +85,7 @@
         .play-button {
             position: absolute;
             top: calc(50% - 28px);
-            right: calc(50% - 40px);
+            inset-inline-end: calc(50% - 40px);
             display: flex;
             width: 80px;
             height: 56px;
@@ -136,7 +136,7 @@
             height: 350px;
         }
 
-        .sidebar--left & {
+        .sidebar--inset-inline-start & {
             max-width: 100%;
         }
     }

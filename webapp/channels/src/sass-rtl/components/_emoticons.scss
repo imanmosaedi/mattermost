@@ -565,7 +565,7 @@ $emoji-footer-height:  $emoji-footer-border-width + $emoji-half-height + $emoji-
 
         &.emoji-category--custom {
             top: auto;
-            right: auto;
+            inset-inline-end: auto;
             width: auto;
             max-width: 22px;
             height: auto;

@@ -49,8 +49,8 @@
         widows: 3;
     }
 
-    #sidebar-right,
-    #sidebar-left,
+    #sidebar-inset-inline-end,
+    #sidebar-inset-inline-start,
     #channel-header,
     #post-create,
     #post-list .more-messages-text,
@@ -75,7 +75,7 @@
         margin-inline-end: 0;
     }
 
-    #channel_view .inner-wrap.move--right {
+    #channel_view .inner-wrap.move--inset-inline-end {
         margin-inline-start: 0;
     }
 
