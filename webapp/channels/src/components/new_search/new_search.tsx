@@ -80,7 +80,7 @@ const NewSearchContainer = styled.div`
     height: 28px;
     width: 100%;
     background-color: rgba(var(--sidebar-text-rgb), 0.08);
-    color: rgba(var(--sidebar-text-rgb), 0.64);
+    color: rgba(var(--sidebar-text-rgb), 1);
     font-size: 12px;
     font-weight: 500;
     border-radius: var(--radius-s);

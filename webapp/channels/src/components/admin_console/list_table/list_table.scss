@@ -19,7 +19,7 @@ table.adminConsoleListTable {
         border-top: 1px solid rgba(var(--center-channel-color-rgb), 0.08);
 
         tr {
-            color: rgba(var(--sys-center-channel-color-rgb), 0.64);
+            color: rgba(var(--sys-center-channel-color-rgb), 1);
             font-size: 12px;
             font-weight: 600;
             line-height: 16px;
@@ -217,7 +217,7 @@ table.adminConsoleListTable {
         display: inline-flex;
         width: 24px;
         height: calc(100% - 1px);
-        color: rgba(var(--center-channel-color-rgb), 0.64);
+        color: rgba(var(--center-channel-color-rgb), 1);
 
         svg {
             align-self: center;

@@ -584,7 +584,7 @@ exports[`components/user_settings/display/CustomThemeChooser should match, init 
               <i
                 class="color-icon"
                 id="centerChannelColor-squareColorIconValue"
-                style="background-color: rgb(63, 67, 80);"
+                style="background-color: rgb(23, 127, 112);"
               />
             </span>
           </div>

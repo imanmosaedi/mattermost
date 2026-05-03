@@ -136,7 +136,7 @@ body.app__body {
             .modal-header {
                 .close {
                     // This rule needs to be very specific to override the colour of the close button used for other modals
-                    color: rgba(var(--center-channel-color-rgb), 0.64);
+                    color: rgba(var(--center-channel-color-rgb), 1);
 
                     &:hover {
                         background-color: rgba(var(--center-channel-color-rgb), 0.08);

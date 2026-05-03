@@ -10,7 +10,7 @@
     border: none;
     border-radius: 4px;
     animation: fadeIn 0.3s ease;
-    background: var(--center-channel-color-08, rgba(63, 67, 80, 0.08));
+    background: var(--center-channel-color-08, rgba(23, 127, 112, 0.08));
     cursor: pointer;
     transition: all 0.3s ease;
 
@@ -20,7 +20,7 @@
     }
 
     &:hover:not(:disabled) {
-        background: var(--center-channel-color-16, rgba(63, 67, 80, 0.16));
+        background: var(--center-channel-color-16, rgba(23, 127, 112, 0.16));
     }
 
     &__content {
@@ -31,7 +31,7 @@
 
     &__icon {
         flex-shrink: 0;
-        color: var(--center-channel-color-64, rgba(63, 67, 80, 0.64));
+        color: var(--center-channel-color-64, rgba(23, 127, 112, 1));
 
         &--error {
             color: var(--error-text, #D24B4E);
@@ -39,7 +39,7 @@
     }
 
     &__text {
-        color: var(--center-channel-color-64, rgba(63, 67, 80, 0.64));
+        color: var(--center-channel-color-64, rgba(23, 127, 112, 1));
         font-size: 12px;
         line-height: 20px;
 

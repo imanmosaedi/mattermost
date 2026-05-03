@@ -25,8 +25,8 @@
 
         .MenuItem__compass-icon {
             margin: 4px -6px;
-            color: rgba(var(--center-channel-color-rgb), 0.64);
-            fill: rgba(var(--center-channel-color-rgb), 0.64);
+            color: rgba(var(--center-channel-color-rgb), 1);
+            fill: rgba(var(--center-channel-color-rgb), 1);
         }
 
         .MenuItem__compass-icon-dangerous {
@@ -103,7 +103,7 @@
                 padding: 0 3px;
                 margin-inline-end: 4px;
                 margin-bottom: 2px;
-                color: rgba(var(--center-channel-color-rgb), 0.64);
+                color: rgba(var(--center-channel-color-rgb), 1);
                 vertical-align: middle;
 
                 &::before {
@@ -363,7 +363,7 @@
 .SubMenu__icon-left {
     position: relative;
     top: 0;
-    color: rgba(var(--center-channel-color-rgb), 0.64);
+    color: rgba(var(--center-channel-color-rgb), 1);
     font-size: 19px;
 }
 
@@ -378,7 +378,7 @@
 
 .SubMenu__icon-right {
     padding-top: 3px;
-    color: rgba(var(--center-channel-color-rgb), 0.64);
+    color: rgba(var(--center-channel-color-rgb), 1);
     float: inset-inline-end;
     font-size: 19px;
 }

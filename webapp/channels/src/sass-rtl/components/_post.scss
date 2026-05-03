@@ -454,7 +454,7 @@
     margin-block-start: 4px;
 
     &__icon{
-        color: rgba(var(--center-channel-color-rgb), 0.64);
+        color: rgba(var(--center-channel-color-rgb), 1);
         padding-block-start: 1px;
     }
 }
@@ -2397,7 +2397,7 @@
                 margin-inline-start: 4px;
                 margin-inline-start: 4px;
                 background: inherit;
-                fill: rgba(var(--center-channel-color-rgb), 0.64);
+                fill: rgba(var(--center-channel-color-rgb), 1);
                 vertical-align: middle;
             }
 

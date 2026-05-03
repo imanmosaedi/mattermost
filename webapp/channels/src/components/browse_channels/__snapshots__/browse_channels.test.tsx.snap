@@ -134,7 +134,7 @@ exports[`components/BrowseChannels should match snapshot and state 1`] = `
                       >
                         Channel Type: All
                         <svg
-                          fill="rgba(var(--center-channel-color-rgb), 0.64)"
+                          fill="rgba(var(--center-channel-color-rgb), 1)"
                           height="16"
                           version="1.1"
                           viewBox="0 0 24 24"

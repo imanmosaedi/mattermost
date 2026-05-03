@@ -79,7 +79,7 @@
         border: none;
         margin-inline-end: 32px;
         background: none;
-        color: rgba(var(--center-channel-color-rgb), 0.64);
+        color: rgba(var(--center-channel-color-rgb), 1);
         cursor: pointer;
         font-size: 14px;
         font-weight: 600;
@@ -162,7 +162,7 @@
     &__userDetails {
         display: flex;
         align-items: center;
-        color: rgba(var(--center-channel-color-rgb), 0.64);
+        color: rgba(var(--center-channel-color-rgb), 1);
         font-size: 12px;
         gap: 8px;
     }
@@ -179,7 +179,7 @@
         height: 200px;
         align-items: center;
         justify-content: center;
-        color: rgba(var(--center-channel-color-rgb), 0.64);
+        color: rgba(var(--center-channel-color-rgb), 1);
         font-size: 14px;
     }
 

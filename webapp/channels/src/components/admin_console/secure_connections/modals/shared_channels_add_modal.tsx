@@ -260,7 +260,7 @@ const ChannelLabel = ({channel, bold}: {channel: Channel; bold?: boolean}) => {
             <ChannelIcon
                 channel={channel}
                 size={20}
-                color='rgba(var(--center-channel-color-rgb), 0.64)'
+                color='rgba(var(--center-channel-color-rgb), 1)'
             />
             <ChannelDisplayName>{channel?.display_name}</ChannelDisplayName>
         </ChannelLabelWrapper>
@@ -279,7 +279,7 @@ const ChannelIcon = ({channel, size = 16, ...otherProps}: {channel: Channel} & I
 };
 
 const SecondaryTextRight = styled.span`
-    color: rgba(var(--center-channel-color-rgb), 0.64);
+    color: rgba(var(--center-channel-color-rgb), 1);
     padding-inline-start: 5px;
 
     text-overflow: ellipsis;

@@ -58,7 +58,7 @@ $managed_category_index: 999999;
 
 .ManagedCategorySelector__folderIcon {
     flex-shrink: 0;
-    color: rgba(var(--center-channel-color-rgb), 0.64);
+    color: rgba(var(--center-channel-color-rgb), 1);
 }
 
 .ManagedCategory__placeholder, .ManagedCategory__single-value {
@@ -74,7 +74,7 @@ $managed_category_index: 999999;
     margin-inline-end: 8px;
 
     i {
-        color: rgba(var(--center-channel-color-rgb), 0.64);
+        color: rgba(var(--center-channel-color-rgb), 1);
         font-weight: normal;
 
         &::before {
@@ -106,5 +106,5 @@ $managed_category_index: 999999;
 }
 
 .ManagedCategorySelector__option svg {
-    color: rgba(var(--center-channel-color-rgb), 0.64);
+    color: rgba(var(--center-channel-color-rgb), 1);
 }

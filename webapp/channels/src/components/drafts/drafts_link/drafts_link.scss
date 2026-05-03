@@ -35,7 +35,7 @@
         }
 
         #unreadMentions {
-            color: rgba(var(--sidebar-text-rgb), 0.64);
+            color: rgba(var(--sidebar-text-rgb), 1);
             margin-inline: 0;
 
             &:not(.urgent) {

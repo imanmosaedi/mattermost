@@ -543,7 +543,7 @@ export class SearchableChannelList extends React.PureComponent<Props, State> {
             <>
                 {this.getFilterLabel()}
                 <ChevronDownIcon
-                    color={'rgba(var(--center-channel-color-rgb), 0.64)'}
+                    color={'rgba(var(--center-channel-color-rgb), 1)'}
                     size={16}
                 />
             </>

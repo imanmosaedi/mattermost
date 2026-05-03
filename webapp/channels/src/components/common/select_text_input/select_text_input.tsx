@@ -34,7 +34,7 @@ const styles = {
     }),
     input: (baseStyles) => ({
         ...baseStyles,
-        color: 'rgba(var(--center-channel-color-rgb), 0.64)',
+        color: 'rgba(var(--center-channel-color-rgb), 1)',
     }),
     multiValue: (baseStyles) => ({
         ...baseStyles,

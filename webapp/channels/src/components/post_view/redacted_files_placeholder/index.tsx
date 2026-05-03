@@ -40,7 +40,7 @@ function RedactedFilesPlaceholder({compactDisplay}: Props) {
                     >
                         <path
                             d='M28 0H11.898C11.104 0 10.356 0.308 9.79 0.864L0.892 9.644C0.326 10.206 0 10.984 0 11.78V36C0 38.206 1.794 40 4 40H28C30.206 40 32 38.206 32 36V4C32 1.794 30.206 0 28 0ZM10 3.468V11H2.368L10 3.468ZM30 36C30 37.102 29.102 38 28 38H4C2.896 38 2 37.102 2 36V13H10C11.104 13 12 12.104 12 11V2H28C29.102 2 30 2.896 30 4V36Z'
-                            fill='rgba(var(--center-channel-color-rgb), 0.64)'
+                            fill='rgba(var(--center-channel-color-rgb), 1)'
                         />
                     </svg>
                 </div>
@@ -65,7 +65,7 @@ function RedactedFilesPlaceholder({compactDisplay}: Props) {
                     >
                         <path
                             d='M28 0H11.898C11.104 0 10.356 0.308 9.79 0.864L0.892 9.644C0.326 10.206 0 10.984 0 11.78V36C0 38.206 1.794 40 4 40H28C30.206 40 32 38.206 32 36V4C32 1.794 30.206 0 28 0ZM10 3.468V11H2.368L10 3.468ZM30 36C30 37.102 29.102 38 28 38H4C2.896 38 2 37.102 2 36V13H10C11.104 13 12 12.104 12 11V2H28C29.102 2 30 2.896 30 4V36Z'
-                            fill='rgba(var(--center-channel-color-rgb), 0.64)'
+                            fill='rgba(var(--center-channel-color-rgb), 1)'
                         />
                     </svg>
                 </div>

@@ -33,7 +33,7 @@
     display: flex;
     height: 100%;
     align-items: center;
-    color: rgba(var(--center-channel-color-rgb), 0.64);
+    color: rgba(var(--center-channel-color-rgb), 1);
     pointer-events: none;
 }
 
@@ -41,7 +41,7 @@
     position: absolute;
     top: 6px;
     inset-inline-start: 9px;
-    fill: rgba(var(--center-channel-color-rgb), 0.64);
+    fill: rgba(var(--center-channel-color-rgb), 1);
     pointer-events: none;
 
     svg {
@@ -66,7 +66,7 @@
     border: none;
     margin: 0;
     background: none;
-    color: rgba(var(--center-channel-color-rgb), 0.64);
+    color: rgba(var(--center-channel-color-rgb), 1);
     font-size: 16px;
     visibility: hidden;
 
@@ -126,13 +126,13 @@
         border: none;
         background: transparent;
         box-shadow: none;
-        color: rgba(var(--global-header-text-rgb), 0.64);
+        color: rgba(var(--global-header-text-rgb), 1);
         font-size: 12px;
         line-height: 28px;
         outline: none;
 
         &::placeholder {
-            color: rgba(var(--global-header-text-rgb), 0.64);
+            color: rgba(var(--global-header-text-rgb), 1);
             opacity: 1;
         }
 
@@ -205,7 +205,7 @@
 
         .search__font-icon,
         .input-clear-x {
-            color: rgba(var(--center-channel-color-rgb), 0.64);
+            color: rgba(var(--center-channel-color-rgb), 1);
         }
 
         .searchTypeBadge {
@@ -227,7 +227,7 @@
     .search__font-icon,
     .input-clear-x {
         display: flex;
-        color: rgba(var(--global-header-text-rgb), 0.64);
+        color: rgba(var(--global-header-text-rgb), 1);
     }
 }
 

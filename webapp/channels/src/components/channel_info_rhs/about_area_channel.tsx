@@ -65,7 +65,7 @@ const SmallCopyButton = styled(CopyButton)`
     i {
         font-size: 14px;
         margin-inline-start: 4px;
-        color: rgba(var(--center-channel-color-rgb), 0.64);
+        color: rgba(var(--center-channel-color-rgb), 1);
 
         &:hover {
             color: rgba(var(--center-channel-color-rgb), 0.88);

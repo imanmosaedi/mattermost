@@ -5,7 +5,7 @@
 
         button.close {
             span {
-                color: rgba(63, 67, 80, 0.75) !important;
+                color: rgba(23, 127, 112, 0.75) !important;
             }
         }
     }
@@ -52,12 +52,12 @@
         .file-upload {
             width: 90%;
             padding: 12px;
-            border: 1px solid rgba(63, 67, 80, 0.32);
+            border: 1px solid rgba(23, 127, 112, 0.32);
             border-radius: 4px;
             margin-top: 15px;
 
             &__titleSection {
-                color: rgba(63, 67, 80, 0.75);
+                color: rgba(23, 127, 112, 0.75);
                 font-size: 12px;
                 font-weight: bold;
                 line-height: 16px;

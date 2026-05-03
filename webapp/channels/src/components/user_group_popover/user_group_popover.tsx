@@ -308,7 +308,7 @@ const SearchBar = styled.div`
         width: 18px;
         height: 100%;
         margin: 0 6px;
-        color: rgba(var(--center-channel-color-rgb), 0.64);
+        color: rgba(var(--center-channel-color-rgb), 1);
     }
 
     .input-clear {

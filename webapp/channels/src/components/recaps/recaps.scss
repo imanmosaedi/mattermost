@@ -52,7 +52,7 @@
                 border: none;
                 border-bottom: 2px solid transparent;
                 background: none;
-                color: rgba(var(--center-channel-color-rgb), 0.64);
+                color: rgba(var(--center-channel-color-rgb), 1);
                 cursor: pointer;
                 font-size: 12px;
                 font-weight: 600;
@@ -165,7 +165,7 @@
                 .recap-item-metadata {
                     display: flex;
                     align-items: center;
-                    color: rgba(var(--center-channel-color-rgb), 0.64);
+                    color: rgba(var(--center-channel-color-rgb), 1);
                     font-size: 12px;
                     font-weight: 600;
                     gap: 4px;
@@ -273,7 +273,7 @@
         line-height: 28px;
 
         .icon {
-            color: rgba(var(--center-channel-color-rgb), 0.64);
+            color: rgba(var(--center-channel-color-rgb), 1);
             font-size: 24px;
         }
     }
@@ -327,7 +327,7 @@
             margin-bottom: 12px;
 
             .icon {
-                color: rgba(var(--center-channel-color-rgb), 0.64);
+                color: rgba(var(--center-channel-color-rgb), 1);
                 font-size: 48px;
             }
         }
@@ -535,7 +535,7 @@
             }
 
             .recap-processing-subtitle {
-                color: rgba(var(--center-channel-color-rgb), 0.64);
+                color: rgba(var(--center-channel-color-rgb), 1);
                 font-size: 12px;
                 font-weight: 600;
                 line-height: 16px;
@@ -564,7 +564,7 @@
 
             .recap-processing-message {
                 margin: 0;
-                color: rgba(var(--center-channel-color-rgb), 0.64);
+                color: rgba(var(--center-channel-color-rgb), 1);
                 font-size: 14px;
                 line-height: 20px;
             }

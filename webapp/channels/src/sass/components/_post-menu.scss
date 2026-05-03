@@ -101,8 +101,8 @@
 
             .post-menu__item {
                 display: inline-flex;
-                color: rgba(functions.v(center-channel-color-rgb), 0.64);
-                fill: rgba(functions.v(center-channel-color-rgb), 0.64);
+                color: rgba(functions.v(center-channel-color-rgb), 1);
+                fill: rgba(functions.v(center-channel-color-rgb), 1);
 
                 &:hover {
                     background: rgba(functions.v(center-channel-color-rgb), 0.08);

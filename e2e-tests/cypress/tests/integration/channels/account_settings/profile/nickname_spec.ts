@@ -110,7 +110,7 @@ describe('Settings > Sidebar > General', () => {
             cy.get('#selectItems input').typeWithForce('sys').wait(TIMEOUTS.ONE_SEC);
 
             // * Verify that the username span contains the '@' symbol and the dark colour
-            cy.get('#multiSelectList > div > .more-modal__details > .more-modal__name > span').should('contain', '@').and('have.css', 'color', 'rgb(63, 67, 80)');
+            cy.get('#multiSelectList > div > .more-modal__details > .more-modal__name > span').should('contain', '@').and('have.css', 'color', 'rgb(23, 127, 112)');
 
             // # Close modal
             cy.get('body').type('{esc}');
@@ -124,7 +124,7 @@ describe('Settings > Sidebar > General', () => {
                 cy.get('#selectItems input').typeWithForce('@');
 
                 // * Verify that the username span contains the '@' symbol and the dark colour
-                cy.get('.more-modal__details > .more-modal__name').should('contain', '@').and('have.css', 'color', 'rgb(63, 67, 80)');
+                cy.get('.more-modal__details > .more-modal__name').should('contain', '@').and('have.css', 'color', 'rgb(23, 127, 112)');
             });
 
             // # Exit the modal

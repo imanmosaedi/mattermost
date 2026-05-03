@@ -4,7 +4,7 @@
 
 .messageAttachmentContent {
     padding: 0px;
-    border: 1px solid rgba(63, 67, 80, 0.16);
+    border: 1px solid rgba(23, 127, 112, 0.16);
     margin-bottom: 20px;
     border-radius: 0 4px 4px 0;
 }
@@ -135,7 +135,7 @@
 code {
     padding: 2px 4px;
     font-size: 90%;
-    background-color: rgba(63, 67, 80, 0.1);
+    background-color: rgba(23, 127, 112, 0.1);
     border-radius: 4px;
 }
 

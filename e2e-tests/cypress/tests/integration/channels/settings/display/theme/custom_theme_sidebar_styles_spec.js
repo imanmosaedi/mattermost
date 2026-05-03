@@ -67,7 +67,7 @@ describe('Custom Theme - Sidebar Styles', () => {
 
     it('MM-T3853_2 Should observe color change in Settings modal before saving', () => {
         // * Check Sidebar BG color change
-        cy.get('.settings-links').should('have.css', 'background-color', 'rgba(63, 67, 80, 0.04)');
+        cy.get('.settings-links').should('have.css', 'background-color', 'rgba(23, 127, 112, 0.04)');
 
         // * Check Sidebar Text color change
         cy.get('#displayButton').should('have.css', 'color', 'rgb(28, 88, 217)');
@@ -76,7 +76,7 @@ describe('Custom Theme - Sidebar Styles', () => {
         cy.get('#accountSettingsHeader').should('have.css', 'background', 'rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box');
 
         // * Check Sidebar Header Text color change
-        cy.get('#accountSettingsModalLabel').should('have.css', 'color', 'rgb(63, 67, 80)');
+        cy.get('#accountSettingsModalLabel').should('have.css', 'color', 'rgb(23, 127, 112)');
 
         cy.uiSaveAndClose();
     });

@@ -356,7 +356,7 @@ describe('Mark as Unread', () => {
                 cy.wrap($listElement).find('button').then(($buttonElement) => {
                     cy.wrap($buttonElement).invoke('attr', 'aria-label').then((ariaLabel) => {
                         if (ariaLabel !== 'Copy Text') {
-                            cy.wrap($buttonElement).should('have.css', 'border-color', 'rgba(63, 67, 80, 0.12)');
+                            cy.wrap($buttonElement).should('have.css', 'border-color', 'rgba(23, 127, 112, 0.12)');
                         }
                     });
                 });

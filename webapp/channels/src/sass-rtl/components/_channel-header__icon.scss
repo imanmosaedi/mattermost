@@ -13,9 +13,9 @@
     border-radius: 4px;
     margin: 0 0 0 4px;
     background: transparent;
-    color: rgba(var(--center-channel-color-rgb), 0.64);
+    color: rgba(var(--center-channel-color-rgb), 1);
     cursor: pointer;
-    fill: rgba(var(--center-channel-color-rgb), 0.64);
+    fill: rgba(var(--center-channel-color-rgb), 1);
     text-align: center;
 
     &:hover {

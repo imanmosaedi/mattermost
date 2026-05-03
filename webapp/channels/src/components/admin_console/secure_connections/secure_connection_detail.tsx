@@ -375,7 +375,7 @@ const TabsWrapper = styled.div`
         flex-direction: column;
 
         .nav-tabs {
-            border-bottom: 1px solid var(--center-channel-color-12, rgba(63, 67, 80, 0.12));
+            border-bottom: 1px solid var(--center-channel-color-12, rgba(23, 127, 112, 0.12));
         }
     }
 

@@ -89,7 +89,7 @@ describe('Integrations', () => {
             [`#rhsPost_${postId}`, `#post_${postId}`].forEach((selector) => {
                 cy.get(selector).should('have.class', 'current--user').within(() => {
                     cy.get('.post__header').findByText(testUser.username);
-                    cy.get('.post-message__text').findByText(rootMessage).should('have.css', 'color', 'rgb(63, 67, 80)');
+                    cy.get('.post-message__text').findByText(rootMessage).should('have.css', 'color', 'rgb(23, 127, 112)');
                 });
             });
         });
@@ -104,7 +104,7 @@ describe('Integrations', () => {
             [`#rhsPost_${postId}`, `#post_${postId}`].forEach((selector) => {
                 cy.get(selector).should('have.class', 'current--user').within(() => {
                     cy.get('.profile-icon').should('not.be.visible');
-                    cy.get('.post-message__text').findByText(message).should('have.css', 'color', 'rgba(63, 67, 80, 0.75)');
+                    cy.get('.post-message__text').findByText(message).should('have.css', 'color', 'rgba(23, 127, 112, 0.75)');
                 });
             });
         });

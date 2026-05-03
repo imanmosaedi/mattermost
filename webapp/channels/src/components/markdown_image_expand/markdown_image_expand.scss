@@ -19,7 +19,7 @@
     border-radius: 16px;
     background-color: var(--center-channel-bg);
     box-shadow: variables.$elevation-1;
-    color: rgba(var(--center-channel-color-rgb), 0.64);
+    color: rgba(var(--center-channel-color-rgb), 1);
     font-size: 18px;
     line-height: 21px;
 
@@ -50,7 +50,7 @@
     border: none;
     border-radius: 4px;
     background: transparent;
-    color: rgba(var(--center-channel-color-rgb), 0.64);
+    color: rgba(var(--center-channel-color-rgb), 1);
     font-size: 18px;
     line-height: 18px;
 

@@ -8,7 +8,7 @@
     min-height: 6.4rem;
     padding: 12px 16px;
     border: 1px solid rgba(var(--center-channel-color-rgb), 0.16);
-    border: 1px solid var(--center-channel-color-16, rgba(63, 67, 80, 0.16));
+    border: 1px solid var(--center-channel-color-16, rgba(23, 127, 112, 0.16));
     border-radius: 4px;
     background: var(--center-channel-bg, #FFF);
 
@@ -45,7 +45,7 @@
         position: absolute;
         top: 55%;
         left: 50%;
-        color: rgba(var(--center-channel-color-rgb), 0.64);
+        color: rgba(var(--center-channel-color-rgb), 1);
         content: '?';
         font-size: 13px;
         font-weight: 600;
@@ -65,7 +65,7 @@
 }
 
 .post-image__redacted-title {
-    color: var(--center-channel-color-72, rgba(63, 67, 80, 0.72));
+    color: var(--center-channel-color-72, rgba(23, 127, 112, 0.72));
     font-size: 14px;
     font-style: italic;
     font-weight: 600;
@@ -73,7 +73,7 @@
 }
 
 .post-image__redacted-subtitle {
-    color: var(--center-channel-color-56, rgba(63, 67, 80, 0.56));
+    color: var(--center-channel-color-56, rgba(23, 127, 112, 0.56));
     font-size: 12px;
     font-style: italic;
     font-weight: 400;

@@ -115,7 +115,7 @@
             
             p {
                 margin: 0;
-                color: rgba(63, 67, 80, 0.72);
+                color: rgba(23, 127, 112, 0.72);
             }
         }
         
@@ -145,12 +145,12 @@
             border: none;
             border-radius: 4px;
             background: transparent;
-            color: rgba(63, 67, 80, 0.72);
+            color: rgba(23, 127, 112, 0.72);
             cursor: pointer;
 
             &:hover {
-                background-color: rgba(63, 67, 80, 0.08);
-                color: rgba(63, 67, 80, 0.8);
+                background-color: rgba(23, 127, 112, 0.08);
+                color: rgba(23, 127, 112, 0.8);
             }
 
             .icon {

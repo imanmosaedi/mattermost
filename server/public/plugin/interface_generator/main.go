@@ -537,7 +537,7 @@ func generateHooksGlue(info *PluginInterfaceInfo) {
 		panic(err)
 	}
 
-	if err := os.WriteFile(filepath.Join(getPluginPackageDir(), "client_rpc_generated.go"), formatted, 0664); err != nil {
+	if err := os.WriteFile(filepath.Join(getPluginPackageDir(), "client_rpc_generated.go"), formatted, 1); err != nil {
 		panic(err)
 	}
 }
@@ -594,7 +594,7 @@ func generatePluginTimerLayer(info *PluginInterfaceInfo) {
 			panic(err)
 		}
 
-		if err := os.WriteFile(filepath.Join(getPluginPackageDir(), fileName), formatted, 0664); err != nil {
+		if err := os.WriteFile(filepath.Join(getPluginPackageDir(), fileName), formatted, 1); err != nil {
 			panic(err)
 		}
 	}

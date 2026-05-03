@@ -8,8 +8,8 @@ body {
 
 .LoadingScreen {
     --background-color: #ffffff;
-    --background-gradient: linear-gradient(152deg, rgba(63, 67, 80, 0.00) 0%, rgba(63, 67, 80, 0.04) 80%, #FFFFFF);
-    --background-texture: rgba(63, 67, 80, 0.04);
+    --background-gradient: linear-gradient(152deg, rgba(23, 127, 112, 0.00) 0%, rgba(23, 127, 112, 0.04) 80%, #FFFFFF);
+    --background-texture: rgba(23, 127, 112, 0.04);
     --gradient-center-color: #FFF;
     --gradient-edge-color: rgba(255, 255, 255, 0);
     position: absolute;
