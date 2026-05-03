@@ -3,7 +3,7 @@
 exports[`components/BrowseChannels should match snapshot and state 1`] = `
 <body
   class="modal-open"
-  style="padding-right: 0px;"
+  style="padding-inline-end: 0px;"
 >
   <div
     aria-hidden="true"
@@ -20,7 +20,7 @@ exports[`components/BrowseChannels should match snapshot and state 1`] = `
       class="fade in modal"
       id="browseChannelsModal"
       role="dialog"
-      style="display: block; padding-right: 0px;"
+      style="display: block; padding-inline-end: 0px;"
       tabindex="-1"
     >
       <div

@@ -45,7 +45,7 @@
             position: absolute;
             z-index: 2;
             top: 8px;
-            right: 8px;
+            inset-inline-end: 8px;
         }
 
         textarea#FlagPostModal__comment, .textbox-preview-area {

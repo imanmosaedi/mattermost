@@ -13,19 +13,19 @@ exports[`components/threading/global_threads/thread_list/virtualized_thread_list
         >
           <div
             data-testid="thread-row-1"
-            style="position: absolute; left: 0px; top: 0px; height: 133px; width: 100%;"
+            style="position: absolute; inset-inline-start: 0px; top: 0px; height: 133px; width: 100%;"
           >
             1
           </div>
           <div
             data-testid="thread-row-2"
-            style="position: absolute; left: 0px; top: 133px; height: 133px; width: 100%;"
+            style="position: absolute; inset-inline-start: 0px; top: 133px; height: 133px; width: 100%;"
           >
             2
           </div>
           <div
             data-testid="thread-row-3"
-            style="position: absolute; left: 0px; top: 266px; height: 133px; width: 100%;"
+            style="position: absolute; inset-inline-start: 0px; top: 266px; height: 133px; width: 100%;"
           >
             3
           </div>

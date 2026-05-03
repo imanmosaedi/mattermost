@@ -3,7 +3,7 @@
 exports[`components/delete_post_modal should match snapshot for delete_post_modal with 0 comments 1`] = `
 <body
   class="modal-open"
-  style="padding-right: 0px;"
+  style="padding-inline-end: 0px;"
 >
   <div
     aria-hidden="true"
@@ -19,7 +19,7 @@ exports[`components/delete_post_modal should match snapshot for delete_post_moda
       class="fade in modal"
       id="deletePostModal"
       role="dialog"
-      style="display: block; padding-right: 0px;"
+      style="display: block; padding-inline-end: 0px;"
       tabindex="-1"
     >
       <div
@@ -89,7 +89,7 @@ exports[`components/delete_post_modal should match snapshot for delete_post_moda
 exports[`components/delete_post_modal should match snapshot for delete_post_modal with 1 comment 1`] = `
 <body
   class="modal-open"
-  style="padding-right: 0px;"
+  style="padding-inline-end: 0px;"
 >
   <div
     aria-hidden="true"
@@ -105,7 +105,7 @@ exports[`components/delete_post_modal should match snapshot for delete_post_moda
       class="fade in modal"
       id="deletePostModal"
       role="dialog"
-      style="display: block; padding-right: 0px;"
+      style="display: block; padding-inline-end: 0px;"
       tabindex="-1"
     >
       <div
@@ -178,7 +178,7 @@ exports[`components/delete_post_modal should match snapshot for delete_post_moda
 exports[`components/delete_post_modal should match snapshot for post with 1 commentCount and is not rootPost 1`] = `
 <body
   class="modal-open"
-  style="padding-right: 0px;"
+  style="padding-inline-end: 0px;"
 >
   <div
     aria-hidden="true"
@@ -194,7 +194,7 @@ exports[`components/delete_post_modal should match snapshot for post with 1 comm
       class="fade in modal"
       id="deletePostModal"
       role="dialog"
-      style="display: block; padding-right: 0px;"
+      style="display: block; padding-inline-end: 0px;"
       tabindex="-1"
     >
       <div

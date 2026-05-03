@@ -9,7 +9,7 @@
 
         &.MenuItem--with-icon {
             .MenuItem__help-text {
-                padding-left: 28px;
+                padding-inline-start: 28px;
             }
         }
 
@@ -19,7 +19,7 @@
 
         .MenuItem__icon {
             width: 20px;
-            margin-right: 8px;
+            margin-inline-end: 8px;
             text-align: center;
         }
 
@@ -42,7 +42,7 @@
             width: 28px; // less 12px padding is 16px
             height: 16px; // less 3px top padding is 16px;
             align-self: center;
-            padding-right: 12px;
+            padding-inline-end: 12px;
             line-height: 16px;
         }
 
@@ -74,10 +74,10 @@
             white-space: nowrap;
 
             @media (max-width: 768px) {
-                padding-left: 28px !important;
+                padding-inline-start: 28px !important;
 
                 .mobile-main-menu & {
-                    padding-left: 36px !important;
+                    padding-inline-start: 36px !important;
                 }
             }
         }
@@ -95,13 +95,13 @@
             cursor: pointer;
             font-weight: normal;
             line-height: 28px;
-            text-align: left;
+            text-align: start;
             text-overflow: ellipsis;
             white-space: nowrap;
 
             i.icon {
                 padding: 0 3px;
-                margin-right: 4px;
+                margin-inline-end: 4px;
                 margin-bottom: 2px;
                 color: rgba(var(--center-channel-color-rgb), 0.64);
                 vertical-align: middle;
@@ -145,7 +145,7 @@
             }
 
             &.MenuItem__with-sibling {
-                padding-right: 0 !important;
+                padding-inline-end: 0 !important;
 
                 &.disabled {
                     color: rgba(var(--center-channel-color-rgb), 0.48);
@@ -168,7 +168,7 @@
                 height: 20px;
                 align-items: center;
                 justify-content: center;
-                margin-right: 8px;
+                margin-inline-end: 8px;
             }
 
             &.MenuItem__dangerous {
@@ -254,7 +254,7 @@
 
         .open-trial-benefits-modal {
             display: inline !important;
-            margin-left: 2px;
+            margin-inline-start: 2px;
         }
 
         .open-see-plans-modal {
@@ -308,7 +308,7 @@
         }
 
         &__usage-label {
-            padding-left: 18px;
+            padding-inline-start: 18px;
             color: rgba(var(--center-channel-color-rgb), 0.75);
             font-size: 11px;
             font-weight: bold;
@@ -356,7 +356,7 @@
     position: absolute;
     top: unset;
     left: unset;
-    padding-left: 0;
+    padding-inline-start: 0;
     cursor: auto;
 }
 
@@ -379,7 +379,7 @@
 .SubMenu__icon-right {
     padding-top: 3px;
     color: rgba(var(--center-channel-color-rgb), 0.64);
-    float: right;
+    float: inset-inline-end;
     font-size: 19px;
 }
 
@@ -388,7 +388,7 @@
     display: none;
     width: 0;
     padding: 0;
-    margin-left: auto;
+    margin-inline-start: auto;
     font-size: 19px;
 }
 

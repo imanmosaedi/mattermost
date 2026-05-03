@@ -16,10 +16,10 @@
     background: variables.$white;
     color: rgba(0, 0, 0, 0.5);
     font-size: 1.1em;
-    text-align: right;
+    text-align: end;
 
     .backstage-footer__cell {
         width: 100%;
-        text-align: right;
+        text-align: end;
     }
 }

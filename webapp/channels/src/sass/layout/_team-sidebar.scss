@@ -35,9 +35,9 @@
         .draggable-team-container {
             position: relative;
             display: inline-block;
-            margin-right: auto;
+            margin-inline-end: auto;
             margin-bottom: 12px;
-            margin-left: auto;
+            margin-inline-start: auto;
 
             &:hover, &:focus {
                 text-decoration: none;
@@ -55,7 +55,7 @@
                     position: absolute;
                     z-index: 1;
                     top: -2px;
-                    right: -3px;
+                    inset-inline-end: -3px;
                     width: 8px;
                     height: 8px;
                     border-radius: 100%;
@@ -104,7 +104,7 @@
             .order-indicator {
                 position: absolute;
                 top: 28px;
-                left: 12px;
+                inset-inline-start: 12px;
                 display: flex;
                 width: 16px;
                 height: 16px;

@@ -18,7 +18,7 @@ const Container = styled.div`
 const Icon = styled.i`
     color: #d24b4e;
     font-size: 14px;
-    margin-right: 2px;
+    margin-inline-end: 2px;
 `;
 
 type Props = {

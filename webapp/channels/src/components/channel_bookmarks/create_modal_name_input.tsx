@@ -169,19 +169,19 @@ const NameWrapper = styled.div`
 
     > button {
         position: absolute;
-        left: 1px;
+        inset-inline-start: 1px;
         top: 1px;
         z-index: 5;
         width: 57px;
         height: 44px;
         border-radius: 4px 0 0 4px;
-        border-right: 1px solid rgba(var(--center-channel-color-rgb), 0.16);
+        border-inline-end: 1px solid rgba(var(--center-channel-color-rgb), 0.16);
 
         align-items: center;
         justify-content: center;
         gap: 0;
-        padding-left: 6px;
-        padding-right: 2px;
+        padding-inline-start: 6px;
+        padding-inline-end: 2px;
 
         svg {
             flex-shrink: 0;
@@ -193,7 +193,7 @@ const NameWrapper = styled.div`
     }
 
     .Input_wrapper {
-        padding-left: 7rem;
+        padding-inline-start: 7rem;
     }
 `;
 

@@ -16,12 +16,12 @@
     .EditPolicy__error {
         display: flex;
         align-items: center;
-        margin-left: 12px;
+        margin-inline-start: 12px;
         color: var(--error-text);
         font-size: 14px;
         
         i {
-            margin-right: 4px;
+            margin-inline-end: 4px;
             font-size: 16px;
         }
     }

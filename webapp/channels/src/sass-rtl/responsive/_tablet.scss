@@ -16,7 +16,7 @@
 
             span {
                 flex: 0 0 auto;
-                padding-right: 0;
+                padding-inline-end: 0;
             }
         }
     }
@@ -98,17 +98,17 @@
 
 @media (min-width: 880px) {
     .post-collapse__show-more {
-        padding-left: 60px;
+        padding-inline-start: 60px;
     }
 
     .post-attachment-collapse__show-more {
-        padding-left: 0;
+        padding-inline-start: 0;
     }
 
     .sidebar--left {
         .post-collapse__show-more,
         .post-attachment-collapse__show-more {
-            padding-left: 0;
+            padding-inline-start: 0;
         }
     }
 }
@@ -120,7 +120,7 @@
     }
 
     .col-sm-auto {
-        float: right;
+        float: inset-inline-end;
     }
 
     .second-bar {
@@ -150,7 +150,7 @@
             width: min(60vw, 75rem);
 
             .search-bar__container {
-                padding-right: 10px;
+                padding-inline-end: 10px;
             }
 
             .sidebar-left-container {
@@ -190,12 +190,12 @@
                     }
 
                     padding-top: 0;
-                    padding-right: 77px;
+                    padding-inline-end: 77px;
 
                     .card-icon__container {
                         position: absolute;
                         top: 4px;
-                        right: -16px;
+                        inset-inline-end: -16px;
                     }
 
                     .post__header {
@@ -234,7 +234,7 @@
                     }
 
                     .post__header {
-                        margin-right: 12px;
+                        margin-inline-end: 12px;
                     }
                 }
             }
@@ -261,9 +261,9 @@
                 .post__permalink {
                     position: absolute;
                     top: 1px;
-                    right: -76px;
+                    inset-inline-end: -76px;
                     width: 60px;
-                    text-align: left;
+                    text-align: start;
                 }
 
                 .post__time {
@@ -273,9 +273,9 @@
                 .star-icon__container {
                     position: absolute;
                     top: 6px;
-                    right: -65px;
+                    inset-inline-end: -65px;
                     width: 60px;
-                    text-align: left;
+                    text-align: start;
                 }
             }
 
@@ -296,14 +296,14 @@
 
                 .post__header {
                     padding-top: 2px;
-                    padding-left: 0;
-                    float: right;
+                    padding-inline-start: 0;
+                    float: inset-inline-end;
 
                     .col__name {
                         position: relative;
                         z-index: 1;
-                        padding-left: 5px;
-                        margin-left: 2px;
+                        padding-inline-start: 5px;
+                        margin-inline-start: 2px;
                         font-weight: bold;
                     }
 
@@ -347,7 +347,7 @@
                 }
 
                 .post__content {
-                    padding-left: 45px;
+                    padding-inline-start: 45px;
                 }
             }
 
@@ -365,7 +365,7 @@
                 }
 
                 .post__header {
-                    float: right;
+                    float: inset-inline-end;
 
                     .post-menu {
                         top: -34px;
@@ -376,7 +376,7 @@
                     .post__permalink {
                         position: absolute;
                         top: 2px;
-                        right: -8px;
+                        inset-inline-end: -8px;
 
                         .sidebar--left & {
                             top: 1px;
@@ -388,7 +388,7 @@
                         width: 51px;
                         font-size: 12px;
                         line-height: 20px;
-                        text-align: left;
+                        text-align: start;
                         text-rendering: auto;
 
                         &:hover {
@@ -446,7 +446,7 @@
         &:not(.move--right) {
             .app__content {
                 > #post-list {
-                    margin-left: 0 !important;
+                    margin-inline-start: 0 !important;
                 }
 
                 > .post-create__container {
@@ -463,7 +463,7 @@
             .app__content {
                 > .Drafts__main,
                 > #post-list {
-                    margin-left: 0 !important;
+                    margin-inline-start: 0 !important;
                 }
 
                 > .post-create__container {

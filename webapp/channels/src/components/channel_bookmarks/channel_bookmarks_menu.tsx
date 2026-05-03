@@ -110,7 +110,7 @@ export default memo(BookmarksMenu);
 
 const MenuButtonContainer = styled.div<{withLabel: boolean}>`
     position: sticky;
-    right: 0;
+    inset-inline-end: 0;
     ${({withLabel}) => !withLabel && css`padding: 0 1rem;`}
     background: linear-gradient(to right, rgba(var(--center-channel-bg-rgb), .16), rgba(var(--center-channel-bg-rgb), 1) 25%);
 `;

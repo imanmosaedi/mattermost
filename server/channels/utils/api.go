@@ -162,7 +162,7 @@ func RenderMobileMessage(w http.ResponseWriter, message string) {
 						color: #555;
 						display: table-cell;
 						padding: 5em 0;
-						text-align: left;
+						text-align: start;
 						vertical-align: top;
 					}
 				</style>

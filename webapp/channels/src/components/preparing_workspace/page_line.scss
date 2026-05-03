@@ -1,6 +1,6 @@
 .PageLine {
     position: relative;
-    left: 100px;
+    inset-inline-start: 100px;
     width: 1px;
     background-color: rgba(var(--center-channel-color-rgb), 0.24);
 

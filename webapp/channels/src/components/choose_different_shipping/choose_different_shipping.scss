@@ -8,11 +8,11 @@
 
     button.no-style {
         height: auto;
-        padding-left: 0;
+        padding-inline-start: 0;
         border: none;
         background: transparent;
         outline: unset;
-        text-align: left;
+        text-align: start;
 
         &:focus {
             outline: unset;
@@ -26,7 +26,7 @@
     }
 
     .Form-checkbox-label {
-        padding-left: 12px;
+        padding-inline-start: 12px;
         cursor: default;
         font-family: 'Open Sans', sans-serif;
     }

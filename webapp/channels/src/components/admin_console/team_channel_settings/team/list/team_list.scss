@@ -12,7 +12,7 @@
 
                 .TeamList_nameText {
                     overflow: hidden;
-                    padding-right: 40px;
+                    padding-inline-end: 40px;
                     opacity: 0.8;
 
                     .archived-label {
@@ -30,7 +30,7 @@
                 }
 
                 .TeamIcon {
-                    margin-right: 12px;
+                    margin-inline-end: 12px;
                     background: rgba(0, 0, 0, 0.12);
                 }
             }
@@ -40,7 +40,7 @@
             }
 
             .TeamList_editText {
-                padding-right: 20px;
+                padding-inline-end: 20px;
             }
         }
     }

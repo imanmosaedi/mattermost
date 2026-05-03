@@ -28,8 +28,8 @@
         margin: 20px 0;
 
         &--full-width {
-            margin-right: -32px;
-            margin-left: -32px;
+            margin-inline-end: -32px;
+            margin-inline-start: -32px;
         }
 
         &.header-divider {

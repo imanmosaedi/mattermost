@@ -336,11 +336,11 @@ const ColHeaderLeft = styled.div`
 const ColHeaderRight = styled.div`
     display: inline-block;
     width: 100%;
-    text-align: right;
+    text-align: end;
 `;
 
 const ActionsRoot = styled.div`
-    text-align: right;
+    text-align: end;
 `;
 
 type ActionsCellProps = {

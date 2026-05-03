@@ -22,14 +22,14 @@
 
     ul,
     ol {
-        padding-left: 20px;
+        padding-inline-start: 20px;
     }
 }
 
 .search__font-icon {
     position: absolute;
     top: 0;
-    left: 4px;
+    inset-inline-start: 4px;
     display: flex;
     height: 100%;
     align-items: center;
@@ -40,7 +40,7 @@
 .search__icon {
     position: absolute;
     top: 6px;
-    left: 9px;
+    inset-inline-start: 9px;
     fill: rgba(var(--center-channel-color-rgb), 0.64);
     pointer-events: none;
 
@@ -57,7 +57,7 @@
 .input-clear {
     position: absolute;
     top: 0;
-    right: 2px;
+    inset-inline-end: 2px;
     display: flex;
     width: 2.4rem;
     height: 100%;
@@ -97,7 +97,7 @@
 
     .searchTypeBadge {
         position: relative;
-        left: 26px;
+        inset-inline-start: 26px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -149,7 +149,7 @@
         margin: 16px 0 0;
 
         .input-clear {
-            right: 4px;
+            inset-inline-end: 4px;
         }
 
         &:hover {
@@ -163,11 +163,11 @@
 
             .search__icon {
                 top: 6px;
-                left: 8px;
+                inset-inline-start: 8px;
             }
 
             .input-clear {
-                right: 3px;
+                inset-inline-end: 3px;
             }
         }
     }
@@ -186,7 +186,7 @@
     .LoadingSpinner {
         position: absolute;
         top: 4px;
-        right: 25px;
+        inset-inline-end: 25px;
         font-size: 1em;
         opacity: 0.5;
     }
@@ -278,12 +278,12 @@
 
         &:hover {
             .post__header {
-                padding-right: 105px;
+                padding-inline-end: 105px;
             }
         }
 
         .post__header {
-            padding-right: 70px;
+            padding-inline-end: 70px;
         }
 
         .search-channel__name__container {
@@ -304,8 +304,8 @@
 
         .search-channel__archived {
             flex-shrink: 0;
-            margin-left: 3px;
-            float: right;
+            margin-inline-start: 3px;
+            float: inset-inline-end;
             opacity: 0.64;
 
             .channel-header-archived-icon {
@@ -319,7 +319,7 @@
             overflow: hidden;
             flex-shrink: 1;
             padding: 0 8px;
-            border-left: 1px solid rgba(var(--center-channel-color-rgb), 0.5);
+            border-inline-start: 1px solid rgba(var(--center-channel-color-rgb), 0.5);
             margin: 0 0 0 8px;
             font-size: 12px;
             font-weight: 400;
@@ -330,8 +330,8 @@
 
         .post-pre-header__icons-container {
             width: 53px; // If the width of post__img changes, this needs to be adjusted accordingly
-            padding-right: 10px; // If the padding of post__img changes, this needs to be adjusted accordingly
-            margin-left: 0; // if left margin of post__content changes, this needs to be adjusted accordingly
+            padding-inline-end: 10px; // If the padding of post__img changes, this needs to be adjusted accordingly
+            margin-inline-start: 0; // if left margin of post__content changes, this needs to be adjusted accordingly
         }
     }
 }
@@ -339,7 +339,7 @@
 .col__controls {
     position: absolute;
     top: -9px;
-    right: 0;
+    inset-inline-end: 0;
     font-size: 13px;
 
     .search-item__jump {
@@ -384,11 +384,11 @@
 .search-hint__suggestions-list__option {
     display: flex;
     box-sizing: border-box;
-    justify-content: left;
+    justify-content: inset-inline-start;
     padding: 10px 24px;
     color: var(--center-channel-color);
     cursor: pointer;
-    text-align: left;
+    text-align: start;
 
     &.highlighted {
         background: rgba(var(--center-channel-color-rgb), 0.08);
@@ -410,7 +410,7 @@
 }
 
 .search-hint__suggestion-list__value {
-    margin-left: 16px;
+    margin-inline-start: 16px;
 }
 
 .search-hint__search-type-selector {
@@ -436,7 +436,7 @@
         line-height: 1;
 
         .icon {
-            margin-right: 6px;
+            margin-inline-end: 6px;
             font-size: 14px;
         }
 

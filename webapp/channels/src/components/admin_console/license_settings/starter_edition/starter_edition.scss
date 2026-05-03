@@ -28,7 +28,7 @@
             margin: 10px 0;
 
             i {
-                margin-right: 5px;
+                margin-inline-end: 5px;
             }
         }
 
@@ -51,7 +51,7 @@
 
                 &.contact-us {
                     margin-top: 10px;
-                    margin-left: 0 !important;
+                    margin-inline-start: 0 !important;
                 }
             }
         }
@@ -67,9 +67,9 @@
 
     .PlanDetails__viewPlansButton {
         position: absolute;
-        right: 10px;
+        inset-inline-end: 10px;
         display: block;
-        margin-left: auto;
+        margin-inline-start: auto;
     }
 
     .pre-title {

@@ -10,7 +10,7 @@
                 cursor: pointer;
                 
                 input[type="checkbox"] {
-                    margin-right: 8px;
+                    margin-inline-end: 8px;
                     cursor: pointer;
                 }
             }
@@ -28,7 +28,7 @@
             padding: 10px 16px;
             border: none;
             border-radius: 4px;
-            margin-right: 10px;
+            margin-inline-end: 10px;
             background: #f2f4f8;
             color: #3d3c40;
             font-size: 14px;

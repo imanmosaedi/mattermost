@@ -3,7 +3,7 @@
 exports[`components/KeyboardShortcutsModal should match snapshot modal 1`] = `
 <body
   class="modal-open"
-  style="padding-right: 0px;"
+  style="padding-inline-end: 0px;"
 >
   <div
     aria-hidden="true"
@@ -18,7 +18,7 @@ exports[`components/KeyboardShortcutsModal should match snapshot modal 1`] = `
       aria-labelledby="shortcutsModalLabel"
       class="fade in modal"
       role="dialog"
-      style="display: block; padding-right: 0px;"
+      style="display: block; padding-inline-end: 0px;"
       tabindex="-1"
     >
       <div
@@ -902,7 +902,7 @@ exports[`components/KeyboardShortcutsModal should match snapshot modal 1`] = `
 exports[`components/KeyboardShortcutsModal should match snapshot modal with Calls enabled 1`] = `
 <body
   class="modal-open"
-  style="padding-right: 0px;"
+  style="padding-inline-end: 0px;"
 >
   <div
     aria-hidden="true"
@@ -917,7 +917,7 @@ exports[`components/KeyboardShortcutsModal should match snapshot modal with Call
       aria-labelledby="shortcutsModalLabel"
       class="fade in modal"
       role="dialog"
-      style="display: block; padding-right: 0px;"
+      style="display: block; padding-inline-end: 0px;"
       tabindex="-1"
     >
       <div

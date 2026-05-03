@@ -26,7 +26,7 @@
 
         .Menu {
             top: inherit;
-            margin-right: 20px;
+            margin-inline-end: 20px;
         }
     }
 }
@@ -108,7 +108,7 @@
 .row--invite {
     .col-sm-6 {
         &:first-child {
-            padding-right: 0;
+            padding-inline-end: 0;
         }
     }
 }
@@ -166,13 +166,13 @@
 
         .error-text {
             margin: 10px;
-            float: left;
+            float: inset-inline-start;
             font-weight: bold;
-            text-align: left;
+            text-align: start;
         }
 
         & .btn + .btn {
-            margin-left: 8px;
+            margin-inline-start: 8px;
         }
     }
 
@@ -198,7 +198,7 @@
     }
 
     .info__value {
-        padding-left: 10px;
+        padding-inline-start: 10px;
         word-break: break-word;
 
         p {
@@ -213,7 +213,7 @@
     .remove__member {
         padding: 6px;
         color: inherit;
-        float: right;
+        float: inset-inline-end;
         font-size: 20px;
         line-height: 0;
 
@@ -224,9 +224,9 @@
 
     .modal-dialog {
         max-width: 95%;
-        margin-right: auto;
+        margin-inline-end: auto;
         margin-bottom: 0;
-        margin-left: auto;
+        margin-inline-start: auto;
 
         &.modal--overflow-visible {
             .modal-body {
@@ -237,7 +237,7 @@
                 }
 
                 .dropdown-menu {
-                    right: 20px;
+                    inset-inline-end: 20px;
                     left: auto;
                 }
             }
@@ -255,7 +255,7 @@
     .modal-next-bar {
         position: absolute;
         top: 0;
-        right: 0;
+        inset-inline-end: 0;
         height: 100%;
     }
 
@@ -277,7 +277,7 @@
         }
 
         .modal-header-back-button {
-            margin-left: -12px;
+            margin-inline-start: -12px;
         }
 
         .btn {
@@ -288,7 +288,7 @@
         .close {
             position: absolute;
             top: 18px;
-            right: 18px;
+            inset-inline-end: 18px;
             width: 40px;
             height: 40px;
             border-radius: var(--radius-s);
@@ -356,7 +356,7 @@
     .modal-prev-bar {
         position: absolute;
         top: 0;
-        left: 0;
+        inset-inline-start: 0;
         height: 100%;
     }
 
@@ -492,8 +492,8 @@
             }
 
             .modal-zoom-btn {
-                margin-right: 6px;
-                margin-left: 6px;
+                margin-inline-end: 6px;
+                margin-inline-start: 6px;
             }
 
             a {
@@ -502,8 +502,8 @@
             }
 
             .btn-inactive {
-                margin-right: 6px;
-                margin-left: 6px;
+                margin-inline-end: 6px;
+                margin-inline-start: 6px;
                 color: gray;
             }
 
@@ -543,7 +543,7 @@
                     top: 50%;
                     left: 50%;
                     margin-top: -16px;
-                    margin-left: -16px;
+                    margin-inline-start: -16px;
                 }
             }
         }
@@ -560,9 +560,9 @@
         .loader-image {
             position: absolute;
             top: 0;
-            right: 0;
+            inset-inline-end: 0;
             bottom: 0;
-            left: 0;
+            inset-inline-start: 0;
             margin: auto;
         }
 
@@ -583,16 +583,16 @@
             line-height: 40px;
 
             .modal-bar-file-count {
-                float: left;
+                float: inset-inline-start;
             }
 
             .modal-bar-links {
-                float: right;
+                float: inset-inline-end;
             }
 
             .text {
                 bottom: 0;
-                margin-left: 5px;
+                margin-inline-start: 5px;
                 color: variables.$white;
                 vertical-align: middle;
             }
@@ -611,7 +611,7 @@
 
         .channel-count {
             margin-top: 5px;
-            float: right;
+            float: inset-inline-end;
             opacity: 0.8;
         }
     }
@@ -688,14 +688,14 @@
 
     .member-count {
         margin-top: 5px;
-        float: right;
+        float: inset-inline-end;
         opacity: 0.8;
     }
 
     .member-show {
         margin-top: 8px;
-        margin-right: 3px;
-        float: right;
+        margin-inline-end: 3px;
+        float: inset-inline-end;
         opacity: 0.8;
     }
 
@@ -707,7 +707,7 @@
         select {
             width: auto;
             margin: 1px 5px 0 2px;
-            float: right;
+            float: inset-inline-end;
             opacity: 0.8;
         }
     }
@@ -772,14 +772,14 @@
         flex-grow: 1;
         flex-shrink: 1;
         align-self: center;
-        padding-left: 10px;
+        padding-inline-start: 10px;
         text-overflow: ellipsis;
 
         .shared-channel-icon {
             width: 16px;
             height: 16px;
             margin-top: 0;
-            margin-left: 8px;
+            margin-inline-start: 8px;
             color: rgba(61, 60, 64, 0.75);
             font-size: 16px;
             line-height: 16px;
@@ -810,7 +810,7 @@
             }
 
             svg {
-                margin-right: 6px;
+                margin-inline-end: 6px;
             }
         }
     }
@@ -818,7 +818,7 @@
     .more-modal__actions {
         flex-grow: 0;
         flex-shrink: 0;
-        padding-left: 8px;
+        padding-inline-start: 8px;
         margin: 5px 0;
     }
 
@@ -895,7 +895,7 @@
             .shared-user-icon {
                 width: 16px;
                 height: 16px;
-                margin-left: 4px;
+                margin-inline-start: 4px;
                 font-size: 16px;
                 line-height: 16px;
 
@@ -912,7 +912,7 @@
 
     .more-modal__lastPostAt {
         display: block;
-        margin-left: 5px;
+        margin-inline-start: 5px;
         opacity: 0.6;
 
         time {
@@ -952,7 +952,7 @@
     }
 
     .more-modal__bottom > .has-error {
-        padding-left: 5px;
+        padding-inline-start: 5px;
     }
 
     p {
@@ -965,7 +965,7 @@
 .member-select__container {
     position: absolute;
     top: 15px;
-    right: 15px;
+    inset-inline-end: 15px;
 }
 
 .filtered-user-list {
@@ -997,8 +997,8 @@
     }
 
     .filter-button {
-        padding-left: 0;
-        margin-left: 0;
+        padding-inline-start: 0;
+        margin-inline-start: 0;
 
         .btn {
             height: 34px;
@@ -1010,7 +1010,7 @@
         border-top: var(--border-default);
 
         .filter-control__next {
-            float: right;
+            float: inset-inline-end;
         }
     }
 }
@@ -1025,13 +1025,13 @@
         }
 
         .team-name {
-            padding-left: 5px;
+            padding-inline-start: 5px;
             color: variables.$gray;
         }
 
         .icon__lock,
         .icon__globe {
-            margin-right: 5px;
+            margin-inline-end: 5px;
         }
     }
 

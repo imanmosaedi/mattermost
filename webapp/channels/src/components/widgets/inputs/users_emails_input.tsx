@@ -586,7 +586,7 @@ export class UsersEmailsInput extends React.PureComponent<Props, State> {
                 gridTemplateColumns: '0 minmax(0, 1fr)',
 
                 input: {
-                    textAlign: 'left',
+                    textAlign: 'start',
                 },
             }),
             valueContainer: (css) => ({

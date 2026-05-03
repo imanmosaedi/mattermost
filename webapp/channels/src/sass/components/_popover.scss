@@ -39,7 +39,7 @@
     &.left {
         > .arrow {
             &::after {
-                border-left-color: var(--center-channel-bg);
+                border-inline-start-color: var(--center-channel-bg);
             }
         }
     }
@@ -47,7 +47,7 @@
     &.right {
         > .arrow {
             &::after {
-                border-right-color: var(--center-channel-bg);
+                border-inline-end-color: var(--center-channel-bg);
             }
         }
     }
@@ -78,7 +78,7 @@
 
         &::before {
             top: 0;
-            left: 2px;
+            inset-inline-start: 2px;
             font-size: 15px;
         }
     }
@@ -131,7 +131,7 @@
         > a,
         > button {
             i {
-                margin-right: 5px;
+                margin-inline-end: 5px;
             }
         }
     }
@@ -155,7 +155,7 @@
 
 .search-help-popover {
     top: 25px;
-    right: 0;
+    inset-inline-end: 0;
     left: auto;
     width: 296px;
     max-width: 350px;
@@ -195,7 +195,7 @@
 
     &.bottom > .arrow {
         top: -18px;
-        left: 30px;
+        inset-inline-start: 30px;
         border-width: 9px;
     }
 
@@ -252,11 +252,11 @@
 
     .search_input {
         flex: 1;
-        margin-right: 16px;
-        margin-left: 16px;
+        margin-inline-end: 16px;
+        margin-inline-start: 16px;
     }
 
     .create_button {
-        margin-right: 16px;
+        margin-inline-end: 16px;
     }
 }

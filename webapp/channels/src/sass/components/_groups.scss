@@ -35,8 +35,8 @@
             input {
                 width: 100%;
                 border: 0;
-                margin-right: 15px;
-                margin-left: 25px;
+                margin-inline-end: 15px;
+                margin-inline-start: 25px;
                 font-size: 0.95em;
             }
 
@@ -68,13 +68,13 @@
             background-color: white;
 
             .search-groups-btn {
-                right: 20px;
+                inset-inline-end: 20px;
                 bottom: 20px;
-                float: right;
+                float: inset-inline-end;
             }
 
             .cancel-filters {
-                float: right;
+                float: inset-inline-end;
             }
 
             .filter-row {
@@ -88,7 +88,7 @@
                 height: 18px;
                 border: 2px solid variables.$dark-gray;
                 border-radius: 3px;
-                margin-right: 7px;
+                margin-inline-end: 7px;
                 vertical-align: middle;
 
                 &.checked {
@@ -112,7 +112,7 @@
         font-weight: bold;
 
         .group-name {
-            margin-left: 16px;
+            margin-inline-start: 16px;
         }
 
         .group-description {
@@ -211,7 +211,7 @@
     .group-content {
         display: flex;
         flex: 1;
-        padding-left: 20px;
+        padding-inline-start: 20px;
     }
 
     .group-description {
@@ -231,7 +231,7 @@
         }
 
         i {
-            margin-right: 5px;
+            margin-inline-end: 5px;
         }
 
         >a {
@@ -261,8 +261,8 @@
 
     .group-actions {
         width: 130px;
-        padding-right: 20px;
-        text-align: right;
+        padding-inline-end: 20px;
+        text-align: end;
     }
 
     .group {
@@ -299,7 +299,7 @@
         border: 2px solid variables.$transparent;
 
         &:hover {
-            border-left: 2px solid variables.$primary-color;
+            border-inline-start: 2px solid variables.$primary-color;
             background-color: color.adjust(variables.$primary-color, $lightness: 45%);
 
             .group-description {
@@ -334,7 +334,7 @@
     }
 
     .group-at-mention-input {
-        padding-left: 26px;
+        padding-inline-start: 26px;
     }
 }
 
@@ -402,7 +402,7 @@
             }
 
             .user-data {
-                margin-left: 10px;
+                margin-inline-start: 10px;
 
                 .name-row {
                     display: flex;
@@ -415,7 +415,7 @@
             }
 
             .email-label {
-                margin-right: 5px;
+                margin-inline-end: 5px;
             }
         }
     }
@@ -461,7 +461,7 @@
             th {
                 &:first-child {
                     width: 100%;
-                    padding-left: 0;
+                    padding-inline-start: 0;
                 }
 
                 padding: 6px 20px;
@@ -484,7 +484,7 @@
                 padding: 20px 0;
 
                 &:first-child {
-                    padding-left: 0;
+                    padding-inline-start: 0;
                 }
 
                 &:not(:first-child) {
@@ -546,7 +546,7 @@
 
         .group-teams-and-channels-row.has-children {
             .type {
-                margin-left: 20px;
+                margin-inline-start: 20px;
             }
         }
 
@@ -587,13 +587,13 @@
 
             .type {
                 flex: 1;
-                margin-left: -29px;
+                margin-inline-start: -29px;
                 color: #454448;
                 opacity: 50%;
             }
 
             .name-no-arrow {
-                margin-left: 16px;
+                margin-inline-start: 16px;
             }
 
             .name-content {
@@ -605,7 +605,7 @@
                 }
 
                 .arrow-icon {
-                    margin-left: 10px;
+                    margin-inline-start: 10px;
 
                     .fa-caret-right {
                         padding: 5px;
@@ -646,10 +646,10 @@
 .group-profile-add-menu {
     position: relative;
     margin-top: -36px;
-    margin-left: 10px;
+    margin-inline-start: 10px;
 
     .fa-caret-down {
-        margin-left: 5px;
+        margin-inline-start: 5px;
     }
 
     .add-team-or-channel-menu {
@@ -714,23 +714,23 @@
 }
 
 .group-users--header-padded {
-    padding-left: 24px;
+    padding-inline-start: 24px;
 }
 
 .icon-over-input {
     position: absolute;
     padding-top: 9px;
-    padding-left: 12px;
+    padding-inline-start: 12px;
     opacity: 0.8;
 }
 
 .AdminChannelDetails_archiveContainer {
     position: relative;
-    left: -22px;
+    inset-inline-start: -22px;
     display: block;
     width: 920px;
     padding-top: 20px;
-    padding-left: 20px;
+    padding-inline-start: 20px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     margin-top: 20px;
 }

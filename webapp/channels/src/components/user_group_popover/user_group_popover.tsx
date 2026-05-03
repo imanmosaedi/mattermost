@@ -212,8 +212,8 @@ const HeaderButton = styled.button`
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 0;
-    right: 0;
+    inset-inline-start: 0;
+    inset-inline-end: 0;
     width: 100%;
     height: 100%;
 `;
@@ -226,12 +226,12 @@ const CloseButton = styled.button`
     width: 28px;
     height: 28px;
     flex: 0 0 auto;
-    margin-left: 4px;
+    margin-inline-start: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    right: -4px;
+    inset-inline-end: -4px;
     top: -2px;
 
     /* Place this button above the main header button */
@@ -314,7 +314,7 @@ const SearchBar = styled.div`
     .input-clear {
         width: 36px;
         position: relative;
-        right: 0;
+        inset-inline-end: 0;
     }
 
     .icon {

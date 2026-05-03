@@ -55,7 +55,7 @@
     &.ReplyButton {
         overflow:visible;
         height: 24px;
-        padding-left: 8px;
+        padding-inline-start: 8px;
     }
 
     &.FollowButton {
@@ -117,17 +117,17 @@
     }
 
     .Button_prepended {
-        margin-right: 0.4em;
+        margin-inline-end: 0.4em;
     }
 
     .Button_appended {
-        margin-left: 0.4em;
+        margin-inline-start: 0.4em;
     }
 
     .dot {
         position: absolute;
         top: 6px;
-        right: 6px;
+        inset-inline-end: 6px;
         width: 4px;
         height: 4px;
         border-radius: 50%;
@@ -137,7 +137,7 @@
 
 .separated + .separated {
     // --button-separator-gap should always be even
-    margin-left: var(--button-separator-gap, 0);
+    margin-inline-start: var(--button-separator-gap, 0);
 }
 
 .separated:not(.Button),

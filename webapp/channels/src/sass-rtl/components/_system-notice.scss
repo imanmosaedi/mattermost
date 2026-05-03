@@ -1,7 +1,7 @@
 .system-notice {
     position: absolute;
     z-index: 9999;
-    left: 12px;
+    inset-inline-start: 12px;
     bottom: 12px;
     display: flex;
     width: 386px;
@@ -37,7 +37,7 @@
     opacity: 0.5;
 
     .fa {
-        margin-left: 4px;
+        margin-inline-start: 4px;
     }
 }
 
@@ -57,7 +57,7 @@
         text-overflow: ellipsis;
 
         &:last-child {
-            margin-right: 5px;
+            margin-inline-end: 5px;
         }
     }
 }

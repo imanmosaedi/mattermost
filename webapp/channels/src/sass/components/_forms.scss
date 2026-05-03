@@ -23,7 +23,7 @@
 
     .control-label {
         overflow: hidden;
-        padding-right: 5px;
+        padding-inline-end: 5px;
         text-overflow: ellipsis;
     }
 
@@ -82,10 +82,10 @@
     }
 
     .form__label {
-        padding-right: 3px;
+        padding-inline-end: 3px;
         font-size: 1.1em;
         font-weight: 600;
-        text-align: left;
+        text-align: start;
 
         &.light {
             padding-top: 2px;
@@ -163,11 +163,11 @@
         height: 21px;
         align-items: center;
         justify-content: center;
-        padding-right: 1px;
-        margin-right: 6px;
+        padding-inline-end: 1px;
+        margin-inline-end: 6px;
 
         &+span {
-            margin-right: 4px;
+            margin-inline-end: 4px;
             font-weight: 600;
         }
     }
@@ -230,7 +230,7 @@ input[type="checkbox"]:focus {
     .btn-file__input {
         position: absolute;
         top: 0;
-        right: 0;
+        inset-inline-end: 0;
         padding: 0;
         margin: 0;
         cursor: pointer;

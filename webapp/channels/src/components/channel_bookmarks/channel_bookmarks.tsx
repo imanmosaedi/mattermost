@@ -98,7 +98,7 @@ export default ChannelBookmarks;
 const Container = styled.div`
     display: flex;
     padding: 0 6px;
-    padding-right: 0;
+    padding-inline-end: 0;
     min-height: 38px;
     align-items: center;
     border-bottom: 1px solid rgba(var(--center-channel-color-rgb), 0.12);

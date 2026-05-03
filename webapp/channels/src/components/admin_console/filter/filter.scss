@@ -1,7 +1,7 @@
 .Filter {
     position: relative;
     display: inline-block;
-    padding-left: 8px;
+    padding-inline-start: 8px;
 
     .Filter_button {
         width: auto;
@@ -24,7 +24,7 @@
     }
 
     .Icon {
-        margin-right: 2px;
+        margin-inline-end: 2px;
         font-size: 14px;
     }
 
@@ -78,7 +78,7 @@
     }
 
     .Filter_apply {
-        float: right;
+        float: inset-inline-end;
     }
 
     .FilterList {

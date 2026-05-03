@@ -3,7 +3,7 @@
 exports[`components/admin_console/manage_tokens_modal/manage_tokens_modal.tsx initial call should match snapshot 1`] = `
 <body
   class="modal-open"
-  style="padding-right: 0px;"
+  style="padding-inline-end: 0px;"
 >
   <div
     aria-hidden="true"
@@ -18,7 +18,7 @@ exports[`components/admin_console/manage_tokens_modal/manage_tokens_modal.tsx in
       aria-labelledby="manageTokensModalLabel"
       class="fade in modal"
       role="dialog"
-      style="display: block; padding-right: 0px;"
+      style="display: block; padding-inline-end: 0px;"
       tabindex="-1"
     >
       <div
@@ -140,7 +140,7 @@ exports[`components/admin_console/manage_tokens_modal/manage_tokens_modal.tsx in
 exports[`components/admin_console/manage_tokens_modal/manage_tokens_modal.tsx should display list of tokens 1`] = `
 <body
   class="modal-open"
-  style="padding-right: 0px;"
+  style="padding-inline-end: 0px;"
 >
   <div
     aria-hidden="true"
@@ -155,7 +155,7 @@ exports[`components/admin_console/manage_tokens_modal/manage_tokens_modal.tsx sh
       aria-labelledby="manageTokensModalLabel"
       class="fade in modal"
       role="dialog"
-      style="display: block; padding-right: 0px;"
+      style="display: block; padding-inline-end: 0px;"
       tabindex="-1"
     >
       <div
@@ -316,7 +316,7 @@ exports[`components/admin_console/manage_tokens_modal/manage_tokens_modal.tsx sh
 exports[`components/admin_console/manage_tokens_modal/manage_tokens_modal.tsx should replace loading screen on update 1`] = `
 <body
   class="modal-open"
-  style="padding-right: 0px;"
+  style="padding-inline-end: 0px;"
 >
   <div
     aria-hidden="true"
@@ -331,7 +331,7 @@ exports[`components/admin_console/manage_tokens_modal/manage_tokens_modal.tsx sh
       aria-labelledby="manageTokensModalLabel"
       class="fade in modal"
       role="dialog"
-      style="display: block; padding-right: 0px;"
+      style="display: block; padding-inline-end: 0px;"
       tabindex="-1"
     >
       <div

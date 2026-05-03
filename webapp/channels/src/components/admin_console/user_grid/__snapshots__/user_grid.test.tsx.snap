@@ -135,7 +135,7 @@ exports[`components/admin_console/user_grid/UserGrid should match snapshot with 
         />
         <div
           class="DataGrid_cell"
-          style="text-align: right;"
+          style="text-align: end;"
         >
           <div
             class="UserGrid_removeRow"
@@ -191,7 +191,7 @@ exports[`components/admin_console/user_grid/UserGrid should match snapshot with 
         />
         <div
           class="DataGrid_cell"
-          style="text-align: right;"
+          style="text-align: end;"
         >
           <div
             class="UserGrid_removeRow"
@@ -387,7 +387,7 @@ exports[`components/admin_console/user_grid/UserGrid should match snapshot with 
         </div>
         <div
           class="DataGrid_cell"
-          style="text-align: right;"
+          style="text-align: end;"
         >
           <div
             class="UserGrid_removeRow"
@@ -443,7 +443,7 @@ exports[`components/admin_console/user_grid/UserGrid should match snapshot with 
         />
         <div
           class="DataGrid_cell"
-          style="text-align: right;"
+          style="text-align: end;"
         >
           <div
             class="UserGrid_removeRow"
@@ -499,7 +499,7 @@ exports[`components/admin_console/user_grid/UserGrid should match snapshot with 
         />
         <div
           class="DataGrid_cell"
-          style="text-align: right;"
+          style="text-align: end;"
         >
           <div
             class="UserGrid_removeRow"
@@ -685,7 +685,7 @@ exports[`components/admin_console/user_grid/UserGrid should match snapshot with 
         />
         <div
           class="DataGrid_cell"
-          style="text-align: right;"
+          style="text-align: end;"
         >
           <div
             class="UserGrid_removeRow"

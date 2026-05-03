@@ -64,7 +64,7 @@ const ChannelHeader = styled.div`
 const SmallCopyButton = styled(CopyButton)`
     i {
         font-size: 14px;
-        margin-left: 4px;
+        margin-inline-start: 4px;
         color: rgba(var(--center-channel-color-rgb), 0.64);
 
         &:hover {

@@ -1,9 +1,9 @@
 .LaunchingWorkspaceFullscreenWrapper-body {
     position: fixed;
     top: 0;
-    right: 0;
+    inset-inline-end: 0;
     bottom: 0;
-    left: 0;
+    inset-inline-start: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,7 +32,7 @@
         position: absolute;
         z-index: 1;
         top: 32px;
-        right: 32px;
+        inset-inline-end: 32px;
     }
 }
 

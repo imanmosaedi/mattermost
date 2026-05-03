@@ -599,7 +599,7 @@ function verifyMessageAttachmentList(postId, isRhs, text) {
         cy.findByPlaceholderText('Select an option...').scrollIntoView().
             and('have.css', 'height', '32px').
             and('have.css', 'width', '220px').
-            and('have.css', 'padding-right', '30px');
+            and('have.css', 'padding-inline-end', '30px');
 
         cy.findByPlaceholderText('Select an option...').scrollIntoView().invoke('attr', 'value').then((value) => {
             cy.wrap(value).as('optionValue');

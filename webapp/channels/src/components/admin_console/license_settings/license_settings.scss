@@ -19,7 +19,7 @@
 
     .right-panel {
         width: 332px;
-        margin-left: 20px;
+        margin-inline-start: 20px;
 
         .panel-card {
             padding: 28px 32px;
@@ -73,8 +73,8 @@
     line-height: 14px;
 
     i {
-        margin-right: 5px;
-        margin-left: -5px;
+        margin-inline-end: 5px;
+        margin-inline-start: -5px;
     }
 }
 

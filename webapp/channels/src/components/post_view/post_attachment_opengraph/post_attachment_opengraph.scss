@@ -52,7 +52,7 @@
         position: absolute;
         z-index: 10;
         top: -1px;
-        left: -28px;
+        inset-inline-start: -28px;
         display: none;
         padding: 5px;
         border-radius: 4px;
@@ -154,7 +154,7 @@
         .preview-toggle {
             position: absolute;
             top: -4px;
-            left: -4px;
+            inset-inline-start: -4px;
             display: flex;
             width: 24px;
             height: 24px;

@@ -82,7 +82,7 @@ label {
 
 ul,
 ol {
-    padding-left: 22px;
+    padding-inline-start: 22px;
     margin-top: 3px;
     margin-bottom: 0.11em;
 }
@@ -214,8 +214,67 @@ ol {
         url('../fonts/open-sans-v18-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* iran-sans-ultra-light - IRANSansWeb(FaNum)_UltraLight */
+@font-face {
+    font-family: 'Iran Sans';
+    font-style: normal;
+    font-weight: 100;
+    src:
+        local(''),
+        url('../fonts/IRANSansWeb(FaNum)_UltraLight.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/IRANSansWeb(FaNum)_UltraLight.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* iran-sans-light - IRANSansWeb(FaNum)_Light */
+@font-face {
+    font-family: 'Iran Sans';
+    font-style: normal;
+    font-weight: 200;
+    src:
+        local(''),
+        url('../fonts/IRANSansWeb(FaNum)_Light.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/IRANSansWeb(FaNum)_Light.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* iran-sans - IRANSansWeb(FaNum) */
+@font-face {
+    font-family: 'Iran Sans';
+    font-style: normal;
+    font-weight: 300;
+    src:
+        local(''),
+        url('../fonts/IRANSansWeb(FaNum).woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/IRANSansWeb(FaNum).woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* iran-sans-medium - IRANSansWeb(FaNum)_Medium */
+@font-face {
+    font-family: 'Iran Sans';
+    font-style: normal;
+    font-weight: 400;
+    src:
+        local(''),
+        url('../fonts/IRANSansWeb(FaNum)_Medium.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/IRANSansWeb(FaNum)_Medium.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* iran-sans-bold - IRANSansWeb(FaNum)_Bold */
+@font-face {
+    font-family: 'Iran Sans';
+    font-style: normal;
+    font-weight: 600;
+    src:
+        local(''),
+        url('../fonts/IRANSansWeb(FaNum)_Bold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/IRANSansWeb(FaNum)_Bold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 .app__body.font--open_sans {
     font-family: 'Open Sans', sans-serif;
+}
+
+.app__body.font--iran_sans {
+    font-family: 'Iran Sans', 'Tahoma', sans-serif;
 }
 
 .app__body {
@@ -227,7 +286,7 @@ ol {
 }
 
 .color--link--adminack {
-    padding-left: 20px;
+    padding-inline-start: 20px;
     color: variables.$white;
     cursor: pointer;
     text-decoration: underline;

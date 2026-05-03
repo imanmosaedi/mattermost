@@ -44,7 +44,7 @@
     }
 
     .react-select__multi-value__remove {
-        margin-right: 4px;
+        margin-inline-end: 4px;
     }
 
     .multi-select__wrapper {
@@ -107,7 +107,7 @@
             .add-group-members {
                 display: none;
                 min-width: 110px;
-                margin-left: auto;
+                margin-inline-start: auto;
                 color: var(--button-bg);
                 font-family: 'Open Sans';
                 font-size: 14px;
@@ -145,7 +145,7 @@
     }
 
     .more-modal__details {
-        padding-left: 12px;
+        padding-inline-start: 12px;
     }
 
     .add-others-link {
@@ -167,8 +167,8 @@
 
     .invite-as-guest {
         margin-top: 8px;
-        margin-right: 3.2rem;
-        margin-left: auto;
+        margin-inline-end: 3.2rem;
+        margin-inline-start: auto;
     }
 
     .custom-no-options-message {

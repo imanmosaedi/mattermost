@@ -144,7 +144,7 @@ exports[`components/emoji_picker/EmojiPicker should match snapshot 1`] = `
           <div
             class="emoji-picker__row"
             role="row"
-            style="position: absolute; left: 0px; top: 0px; height: 36px; width: 100%;"
+            style="position: absolute; inset-inline-start: 0px; top: 0px; height: 36px; width: 100%;"
           >
             <div
               class="emoji-picker__category-header"
@@ -156,7 +156,7 @@ exports[`components/emoji_picker/EmojiPicker should match snapshot 1`] = `
           <div
             class="emoji-picker__row"
             role="row"
-            style="position: absolute; left: 0px; top: 36px; height: 36px; width: 100%;"
+            style="position: absolute; inset-inline-start: 0px; top: 36px; height: 36px; width: 100%;"
           >
             <button
               aria-label="grinning emoji"
@@ -306,7 +306,7 @@ exports[`components/emoji_picker/EmojiPicker should match snapshot 1`] = `
           <div
             class="emoji-picker__row"
             role="row"
-            style="position: absolute; left: 0px; top: 72px; height: 36px; width: 100%;"
+            style="position: absolute; inset-inline-start: 0px; top: 72px; height: 36px; width: 100%;"
           >
             <button
               aria-label="upside down face emoji"
@@ -456,7 +456,7 @@ exports[`components/emoji_picker/EmojiPicker should match snapshot 1`] = `
           <div
             class="emoji-picker__row"
             role="row"
-            style="position: absolute; left: 0px; top: 108px; height: 36px; width: 100%;"
+            style="position: absolute; inset-inline-start: 0px; top: 108px; height: 36px; width: 100%;"
           >
             <button
               aria-label="relaxed emoji"

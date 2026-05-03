@@ -1,16 +1,16 @@
 .picture-setting-item {
     flex: 1;
-    margin-left: 40px;
+    margin-inline-start: 40px;
 
     &__remove-button {
         display: flex;
         align-items: center;
         margin-top: 18px;
         color: var(--dnd-indicator);
-        text-align: left;
+        text-align: start;
 
         svg {
-            margin-right: 6px;
+            margin-inline-end: 6px;
         }
     }
 
@@ -41,7 +41,7 @@
 
         .icon-pencil-outline {
             position: absolute;
-            right: -6px;
+            inset-inline-end: -6px;
             bottom: -6px;
             padding: 4px;
             border: 1px solid rgba(var(--center-channel-color-rgb), 0.16);

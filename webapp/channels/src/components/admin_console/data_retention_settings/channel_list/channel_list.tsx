@@ -152,7 +152,7 @@ export default class ChannelList extends React.PureComponent<Props, State> {
             {
                 name: '',
                 field: 'remove',
-                textAlign: 'right',
+                textAlign: 'end',
                 fixed: true,
             },
         ];

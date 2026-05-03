@@ -13,7 +13,7 @@ export const Label = styled.label<{isDisabled: boolean}>`
     display: inline-flex;
     opacity: ${({isDisabled}) => (isDisabled ? 0.5 : 1)};
     margin-top: 8px;
-    margin-right: 24px;
+    margin-inline-end: 24px;
     width: fit-content;
     flex-direction: row;
     align-items: center;

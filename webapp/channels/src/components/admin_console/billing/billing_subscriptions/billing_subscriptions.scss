@@ -27,7 +27,7 @@
     }
 
     &.BillingSubscriptions__tooltip-right .tooltip-inner {
-        right: 90%;
+        inset-inline-end: 90%;
     }
 
     .tooltip-inner {
@@ -41,7 +41,7 @@
         box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
         color: var(--sys-center-channel-color);
         opacity: 1;
-        text-align: left;
+        text-align: start;
     }
 
     .tooltip-arrow {
@@ -52,7 +52,7 @@
         &::before {
             position: relative;
             top: -10px;
-            left: -11px;
+            inset-inline-start: -11px;
             display: block;
             width: 0;
             height: 0;
@@ -78,7 +78,7 @@
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
-    text-align: left;
+    text-align: start;
 }
 
 .UpgradeMattermostCloud__description {
@@ -86,7 +86,7 @@
     color: var(--sys-center-channel-color);
     font-size: 14px;
     line-height: 20px;
-    text-align: left;
+    text-align: start;
 }
 
 .UpgradeMattermostCloud__upgradeButton {
@@ -122,7 +122,7 @@
 
 .PrivateCloudCard__image {
     flex: 0 0 173px;
-    margin-left: 85px;
+    margin-inline-start: 85px;
 }
 
 .PrivateCloudCard__actionButton {

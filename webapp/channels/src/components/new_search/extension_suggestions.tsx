@@ -27,7 +27,7 @@ const SearchFileExtensionSuggestionContainer = styled.div`
         width: 24px;
         height: 24px;
         font-size: 18px;
-        margin-right: 12px;
+        margin-inline-end: 12px;
         display: flex;
         align-items: center;
         &.icon-file-excel-outline {
@@ -49,7 +49,7 @@ const SearchFileExtensionSuggestionContainer = styled.div`
 `;
 
 const ExtensionText = styled.span`
-    margin-left: 4px;
+    margin-inline-start: 4px;
 `;
 
 const messages: Record<string, MessageDescriptor> =

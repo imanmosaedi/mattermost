@@ -1,6 +1,6 @@
-<mj-section padding="0 60px" border-left="1px solid #E5E5E5" border-right="1px solid #E5E5E5">
+<mj-section padding="0 60px" border-inline-start="1px solid #E5E5E5" border-inline-end="1px solid #E5E5E5">
   <mj-column>
-    <mj-text padding-left="25px" align="left" css-class="title" font-family="Open Sans, sans-serif" padding="10px 0px">
+    <mj-text padding-inline-start="25px" align="left" css-class="title" font-family="Open Sans, sans-serif" padding="10px 0px">
       {{.Props.Title}}
     </mj-text>
     <mj-text align="left" padding-bottom="16px" font-weight=400 color="#3F4350" font-size="16px" line-height="24px" font-family="Open Sans, sans-serif">

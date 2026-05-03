@@ -366,8 +366,8 @@ export function applyTheme(theme: Theme) {
         changeCss('.app__body .file-preview, .app__body .post-image__details, .app__body .markdown__table th, .app__body .markdown__table td, .app__body .webhooks__container, .app__body .dropdown-menu', 'border-color:' + changeOpacity(theme.centerChannelColor, 0.2));
         changeCss('.app__body .popover.bottom>.arrow', 'border-bottom-color:' + changeOpacity(theme.centerChannelColor, 0.25));
         changeCss('.app__body .btn.btn-transparent', 'color:' + changeOpacity(theme.centerChannelColor, 0.7));
-        changeCss('.app__body .popover.right>.arrow', 'border-right-color:' + changeOpacity(theme.centerChannelColor, 0.25));
-        changeCss('.app__body .popover.left>.arrow', 'border-left-color:' + changeOpacity(theme.centerChannelColor, 0.25));
+        changeCss('.app__body .popover.right>.arrow', 'border-inline-end-color:' + changeOpacity(theme.centerChannelColor, 0.25));
+        changeCss('.app__body .popover.left>.arrow', 'border-inline-start-color:' + changeOpacity(theme.centerChannelColor, 0.25));
         changeCss('.app__body .popover.top>.arrow', 'border-top-color:' + changeOpacity(theme.centerChannelColor, 0.25));
         changeCss('.app__body .popover .popover__row', 'border-color:' + changeOpacity(theme.centerChannelColor, 0.2));
         changeCss('body.app__body, .app__body .custom-textarea', 'color:' + theme.centerChannelColor);
@@ -421,7 +421,7 @@ export function applyTheme(theme: Theme) {
         changeCss('.app__body .more-modal__list .a11y--focused, .app__body .post.a11y--focused, .app__body .channel-header.a11y--focused, .app__body .post-create.a11y--focused, .app__body .user-popover.a11y--focused, .app__body .post-message__text.a11y--focused', 'box-shadow: inset 0 0 1px 3px ' + changeOpacity(theme.linkColor, 0.5) + ', inset 0 0 0 1px ' + theme.linkColor);
         changeCss('.app__body .a11y--focused', 'box-shadow: 0 0 1px 3px ' + changeOpacity(theme.linkColor, 0.5) + ', 0 0 0 1px ' + theme.linkColor);
         changeCss('.app__body .channel-header .channel-header__favorites.inactive:hover, .app__body a, .app__body a:focus, .app__body a:hover, .app__body .color--link, .app__body a:focus, .app__body .color--link:hover', 'color:' + theme.linkColor);
-        changeCss('.app__body .attachment .attachment__container', 'border-left-color:' + changeOpacity(theme.linkColor, 0.5));
+        changeCss('.app__body .attachment .attachment__container', 'border-inline-start-color:' + changeOpacity(theme.linkColor, 0.5));
         changeCss('.app__body .channel-header .channel-header_plugin-dropdown a:hover', 'background:' + changeOpacity(theme.linkColor, 0.08));
         changeCss('.app__body .post .post__reply', 'fill:' + theme.linkColor);
         changeCss('.app__body .post .card-icon__container.active svg, .app__body .post .post__reply', 'fill:' + theme.linkColor);
@@ -797,7 +797,7 @@ export function getSuggestionBoxAlgn(textArea: HTMLTextAreaElement, pxToSubstrac
     // how many pixels to the right should be moved the suggestion box
     let pxToTheRight = (caretXCoordinateInTxtArea) - (pxToSubstract);
 
-    // the x coordinate in the viewport of the suggestion box border-right
+    // the x coordinate in the viewport of the suggestion box border-inline-end
     const xBoxRightCoordinate = caretXCoordinateInTxtArea + txtAreaOffsetLft + suggestionBoxWidth;
 
     if (alignWithTextBox) {
@@ -825,7 +825,7 @@ export function getSuggestionBoxAlgn(textArea: HTMLTextAreaElement, pxToSubstrac
 export function getPxToSubstract(char = '@') {
     // depending on the triggering character different values must be substracted
     if (char === '@') {
-    // mention name padding-left 2.4rem as stated in suggestion-list__content .suggestion-list__item
+    // mention name padding-inline-start 2.4rem as stated in suggestion-list__content .suggestion-list__item
         const mentionNamePaddingLft = convertEmToPixels(document.documentElement, Constants.MENTION_NAME_PADDING_LEFT);
 
         // half of width of avatar stated in .Avatar.Avatar-sm (24px)

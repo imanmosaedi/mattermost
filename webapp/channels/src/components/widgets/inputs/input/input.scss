@@ -23,7 +23,7 @@
 
     .Input {
         position: relative;
-        left: 0;
+        inset-inline-start: 0;
         width: 100%;
         padding: 0;
         border: 0;
@@ -60,7 +60,7 @@
         line-height: 20px;
 
         > :not(:first-child) {
-            margin-left: 8px;
+            margin-inline-start: 8px;
         }
 
         textarea {
@@ -80,7 +80,7 @@
 
     .Input_limit-exceeded {
         align-self: center;
-        margin-left: 16px;
+        margin-inline-start: 16px;
         color: var(--error-text);
         font-size: 14px;
         line-height: 20px;
@@ -96,12 +96,12 @@
         margin-top: 5px;
         font-size: 12px;
         line-height: 16px;
-        text-align: left;
+        text-align: start;
 
         i {
             height: 14px;
             align-self: baseline;
-            margin-right: 7px;
+            margin-inline-end: 7px;
             font-size: 14px;
 
             &::before {
@@ -132,7 +132,7 @@
         color: rgba(var(--center-channel-color-rgb), 0.75);
 
         > span.valid {
-            margin-left: 7px;
+            margin-inline-start: 7px;
         }
     }
 
@@ -192,7 +192,7 @@
         width: auto;
         padding: 0 4px;
         border: none;
-        margin-left: 12px;
+        margin-inline-start: 12px;
         background-color: var(--center-channel-bg);
         color: rgba(var(--center-channel-color-rgb), 0.75);
         font-size: 10px;

@@ -3,7 +3,7 @@
 exports[`components/admin_console/add_users_to_team_modal/AddUsersToTeamModal should match snapshot with 2 users 1`] = `
 <body
   class="modal-open"
-  style="padding-right: 0px;"
+  style="padding-inline-end: 0px;"
 >
   <div
     aria-hidden="true"
@@ -18,7 +18,7 @@ exports[`components/admin_console/add_users_to_team_modal/AddUsersToTeamModal sh
       class="fade in modal"
       id="addUsersToTeamModal"
       role="dialog"
-      style="display: block; padding-right: 0px;"
+      style="display: block; padding-inline-end: 0px;"
       tabindex="-1"
     >
       <div

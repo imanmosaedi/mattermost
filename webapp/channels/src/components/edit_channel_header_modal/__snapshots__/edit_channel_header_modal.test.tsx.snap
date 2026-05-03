@@ -3,7 +3,7 @@
 exports[`components/EditChannelHeaderModal edit direct message channel 1`] = `
 <body
   class="modal-open"
-  style="padding-right: 0px;"
+  style="padding-inline-end: 0px;"
 >
   <div
     aria-hidden="true"
@@ -18,7 +18,7 @@ exports[`components/EditChannelHeaderModal edit direct message channel 1`] = `
       aria-labelledby="editChannelHeaderModalLabel"
       class="fade in modal"
       role="dialog"
-      style="display: block; padding-right: 0px;"
+      style="display: block; padding-inline-end: 0px;"
       tabindex="-1"
     >
       <div
@@ -199,7 +199,7 @@ exports[`components/EditChannelHeaderModal edit direct message channel 1`] = `
 exports[`components/EditChannelHeaderModal error with intl message 1`] = `
 <body
   class="modal-open"
-  style="padding-right: 0px;"
+  style="padding-inline-end: 0px;"
 >
   <div
     aria-hidden="true"
@@ -214,7 +214,7 @@ exports[`components/EditChannelHeaderModal error with intl message 1`] = `
       aria-labelledby="editChannelHeaderModalLabel"
       class="fade in modal"
       role="dialog"
-      style="display: block; padding-right: 0px;"
+      style="display: block; padding-inline-end: 0px;"
       tabindex="-1"
     >
       <div
@@ -405,7 +405,7 @@ exports[`components/EditChannelHeaderModal error with intl message 1`] = `
 exports[`components/EditChannelHeaderModal error without intl message 1`] = `
 <body
   class="modal-open"
-  style="padding-right: 0px;"
+  style="padding-inline-end: 0px;"
 >
   <div
     aria-hidden="true"
@@ -420,7 +420,7 @@ exports[`components/EditChannelHeaderModal error without intl message 1`] = `
       aria-labelledby="editChannelHeaderModalLabel"
       class="fade in modal"
       role="dialog"
-      style="display: block; padding-right: 0px;"
+      style="display: block; padding-inline-end: 0px;"
       tabindex="-1"
     >
       <div
@@ -611,7 +611,7 @@ exports[`components/EditChannelHeaderModal error without intl message 1`] = `
 exports[`components/EditChannelHeaderModal should match snapshot, init 1`] = `
 <body
   class="modal-open"
-  style="padding-right: 0px;"
+  style="padding-inline-end: 0px;"
 >
   <div
     aria-hidden="true"
@@ -626,7 +626,7 @@ exports[`components/EditChannelHeaderModal should match snapshot, init 1`] = `
       aria-labelledby="editChannelHeaderModalLabel"
       class="fade in modal"
       role="dialog"
-      style="display: block; padding-right: 0px;"
+      style="display: block; padding-inline-end: 0px;"
       tabindex="-1"
     >
       <div
@@ -807,7 +807,7 @@ exports[`components/EditChannelHeaderModal should match snapshot, init 1`] = `
 exports[`components/EditChannelHeaderModal submitted 1`] = `
 <body
   class="modal-open"
-  style="padding-right: 0px;"
+  style="padding-inline-end: 0px;"
 >
   <div
     aria-hidden="true"
@@ -822,7 +822,7 @@ exports[`components/EditChannelHeaderModal submitted 1`] = `
       aria-labelledby="editChannelHeaderModalLabel"
       class="fade in modal"
       role="dialog"
-      style="display: block; padding-right: 0px;"
+      style="display: block; padding-inline-end: 0px;"
       tabindex="-1"
     >
       <div

@@ -183,7 +183,7 @@ export default class TeamList extends React.PureComponent<Props, State> {
             {
                 name: '',
                 field: 'edit',
-                textAlign: 'right',
+                textAlign: 'end',
                 fixed: true,
             },
         ];

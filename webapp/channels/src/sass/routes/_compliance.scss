@@ -17,10 +17,10 @@
 .audit-panel {
     .row {
         > .form-group {
-            padding-left: 0;
+            padding-inline-start: 0;
 
             &:first-child {
-                padding-left: 15px;
+                padding-inline-start: 15px;
             }
         }
 
@@ -30,7 +30,7 @@
     }
 
     .fa-refresh {
-        margin-right: 5px;
+        margin-inline-end: 5px;
     }
 }
 

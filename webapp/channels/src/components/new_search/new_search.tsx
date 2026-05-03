@@ -60,7 +60,7 @@ const SearchTypeBadge = styled.div`
 const CloseIcon = styled.div`
     position: absolute;
     top: 0;
-    right: 2px;
+    inset-inline-end: 2px;
     display: flex;
     width: 2.4rem;
     height: 100%;
@@ -97,7 +97,7 @@ const NewSearchTerms = styled.span`
     overflow: hidden;
     text-overflow: ellipsis;
     min-width: 0;
-    margin-right: 32px;
+    margin-inline-end: 32px;
     white-space: nowrap;
 `;
 

@@ -15,7 +15,7 @@
         justify-content: center;
         border: unset;
         border-radius: 4px;
-        margin-left: 12px;
+        margin-inline-start: 12px;
         background: transparent;
         font-weight: 600;
 
@@ -33,12 +33,12 @@
     }
 
     &__prev {
-        margin-right: 12px;
-        margin-left: unset;
+        margin-inline-end: 12px;
+        margin-inline-start: unset;
     }
 
     @media screen and (max-width: 768px) {
         width: 100%;
-        margin-left: -24px;
+        margin-inline-start: -24px;
     }
 }

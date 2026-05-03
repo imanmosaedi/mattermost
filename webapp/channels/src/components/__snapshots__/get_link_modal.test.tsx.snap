@@ -3,7 +3,7 @@
 exports[`components/GetLinkModal should have called onHide when close button is clicked 1`] = `
 <body
   class="modal-open"
-  style="padding-right: 0px;"
+  style="padding-inline-end: 0px;"
 >
   <div
     aria-hidden="true"
@@ -18,7 +18,7 @@ exports[`components/GetLinkModal should have called onHide when close button is 
       aria-labelledby="getLinkModalLabel"
       class="fade in modal"
       role="dialog"
-      style="display: block; padding-right: 0px;"
+      style="display: block; padding-inline-end: 0px;"
       tabindex="-1"
     >
       <div
@@ -98,7 +98,7 @@ exports[`components/GetLinkModal should have called onHide when close button is 
 exports[`components/GetLinkModal should have called onHide when close button is clicked 2`] = `
 <body
   class="modal-open"
-  style="padding-right: 0px;"
+  style="padding-inline-end: 0px;"
 >
   <div
     aria-hidden="true"
@@ -113,7 +113,7 @@ exports[`components/GetLinkModal should have called onHide when close button is 
       aria-labelledby="getLinkModalLabel"
       class="fade in modal"
       role="dialog"
-      style="display: block; padding-right: 0px;"
+      style="display: block; padding-inline-end: 0px;"
       tabindex="-1"
     >
       <div
@@ -193,7 +193,7 @@ exports[`components/GetLinkModal should have called onHide when close button is 
 exports[`components/GetLinkModal should match snapshot when all props is set 1`] = `
 <body
   class="modal-open"
-  style="padding-right: 0px;"
+  style="padding-inline-end: 0px;"
 >
   <div
     aria-hidden="true"
@@ -208,7 +208,7 @@ exports[`components/GetLinkModal should match snapshot when all props is set 1`]
       aria-labelledby="getLinkModalLabel"
       class="fade in modal"
       role="dialog"
-      style="display: block; padding-right: 0px;"
+      style="display: block; padding-inline-end: 0px;"
       tabindex="-1"
     >
       <div
@@ -293,7 +293,7 @@ exports[`components/GetLinkModal should match snapshot when all props is set 1`]
 exports[`components/GetLinkModal should match snapshot when helpText is not set 1`] = `
 <body
   class="modal-open"
-  style="padding-right: 0px;"
+  style="padding-inline-end: 0px;"
 >
   <div
     aria-hidden="true"
@@ -308,7 +308,7 @@ exports[`components/GetLinkModal should match snapshot when helpText is not set 
       aria-labelledby="getLinkModalLabel"
       class="fade in modal"
       role="dialog"
-      style="display: block; padding-right: 0px;"
+      style="display: block; padding-inline-end: 0px;"
       tabindex="-1"
     >
       <div

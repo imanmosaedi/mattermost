@@ -10,7 +10,7 @@
     flex-shrink: 0;
     flex-wrap: nowrap;
     align-items: center;
-    padding-left: 8px;
+    padding-inline-start: 8px;
     margin: 0;
     overflow-x: auto;
     overflow-y: hidden;
@@ -31,7 +31,7 @@
     flex-shrink: 0;
     flex-wrap: nowrap;
     border: 1px solid variables.$light-gray;
-    margin-right: 10px;
+    margin-inline-end: 10px;
 
     .spinner {
         position: absolute;
@@ -40,7 +40,7 @@
         width: 32px;
         height: 32px;
         margin-top: -16px;
-        margin-left: -16px;
+        margin-inline-start: -16px;
     }
 
     &.compact {
@@ -57,7 +57,7 @@
         }
 
         top: 4px;
-        right: 4px;
+        inset-inline-end: 4px;
         display: flex;
         width: 2.8rem;
         height: 2.8rem;
@@ -88,7 +88,7 @@
 .image-comment {
     width: 300px;
     height: 300px;
-    background-position: left top;
+    background-position: inset-inline-start top;
     background-repeat: no-repeat;
 }
 
@@ -149,13 +149,13 @@
 .pdf-max-pages {
     position: relative;
     bottom: 8px;
-    left: 0;
+    inset-inline-start: 0;
     display: block;
     width: 100%;
 }
 
 .pdf-download-btn-spacer {
-    margin-right: 4px;
+    margin-inline-end: 4px;
 }
 
 .file-view--single {
@@ -202,9 +202,9 @@
             position: absolute;
             z-index: 1;
             top: 0;
-            right: 0;
+            inset-inline-end: 0;
             bottom: 0;
-            left: 0;
+            inset-inline-start: 0;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -302,7 +302,7 @@
             >.file-preview__button {
                 min-width: 40px;
                 min-height: 40px;
-                text-align: left;
+                text-align: start;
             }
         }
 
@@ -403,7 +403,7 @@
         cursor: auto;
 
         .post-image__details {
-            padding-right: 3.2rem;
+            padding-inline-end: 3.2rem;
 
             .post-image__name {
                 white-space: normal;
@@ -445,7 +445,7 @@
             top: 50%;
             left: 50%;
             margin-top: -16px;
-            margin-left: -16px;
+            margin-inline-start: -16px;
         }
     }
 
@@ -501,11 +501,11 @@
     flex: 1;
     flex-direction: row;
     align-items: center;
-    padding-right: 12px;
+    padding-inline-end: 12px;
     background: transparent;
     color: functions.v(center-channel-color);
     font-size: 12px;
-    text-align: left;
+    text-align: start;
 
     &.compact {
         .post-image__name {
@@ -531,7 +531,7 @@
     }
 
     .post-image__archived-label {
-        padding-left: 7px;
+        padding-inline-start: 7px;
         color: rgba(var(--center-channel-color-rgb), 0.75);
         font-size: 10px;
         font-weight: normal;
@@ -545,7 +545,7 @@
         padding: 0;
 
         .post--compact & {
-            padding-left: 8px;
+            padding-inline-start: 8px;
         }
 
         .post-image__detail {
@@ -590,7 +590,7 @@
                 overflow: hidden;
                 max-width: 134px;
                 color: rgba(var(--center-channel-color-rgb), 0.75);
-                float: left;
+                float: inset-inline-start;
                 text-overflow: ellipsis;
                 white-space: nowrap;
             }
@@ -599,7 +599,7 @@
                 display: inline-block;
                 overflow: hidden;
                 max-width: 134px;
-                float: left;
+                float: inset-inline-start;
                 opacity: 0.73;
                 text-overflow: ellipsis;
                 white-space: nowrap;
@@ -607,7 +607,7 @@
 
             .post-image__size {
                 overflow: hidden;
-                margin-left: 4px;
+                margin-inline-start: 4px;
                 opacity: 0.73;
                 text-overflow: ellipsis;
             }
@@ -619,7 +619,7 @@
         height: 100%;
         align-items: center;
         justify-content: center;
-        margin-left: 2px;
+        margin-inline-start: 2px;
         background: transparent;
         line-height: 0;
         opacity: 1;
@@ -676,7 +676,7 @@
         width: 320px;
         height: 270px;
         padding: 14px;
-        text-align: left;
+        text-align: start;
         vertical-align: top;
 
         .file-details__name {
@@ -694,7 +694,7 @@
     .file-details__preview {
         width: 320px;
         height: 270px;
-        border-right: 1px solid variables.$light-gray;
+        border-inline-end: 1px solid variables.$light-gray;
         vertical-align: center;
 
         img {
@@ -719,7 +719,7 @@
 .file-playback__controls {
     position: absolute;
     z-index: 2;
-    right: 5px;
+    inset-inline-end: 5px;
     bottom: 0;
     cursor: pointer;
     font-size: 22px;

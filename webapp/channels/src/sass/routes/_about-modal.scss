@@ -31,7 +31,7 @@
 
             &::after {
                 top: 9px;
-                right: 12px;
+                inset-inline-end: 12px;
                 font-size: 20px;
             }
         }
@@ -86,12 +86,12 @@
             overflow: hidden;
             font-size: 0.75em;
             opacity: 0.4;
-            text-align: right;
+            text-align: end;
 
             p {
                 &:first-child {
-                    float: left;
-                    text-align: left;
+                    float: inset-inline-start;
+                    text-align: start;
                 }
             }
         }
@@ -99,11 +99,11 @@
         .about-modal__notice {
             font-size: 0.79em;
             opacity: 0.8;
-            text-align: right;
+            text-align: end;
 
             p {
                 &:first-child {
-                    text-align: left;
+                    text-align: start;
                 }
             }
         }
@@ -128,13 +128,13 @@
             padding: 0 6px;
             border: none;
             border-radius: 4px;
-            margin-left: -6px;
-            text-align: left;
+            margin-inline-start: -6px;
+            text-align: start;
             
             > span.about-modal__version-info-copy-button {
                 display: none;
                 margin-top: 6px;
-                margin-left: auto;
+                margin-inline-start: auto;
             }
 
             &:hover {

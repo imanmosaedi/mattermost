@@ -61,7 +61,7 @@ const SearchBoxContainer = styled.div`
 const CloseIcon = styled.button`
     position: absolute;
     top: 18px;
-    right: 18px;
+    inset-inline-end: 18px;
     z-index: 1;
 `;
 

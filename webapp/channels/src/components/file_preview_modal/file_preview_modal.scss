@@ -1,5 +1,5 @@
 .file-preview-modal {
-    padding-left: 0 !important;
+    padding-inline-start: 0 !important;
 
     &__body {
         height: 100vh;
@@ -42,7 +42,7 @@
         height: calc(100vh - 72px);
         padding: 48px 5px 72px 0;
         margin: 0 auto;
-        margin-right: 5px;
+        margin-inline-end: 5px;
         scrollbar-color: rgba(255, 255, 255, 0.24) transparent;
         scrollbar-width: auto;
 

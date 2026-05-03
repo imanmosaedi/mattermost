@@ -17,8 +17,8 @@ const Overlay = styled.div`
     justify-content: center;
     height: 100%;
     min-height: 100%;
-    left: 0;
-    right: 0;
+    inset-inline-start: 0;
+    inset-inline-end: 0;
     top: 0;
     position: fixed;
     overflow: auto;

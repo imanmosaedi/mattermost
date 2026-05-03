@@ -23,11 +23,11 @@ const SearchInputContainer = styled.div`
         align-items: center;
         &.icon-close {
             postion: absolute;
-            right: 10px;
+            inset-inline-end: 10px;
         }
         &.icon-magnify {
             position: absolute;
-            left: 20px;
+            inset-inline-start: 20px;
             top: 21px;
             font-size: 24px;
         }
@@ -58,7 +58,7 @@ const SearchInputContainer = styled.div`
 const ClearButton = styled.button`
     display: flex;
     position: absolute;
-    right: 12px;
+    inset-inline-end: 12px;
     background: none;
     color: rgba(var(--center-channel-color-rgb), 0.75);
     &:hover{

@@ -365,18 +365,18 @@ const UserButton = styled.button`
 const Gap = styled.span`
     width: 24px;
     flex: 0 0 auto;
-    margin-left: 4px;
+    margin-inline-start: 4px;
 `;
 
 const Username = styled.span`
-    padding-left: 12px;
+    padding-inline-start: 12px;
     flex: 1 1 auto;
 `;
 
 const DMContainer = styled.div`
     height: 100%;
     position: absolute;
-    right: 20px;
+    inset-inline-end: 20px;
     top: 0;
     display: flex;
     align-items: center;

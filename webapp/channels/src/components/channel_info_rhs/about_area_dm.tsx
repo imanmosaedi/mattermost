@@ -40,7 +40,7 @@ const UserInfoContainer = styled.div`
 const UserAvatar = styled.div`
     .status {
         bottom: 0;
-        right: 0;
+        inset-inline-end: 0;
         height: 18px;
         width: 18px;
         & svg {
@@ -50,7 +50,7 @@ const UserAvatar = styled.div`
 `;
 
 const UserInfo = styled.div`
-    margin-left: 12px;
+    margin-inline-start: 12px;
     display: flex;
     flex-direction: column;
 `;

@@ -112,7 +112,7 @@ exports[`components/LatexInline should match snapshot 1`] = `
                     style="height:0.8247em;"
                   >
                     <span
-                      style="top:-3.063em;margin-right:0.05em;"
+                      style="top:-3.063em;margin-inline-end:0.05em;"
                     >
                       <span
                         class="pstrut"
@@ -126,7 +126,7 @@ exports[`components/LatexInline should match snapshot 1`] = `
                         >
                           <span
                             class="mord mathnormal mtight"
-                            style="margin-right:0.03588em;"
+                            style="margin-inline-end:0.03588em;"
                           >
                             iπ
                           </span>
@@ -140,7 +140,7 @@ exports[`components/LatexInline should match snapshot 1`] = `
           </span>
           <span
             class="mspace"
-            style="margin-right:0.2222em;"
+            style="margin-inline-end:0.2222em;"
           />
           <span
             class="mbin"
@@ -149,7 +149,7 @@ exports[`components/LatexInline should match snapshot 1`] = `
           </span>
           <span
             class="mspace"
-            style="margin-right:0.2222em;"
+            style="margin-inline-end:0.2222em;"
           />
         </span>
         <span
@@ -166,7 +166,7 @@ exports[`components/LatexInline should match snapshot 1`] = `
           </span>
           <span
             class="mspace"
-            style="margin-right:0.2778em;"
+            style="margin-inline-end:0.2778em;"
           />
           <span
             class="mrel"
@@ -175,7 +175,7 @@ exports[`components/LatexInline should match snapshot 1`] = `
           </span>
           <span
             class="mspace"
-            style="margin-right:0.2778em;"
+            style="margin-inline-end:0.2778em;"
           />
         </span>
         <span

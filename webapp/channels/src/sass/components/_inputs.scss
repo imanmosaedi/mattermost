@@ -8,7 +8,7 @@
 
     ul,
     ol {
-        padding-left: 23px;
+        padding-inline-start: 23px;
     }
 
     a {
@@ -16,7 +16,7 @@
     }
 
     .help-link {
-        margin-right: 5px;
+        margin-inline-end: 5px;
     }
 
     .btn {
@@ -32,7 +32,7 @@
 
 .form-control {
     border-radius: var(--radius-xs);
-    text-align: left;
+    text-align: start;
 
     &:focus {
         box-shadow: none;
@@ -153,7 +153,7 @@ input::-webkit-file-upload-button {
     &__label {
         position: absolute;
         top: -8px;
-        left: 12px;
+        inset-inline-start: 12px;
         padding: 0 4px;
         background: var(--center-channel-bg);
         color: var(--center-channel-color-75);
@@ -162,7 +162,7 @@ input::-webkit-file-upload-button {
 
     &__icon {
         flex-shrink: 0;
-        margin-right: 8px;
+        margin-inline-end: 8px;
         color: var(--center-channel-color-64);
         
         i {

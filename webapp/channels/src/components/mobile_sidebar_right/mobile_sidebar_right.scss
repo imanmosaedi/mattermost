@@ -3,12 +3,12 @@
 
 .sidebar--menu {
     position: absolute;
-    right: 0;
+    inset-inline-end: 0;
     overflow: auto;
     width: 290px;
     height: 100%;
     padding: 0 0 2em;
-    border-right: variables.$border-gray;
+    border-inline-end: variables.$border-gray;
     background: var(--sidebar-bg);
     color: rgba(var(--sidebar-text-rgb), 0.8);
     -webkit-overflow-scrolling: touch;
@@ -29,13 +29,13 @@
     }
 
     .Menu .MenuItem.MenuItem--with-icon .MenuItem__help-text {
-        padding-left: 0;
+        padding-inline-start: 0;
     }
 
     .icon {
         display: inline-block;
         width: 20px;
-        margin-right: 8px;
+        margin-inline-end: 8px;
         text-align: center;
 
         svg {
@@ -69,7 +69,7 @@
 
                 .icon {
                     position: relative;
-                    left: -5px;
+                    inset-inline-start: -5px;
                     display: inline-block;
                     width: 25px;
                     text-align: center;

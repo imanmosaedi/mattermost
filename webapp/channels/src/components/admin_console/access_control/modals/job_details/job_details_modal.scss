@@ -35,14 +35,14 @@
 
         .input-clear {
             top: 16px;
-            right: 14px;
+            inset-inline-end: 14px;
         }
 
         #searchIcon {
             position: absolute;
             z-index: 2;
             top: 16px;
-            left: 42px;
+            inset-inline-start: 42px;
             color: rgba(var(--center-channel-color-rgb), 0.64);
             pointer-events: none;
         }
@@ -87,7 +87,7 @@
     }
 
     .more-modal__list .more-modal__details{
-        padding-left: 0;
+        padding-inline-start: 0;
     }
 
     .error-status-content {

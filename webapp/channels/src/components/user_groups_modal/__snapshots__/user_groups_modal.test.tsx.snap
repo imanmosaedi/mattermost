@@ -3,7 +3,7 @@
 exports[`component/user_groups_modal should match snapshot with groups 1`] = `
 <body
   class="modal-open"
-  style="padding-right: 0px;"
+  style="padding-inline-end: 0px;"
 >
   <div
     aria-hidden="true"
@@ -21,7 +21,7 @@ exports[`component/user_groups_modal should match snapshot with groups 1`] = `
       class="fade in modal"
       id="userGroupsModal"
       role="dialog"
-      style="display: block; padding-right: 0px;"
+      style="display: block; padding-inline-end: 0px;"
       tabindex="-1"
     >
       <div
@@ -151,7 +151,7 @@ exports[`component/user_groups_modal should match snapshot with groups 1`] = `
                       <button
                         aria-label="Group 0 group"
                         class="group-row"
-                        style="position: absolute; left: 0px; top: 0px; height: 52px; width: 100%;"
+                        style="position: absolute; inset-inline-start: 0px; top: 0px; height: 52px; width: 100%;"
                       >
                         <span
                           class="group-display-name"
@@ -189,7 +189,7 @@ exports[`component/user_groups_modal should match snapshot with groups 1`] = `
                       <button
                         aria-label="Group 1 group"
                         class="group-row"
-                        style="position: absolute; left: 0px; top: 52px; height: 52px; width: 100%;"
+                        style="position: absolute; inset-inline-start: 0px; top: 52px; height: 52px; width: 100%;"
                       >
                         <span
                           class="group-display-name"
@@ -227,7 +227,7 @@ exports[`component/user_groups_modal should match snapshot with groups 1`] = `
                       <button
                         aria-label="Group 2 group"
                         class="group-row"
-                        style="position: absolute; left: 0px; top: 104px; height: 52px; width: 100%;"
+                        style="position: absolute; inset-inline-start: 0px; top: 104px; height: 52px; width: 100%;"
                       >
                         <span
                           class="group-display-name"
@@ -278,7 +278,7 @@ exports[`component/user_groups_modal should match snapshot with groups 1`] = `
 exports[`component/user_groups_modal should match snapshot without groups 1`] = `
 <body
   class="modal-open"
-  style="padding-right: 0px;"
+  style="padding-inline-end: 0px;"
 >
   <div
     aria-hidden="true"
@@ -296,7 +296,7 @@ exports[`component/user_groups_modal should match snapshot without groups 1`] = 
       class="fade in modal"
       id="userGroupsModal"
       role="dialog"
-      style="display: block; padding-right: 0px;"
+      style="display: block; padding-inline-end: 0px;"
       tabindex="-1"
     >
       <div

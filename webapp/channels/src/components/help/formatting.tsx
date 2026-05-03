@@ -728,26 +728,26 @@ const HelpFormatting = (): JSX.Element => {
                     <table className='Help__table Help__table--example'>
                         <thead>
                             <tr>
-                                <th style={{textAlign: 'left'}}>{'Left-Aligned'}</th>
+                                <th style={{textAlign: 'start'}}>{'Left-Aligned'}</th>
                                 <th style={{textAlign: 'center'}}>{'Center-Aligned'}</th>
-                                <th style={{textAlign: 'right'}}>{'Right-Aligned'}</th>
+                                <th style={{textAlign: 'end'}}>{'Right-Aligned'}</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td style={{textAlign: 'left'}}>{'Left column 1'}</td>
+                                <td style={{textAlign: 'start'}}>{'Left column 1'}</td>
                                 <td style={{textAlign: 'center'}}>{'this text'}</td>
-                                <td style={{textAlign: 'right'}}>{'$100'}</td>
+                                <td style={{textAlign: 'end'}}>{'$100'}</td>
                             </tr>
                             <tr>
-                                <td style={{textAlign: 'left'}}>{'Left column 2'}</td>
+                                <td style={{textAlign: 'start'}}>{'Left column 2'}</td>
                                 <td style={{textAlign: 'center'}}>{'is'}</td>
-                                <td style={{textAlign: 'right'}}>{'$100'}</td>
+                                <td style={{textAlign: 'end'}}>{'$100'}</td>
                             </tr>
                             <tr>
-                                <td style={{textAlign: 'left'}}>{'Left column 3'}</td>
+                                <td style={{textAlign: 'start'}}>{'Left column 3'}</td>
                                 <td style={{textAlign: 'center'}}>{'centered'}</td>
-                                <td style={{textAlign: 'right'}}>{'$100'}</td>
+                                <td style={{textAlign: 'end'}}>{'$100'}</td>
                             </tr>
                         </tbody>
                     </table>

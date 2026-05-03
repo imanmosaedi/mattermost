@@ -2,7 +2,7 @@
 
 exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should match snapshot and contain correct buttons 1`] = `
 <body
-  style="padding-right: 1024px; overflow: hidden;"
+  style="padding-inline-end: 1024px; overflow: hidden;"
 >
   <div
     aria-hidden="true"
@@ -45,7 +45,7 @@ exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should match sn
     />
     <div
       class="MuiPaper-root-jrNovL xmIEL MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiPopover-paper-mFrfA diqnhj MuiPopover-paper"
-      style="opacity: 1; transform: scale(1, 1); transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 100ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; top: 0px; left: 0px; transform-origin: 0px 0px;"
+      style="opacity: 1; transform: scale(1, 1); transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 100ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; top: 0px; inset-inline-start: 0px; transform-origin: 0px 0px;"
       tabindex="-1"
     >
       <ul
@@ -291,7 +291,7 @@ exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should match sn
 
 exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should match snapshot of rendered items when multiselecting channels - DM channels and public channels category 1`] = `
 <body
-  style="padding-right: 1024px; overflow: hidden;"
+  style="padding-inline-end: 1024px; overflow: hidden;"
 >
   <div
     aria-hidden="true"
@@ -334,7 +334,7 @@ exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should match sn
     />
     <div
       class="MuiPaper-root-jrNovL xmIEL MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiPopover-paper-mFrfA diqnhj MuiPopover-paper"
-      style="opacity: 1; transform: scale(1, 1); transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 100ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; top: 0px; left: 0px; transform-origin: 0px 0px;"
+      style="opacity: 1; transform: scale(1, 1); transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 100ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; top: 0px; inset-inline-start: 0px; transform-origin: 0px 0px;"
       tabindex="-1"
     >
       <ul
@@ -580,7 +580,7 @@ exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should match sn
 
 exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should match snapshot of rendered items when multiselecting channels - public channels and DM category 1`] = `
 <body
-  style="padding-right: 1024px; overflow: hidden;"
+  style="padding-inline-end: 1024px; overflow: hidden;"
 >
   <div
     aria-hidden="true"
@@ -623,7 +623,7 @@ exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should match sn
     />
     <div
       class="MuiPaper-root-jrNovL xmIEL MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiPopover-paper-mFrfA diqnhj MuiPopover-paper"
-      style="opacity: 1; transform: scale(1, 1); transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 100ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; top: 0px; left: 0px; transform-origin: 0px 0px;"
+      style="opacity: 1; transform: scale(1, 1); transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 100ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; top: 0px; inset-inline-start: 0px; transform-origin: 0px 0px;"
       tabindex="-1"
     >
       <ul
@@ -869,7 +869,7 @@ exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should match sn
 
 exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should show correct menu items when channel is DM 1`] = `
 <body
-  style="padding-right: 1024px; overflow: hidden;"
+  style="padding-inline-end: 1024px; overflow: hidden;"
 >
   <div
     aria-hidden="true"
@@ -912,7 +912,7 @@ exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should show cor
     />
     <div
       class="MuiPaper-root-jrNovL xmIEL MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiPopover-paper-mFrfA diqnhj MuiPopover-paper"
-      style="opacity: 1; transform: scale(1, 1); transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 100ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; top: 0px; left: 0px; transform-origin: 0px 0px;"
+      style="opacity: 1; transform: scale(1, 1); transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 100ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; top: 0px; inset-inline-start: 0px; transform-origin: 0px 0px;"
       tabindex="-1"
     >
       <ul
@@ -1090,7 +1090,7 @@ exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should show cor
 
 exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should show correct menu items when channel is Town Square 1`] = `
 <body
-  style="padding-right: 1024px; overflow: hidden;"
+  style="padding-inline-end: 1024px; overflow: hidden;"
 >
   <div
     aria-hidden="true"
@@ -1133,7 +1133,7 @@ exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should show cor
     />
     <div
       class="MuiPaper-root-jrNovL xmIEL MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiPopover-paper-mFrfA diqnhj MuiPopover-paper"
-      style="opacity: 1; transform: scale(1, 1); transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 100ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; top: 0px; left: 0px; transform-origin: 0px 0px;"
+      style="opacity: 1; transform: scale(1, 1); transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 100ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; top: 0px; inset-inline-start: 0px; transform-origin: 0px 0px;"
       tabindex="-1"
     >
       <ul
@@ -1347,7 +1347,7 @@ exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should show cor
 
 exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should show correct menu items when channel is favorite 1`] = `
 <body
-  style="padding-right: 1024px; overflow: hidden;"
+  style="padding-inline-end: 1024px; overflow: hidden;"
 >
   <div
     aria-hidden="true"
@@ -1390,7 +1390,7 @@ exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should show cor
     />
     <div
       class="MuiPaper-root-jrNovL xmIEL MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiPopover-paper-mFrfA diqnhj MuiPopover-paper"
-      style="opacity: 1; transform: scale(1, 1); transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 100ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; top: 0px; left: 0px; transform-origin: 0px 0px;"
+      style="opacity: 1; transform: scale(1, 1); transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 100ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; top: 0px; inset-inline-start: 0px; transform-origin: 0px 0px;"
       tabindex="-1"
     >
       <ul
@@ -1633,7 +1633,7 @@ exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should show cor
 
 exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should show correct menu items when channel is muted 1`] = `
 <body
-  style="padding-right: 1024px; overflow: hidden;"
+  style="padding-inline-end: 1024px; overflow: hidden;"
 >
   <div
     aria-hidden="true"
@@ -1676,7 +1676,7 @@ exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should show cor
     />
     <div
       class="MuiPaper-root-jrNovL xmIEL MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiPopover-paper-mFrfA diqnhj MuiPopover-paper"
-      style="opacity: 1; transform: scale(1, 1); transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 100ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; top: 0px; left: 0px; transform-origin: 0px 0px;"
+      style="opacity: 1; transform: scale(1, 1); transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 100ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; top: 0px; inset-inline-start: 0px; transform-origin: 0px 0px;"
       tabindex="-1"
     >
       <ul
@@ -1922,7 +1922,7 @@ exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should show cor
 
 exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should show correct menu items when channel is private 1`] = `
 <body
-  style="padding-right: 1024px; overflow: hidden;"
+  style="padding-inline-end: 1024px; overflow: hidden;"
 >
   <div
     aria-hidden="true"
@@ -1965,7 +1965,7 @@ exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should show cor
     />
     <div
       class="MuiPaper-root-jrNovL xmIEL MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiPopover-paper-mFrfA diqnhj MuiPopover-paper"
-      style="opacity: 1; transform: scale(1, 1); transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 100ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; top: 0px; left: 0px; transform-origin: 0px 0px;"
+      style="opacity: 1; transform: scale(1, 1); transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 100ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; top: 0px; inset-inline-start: 0px; transform-origin: 0px 0px;"
       tabindex="-1"
     >
       <ul
@@ -2211,7 +2211,7 @@ exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should show cor
 
 exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should show correct menu items when channel is read 1`] = `
 <body
-  style="padding-right: 1024px; overflow: hidden;"
+  style="padding-inline-end: 1024px; overflow: hidden;"
 >
   <div
     aria-hidden="true"
@@ -2254,7 +2254,7 @@ exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should show cor
     />
     <div
       class="MuiPaper-root-jrNovL xmIEL MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiPopover-paper-mFrfA diqnhj MuiPopover-paper"
-      style="opacity: 1; transform: scale(1, 1); transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 100ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; top: 0px; left: 0px; transform-origin: 0px 0px;"
+      style="opacity: 1; transform: scale(1, 1); transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 100ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; top: 0px; inset-inline-start: 0px; transform-origin: 0px 0px;"
       tabindex="-1"
     >
       <ul
@@ -2500,7 +2500,7 @@ exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should show cor
 
 exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should show correct menu items when channel is unread 1`] = `
 <body
-  style="padding-right: 1024px; overflow: hidden;"
+  style="padding-inline-end: 1024px; overflow: hidden;"
 >
   <div
     aria-hidden="true"
@@ -2543,7 +2543,7 @@ exports[`components/sidebar/sidebar_channel/sidebar_channel_menu should show cor
     />
     <div
       class="MuiPaper-root-jrNovL xmIEL MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiPopover-paper-mFrfA diqnhj MuiPopover-paper"
-      style="opacity: 1; transform: scale(1, 1); transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 100ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; top: 0px; left: 0px; transform-origin: 0px 0px;"
+      style="opacity: 1; transform: scale(1, 1); transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 100ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; top: 0px; inset-inline-start: 0px; transform-origin: 0px 0px;"
       tabindex="-1"
     >
       <ul

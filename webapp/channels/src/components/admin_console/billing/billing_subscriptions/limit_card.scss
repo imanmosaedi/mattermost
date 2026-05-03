@@ -4,16 +4,16 @@
     padding: 22px 0 42px 16px;
     border: 1px solid rgba(var(--center-channel-color-rgb), 0.16);
     border-radius: 4px;
-    margin-right: 8px;
+    margin-inline-end: 8px;
 
     &--full-width {
         width: auto;
-        padding-right: 16px;
-        margin-right: 0;
+        padding-inline-end: 16px;
+        margin-inline-end: 0;
     }
 
     &:last-child {
-        margin-right: 0;
+        margin-inline-end: 0;
     }
 
     &__name {
@@ -22,7 +22,7 @@
         font-weight: 600;
 
         i::before {
-            margin-left: 0;
+            margin-inline-start: 0;
         }
     }
 
@@ -36,7 +36,7 @@
             font-weight: 600;
 
             .icon {
-                margin-right: 8px;
+                margin-inline-end: 8px;
                 font-size: 12px;
                 font-weight: 400;
 

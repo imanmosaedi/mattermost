@@ -10,7 +10,7 @@
         padding-inline: 12px;
 
         li {
-            margin-right: 0;
+            margin-inline-end: 0;
 
             a {
                 padding: 13px 10px;
@@ -42,7 +42,7 @@
             }
 
             &:not(:first-child) {
-                margin-left: 8px;
+                margin-inline-start: 8px;
             }
         }
     }

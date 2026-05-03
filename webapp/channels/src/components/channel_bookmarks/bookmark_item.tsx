@@ -131,7 +131,7 @@ const Chip = styled.div<{$disableInteractions: boolean}>`
     button {
         position: absolute;
         visibility: hidden;
-        right: 6px;
+        inset-inline-end: 6px;
         top: 3px;
     }
 

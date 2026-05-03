@@ -41,7 +41,7 @@ const columns: Column[] = [
         name: '',
         field: 'edit',
         width: 1,
-        textAlign: 'right',
+        textAlign: 'end',
     },
 ];
 

@@ -33,7 +33,7 @@
                 .should-verify-body-content-button-return {
                     @include mixins.primary-button;
 
-                    margin-left: 16px;
+                    margin-inline-start: 16px;
                 }
 
                 .should-verify-body-content-button-resend,
@@ -61,7 +61,7 @@
                 }
 
                 .should-verify-body-content-message-label {
-                    margin-left: 4px;
+                    margin-inline-start: 4px;
                 }
             }
         }

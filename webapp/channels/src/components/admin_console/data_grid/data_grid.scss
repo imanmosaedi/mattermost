@@ -26,13 +26,13 @@
             box-sizing: border-box;
             border: 1px solid rgba(var(--sys-center-channel-color-rgb), 0.2);
             border-radius: 4px;
-            margin-left: 8px;
+            margin-inline-start: 8px;
 
             input {
                 width: 100%;
                 border: 0;
-                margin-right: 16px;
-                margin-left: 32px;
+                margin-inline-end: 16px;
+                margin-inline-start: 32px;
                 font-size: 0.95em;
             }
 
@@ -43,7 +43,7 @@
             .DataGrid_searchIcon {
                 position: absolute;
                 top: 5px;
-                left: 10px;
+                inset-inline-start: 10px;
                 color: variables.$dark-gray;
                 pointer-events: none;
             }
@@ -51,7 +51,7 @@
             .DataGrid_clearButton {
                 display: flex;
                 align-items: center;
-                margin-right: 5px;
+                margin-inline-end: 5px;
             }
         }
     }
@@ -89,14 +89,14 @@
         }
 
         .DataGrid_row {
-            border-left: 2px solid transparent;
+            border-inline-start: 2px solid transparent;
 
             &:nth-child(odd) {
                 background-color: variables.$bg--gray;
             }
 
             &:hover {
-                border-left: 2px solid variables.$primary-color;
+                border-inline-start: 2px solid variables.$primary-color;
                 background-color: color.adjust(variables.$primary-color, $lightness: 45%);
             }
 
@@ -112,7 +112,7 @@
                     .shared-user-icon {
                         width: 16px;
                         height: 16px;
-                        margin-left: 8px;
+                        margin-inline-start: 8px;
                         font-size: 16px;
                         line-height: 16px;
 
@@ -130,7 +130,7 @@
         display: flex;
         height: auto;
         flex-direction: row;
-        padding-left: 18px;
+        padding-inline-start: 18px;
 
         .DataGrid_cell {
             flex: 1 0;
@@ -147,11 +147,11 @@
         background: variables.$white;
         color: rgba(0, 0, 0, 0.5);
         font-size: 1.1em;
-        text-align: right;
+        text-align: end;
 
         .DataGrid_cell {
             width: 100%;
-            text-align: right;
+            text-align: end;
         }
     }
 
@@ -181,7 +181,7 @@
             min-height: 40px;
             flex-direction: row;
             padding: 0;
-            border-left: none;
+            border-inline-start: none;
 
             &:nth-child(odd) {
                 background: #fff;
@@ -192,7 +192,7 @@
             }
 
             &:hover {
-                border-left: none;
+                border-inline-start: none;
                 background-color: rgba(var(--sys-button-bg-rgb), 0.08);
                 color: var(--sys-center-channel-color);
                 cursor: pointer;
@@ -203,7 +203,7 @@
 
                 .MenuWrapper {
                     width: 32px;
-                    margin-left: auto;
+                    margin-inline-start: auto;
                 }
             }
 
@@ -219,7 +219,7 @@
                 align-items: center;
                 padding: 8px;
                 border-radius: 4px;
-                margin-left: auto;
+                margin-inline-start: auto;
                 background: transparent;
                 color: rgba(var(--sys-center-channel-color-rgb), 0.75);
                 text-decoration: none;

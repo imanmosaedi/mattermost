@@ -29,7 +29,7 @@
         .main-wrapper {
             display: flex;
             flex-direction: column;
-            margin-right: 24px;
+            margin-inline-end: 24px;
 
             .three-days-left-card {
                 display: flex;
@@ -47,7 +47,7 @@
                 .content-wrapper {
                     display: flex;
                     flex-direction: column;
-                    margin-left: 15px;
+                    margin-inline-start: 15px;
                     font-family: 'Open Sans';
                     font-style: normal;
 
@@ -66,7 +66,7 @@
                     }
 
                     .LearnMoreActionButton {
-                        margin-left: 5px;
+                        margin-inline-start: 5px;
                     }
                 }
             }
@@ -88,7 +88,7 @@
         .divisory-line {
             width: 598px;
             border-top: 1px solid rgba(var(--center-channel-color-rgb), 0.1);
-            margin-left: -32px;
+            margin-inline-start: -32px;
         }
 
         .footer-content {
@@ -98,7 +98,7 @@
             .open-view-plans-modal-btn {
                 align-self: self-end;
                 margin-top: 24px;
-                margin-left: auto;
+                margin-inline-start: auto;
 
                 @include mixins.primary-button;
                 @include mixins.button-medium;

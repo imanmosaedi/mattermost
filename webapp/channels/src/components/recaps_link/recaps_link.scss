@@ -14,7 +14,7 @@
             .SidebarLink::before {
                 position: absolute;
                 top: 0;
-                left: 0;
+                inset-inline-start: 0;
                 width: 2px;
                 height: 100%;
                 border-radius: 0 var(--radius-s) var(--radius-s) 0;
@@ -41,7 +41,7 @@
             display: flex;
             align-items: center;
             padding: 3px;
-            margin-right: 1px;
+            margin-inline-end: 1px;
             color: rgba(var(--sidebar-text-rgb), 0.64);
             font-size: 18px;
             opacity: 0.64;

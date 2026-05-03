@@ -39,7 +39,7 @@ const Divider = styled.div<{isActive: boolean}>`
     height: 100%;
     cursor: col-resize;
     &.left {
-        right: -12px;
+        inset-inline-end: -12px;
     }
 
     &::after {

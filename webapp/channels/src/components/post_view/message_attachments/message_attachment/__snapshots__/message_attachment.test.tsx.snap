@@ -19,7 +19,7 @@ exports[`components/post_view/MessageAttachment should call actions.doPostAction
     >
       <div
         class="clearfix attachment__container"
-        style="border-left-color: rgb(255, 255, 255);"
+        style="border-inline-start-color: rgb(255, 255, 255);"
       >
         <a
           href="author_link"
@@ -147,7 +147,7 @@ exports[`components/post_view/MessageAttachment should match snapshot 1`] = `
     >
       <div
         class="clearfix attachment__container"
-        style="border-left-color: rgb(255, 255, 255);"
+        style="border-inline-start-color: rgb(255, 255, 255);"
       >
         <a
           href="author_link"
@@ -274,7 +274,7 @@ exports[`components/post_view/MessageAttachment should match snapshot when no fo
     >
       <div
         class="clearfix attachment__container"
-        style="border-left-color: rgb(255, 255, 255);"
+        style="border-inline-start-color: rgb(255, 255, 255);"
       >
         <a
           href="author_link"

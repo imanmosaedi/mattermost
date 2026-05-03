@@ -36,7 +36,7 @@ $app-bar-width: 44px;
             //(see `@media screen and (min-width: 769px) > #sidebar-right` in sass/layout/_sidebar-right.scss)
             z-index: 21;
             width: 100%;
-            border-left: none;
+            border-inline-start: none;
             margin-bottom: 16px;
             cursor: pointer;
 
@@ -44,7 +44,7 @@ $app-bar-width: 44px;
                 &::before {
                     position: absolute;
                     top: 0;
-                    left: 0;
+                    inset-inline-start: 0;
                     width: 3px;
                     height: $app-bar-icon-size;
                     border-radius: 0 var(--radius-xs) var(--radius-xs) 0;

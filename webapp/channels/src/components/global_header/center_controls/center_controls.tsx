@@ -21,7 +21,7 @@ const CenterControlsContainer = styled.div`
     flex-basis: 40%;
 
     > * + * {
-        margin-left: 8px;
+        margin-inline-start: 8px;
     }
 `;
 

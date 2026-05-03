@@ -17,13 +17,13 @@
             background: none;
 
             .DataGrid_searchBar {
-                margin-left: 0;
+                margin-inline-start: 0;
             }
 
             .TeamReviewers__disable-all, .TeamReviewers__disable-all > button {
                 display: flex;
                 align-items: center;
-                margin-left: auto;
+                margin-inline-start: auto;
                 background: none;
                 text-decoration: none !important;
             }
@@ -77,7 +77,7 @@
             padding-inline: 18px;
 
             > .DataGrid_cell {
-                padding-left: 0;
+                padding-inline-start: 0;
                 color: var(--center-channel-color-72);
                 font-size: 12px;
             }
@@ -103,7 +103,7 @@
             background: none;
 
             > .DataGrid_cell {
-                margin-left: auto;
+                margin-inline-start: auto;
             }
         }
     }

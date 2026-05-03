@@ -25,7 +25,7 @@
             margin: 10px 0;
 
             i {
-                margin-right: 5px;
+                margin-inline-end: 5px;
             }
         }
 
@@ -44,7 +44,7 @@
 
         .trial-btn {
             width: 100%;
-            margin-left: 0px;
+            margin-inline-start: 0px;
         }
     }
 
@@ -142,7 +142,7 @@
                 }
 
                 span.value {
-                    margin-left: 10px;
+                    margin-inline-start: 10px;
                     color: var(--secondary-blue);
 
                     &--warning-over-seats-purchased {
@@ -157,7 +157,7 @@
                 }
 
                 span.expiration-days {
-                    margin-left: 8px;
+                    margin-inline-start: 8px;
                     font-size: 14px;
                     font-weight: 600;
 
@@ -194,7 +194,7 @@
     .single-channel-guest-limit-reached {
         display: inline-flex;
         align-items: center;
-        margin-left: 4px;
+        margin-inline-start: 4px;
         cursor: pointer;
         gap: 4px;
     }

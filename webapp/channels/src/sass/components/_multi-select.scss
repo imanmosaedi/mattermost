@@ -7,7 +7,7 @@
 
     .btn {
         height: 40px;
-        margin-left: 16px;
+        margin-inline-start: 16px;
     }
 
     &.has-error.react-select .react-select__control.react-select-auto {
@@ -63,12 +63,12 @@
     color: var(--error-text);
     font-size: 12px;
     line-height: 16px;
-    text-align: left;
+    text-align: start;
 
     i {
         height: 14px;
         align-self: baseline;
-        margin-right: 7px;
+        margin-inline-end: 7px;
         font-size: 14px;
 
         &::before {

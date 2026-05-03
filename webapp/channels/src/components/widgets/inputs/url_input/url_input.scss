@@ -17,7 +17,7 @@
         .url-input-label {
             max-width: 100%;
             flex: none;
-            margin-right: 4px;
+            margin-inline-end: 4px;
             color: rgba(var(--center-channel-color-rgb), 0.75);
             font-size: 12px;
             line-height: 17px;
@@ -26,7 +26,7 @@
 
         .url-input-editable-container {
             width: auto;
-            margin-right: 6px;
+            margin-inline-end: 6px;
 
             .url-input-editable-wrapper {
                 padding: 0 12px;
@@ -61,12 +61,12 @@
         color: var(--error-text);
         font-size: 12px;
         line-height: 16px;
-        text-align: left;
+        text-align: start;
 
         i {
             height: 14px;
             align-self: baseline;
-            margin-right: 7px;
+            margin-inline-end: 7px;
             font-size: 14px;
 
             &::before {

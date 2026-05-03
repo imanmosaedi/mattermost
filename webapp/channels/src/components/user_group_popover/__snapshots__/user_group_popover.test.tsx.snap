@@ -92,7 +92,7 @@ exports[`component/user_group_popover should match snapshot 1`] = `
             <div
               class="UserListItem-iDhzMB btbTmI group-member-list_item"
               role="listitem"
-              style="position: absolute; left: 0px; top: 0px; width: 100%;"
+              style="position: absolute; inset-inline-start: 0px; top: 0px; width: 100%;"
             >
               <span
                 aria-expanded="false"
@@ -155,7 +155,7 @@ exports[`component/user_group_popover should match snapshot 1`] = `
             <div
               class="UserListItem-iDhzMB dXGDct group-member-list_item"
               role="listitem"
-              style="position: absolute; left: 0px; top: 48px; width: 100%;"
+              style="position: absolute; inset-inline-start: 0px; top: 48px; width: 100%;"
             >
               <span
                 aria-expanded="false"
@@ -218,7 +218,7 @@ exports[`component/user_group_popover should match snapshot 1`] = `
             <div
               class="UserListItem-iDhzMB dXGDct group-member-list_item"
               role="listitem"
-              style="position: absolute; left: 0px; top: 88px; width: 100%;"
+              style="position: absolute; inset-inline-start: 0px; top: 88px; width: 100%;"
             >
               <span
                 aria-expanded="false"
@@ -281,7 +281,7 @@ exports[`component/user_group_popover should match snapshot 1`] = `
             <div
               class="UserListItem-iDhzMB dXGDct group-member-list_item"
               role="listitem"
-              style="position: absolute; left: 0px; top: 128px; width: 100%;"
+              style="position: absolute; inset-inline-start: 0px; top: 128px; width: 100%;"
             >
               <span
                 aria-expanded="false"
@@ -344,7 +344,7 @@ exports[`component/user_group_popover should match snapshot 1`] = `
             <div
               class="UserListItem-iDhzMB dXGDct group-member-list_item"
               role="listitem"
-              style="position: absolute; left: 0px; top: 168px; width: 100%;"
+              style="position: absolute; inset-inline-start: 0px; top: 168px; width: 100%;"
             >
               <span
                 aria-expanded="false"

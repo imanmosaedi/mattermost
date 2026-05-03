@@ -8,15 +8,15 @@
         .header-list__right {
             position: relative;
             z-index: 6;
-            padding-right: 0 !important;
-            // the negative margin-right is used
+            padding-inline-end: 0 !important;
+            // the negative margin-inline-end is used
             // to prevent the icons in the header from
             // moving to the left when the RHS is open
 
             // the below z-index is used to ensure the icons
             // stays on the top and don't get hidden by the
             // search's input block
-            float: right;
+            float: inset-inline-end;
         }
     }
 
@@ -32,16 +32,16 @@
         .header-list__right {
             position: relative;
             z-index: 6;
-            padding-right: 0 !important;
-            margin-right: -18px;
-            // the negative margin-right is used
+            padding-inline-end: 0 !important;
+            margin-inline-end: -18px;
+            // the negative margin-inline-end is used
             // to prevent the icons in the header from
             // moving to the left when the RHS is open
 
             // the below z-index is used to ensure the icons
             // stays on the top and don't get hidden by the
             // search's input block
-            float: right;
+            float: inset-inline-end;
         }
     }
 }
@@ -66,6 +66,6 @@
 }
 
 .col-sm-auto {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-inline-end: 15px;
+    padding-inline-start: 15px;
 }

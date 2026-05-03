@@ -57,9 +57,15 @@ function applyLocaleDirection(locale: string) {
     document.documentElement.setAttribute('dir', locale === 'fa' ? 'rtl' : 'ltr');
 }
 
+function applyLocaleFont(locale: string) {
+    document.body.classList.toggle('font--iran_sans', locale === 'fa');
+    document.body.classList.toggle('font--open_sans', locale !== 'fa');
+}
+
 async function loadLocaleStyles() {
     const locale = getCurrentLocale(store.getState());
     applyLocaleDirection(locale);
+    applyLocaleFont(locale);
 
     if (locale === 'fa') {
         await import('./sass-rtl/styles.scss');
@@ -101,6 +107,7 @@ appendOnDOMContentLoadedEvent(() => {
             if (locale !== previousLocale) {
                 previousLocale = locale;
                 applyLocaleDirection(locale);
+                applyLocaleFont(locale);
             }
         });
 

@@ -255,7 +255,7 @@ exports[`admin_console/system_role_users should match snapshot with readOnly tru
           />
           <div
             class="DataGrid_cell"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <div
               class="UserGrid_removeRow"
@@ -312,7 +312,7 @@ exports[`admin_console/system_role_users should match snapshot with readOnly tru
           />
           <div
             class="DataGrid_cell"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <div
               class="UserGrid_removeRow"

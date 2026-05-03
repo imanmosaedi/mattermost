@@ -27,7 +27,7 @@
         }
 
         img {
-            margin-left: 15px;
+            margin-inline-start: 15px;
         }
     }
 
@@ -39,7 +39,7 @@
     .prompt__buttons {
         padding: 1.5em 0;
         border-top: 1px solid variables.$light-gray;
-        text-align: left;
+        text-align: start;
     }
 
     .prompt__error {

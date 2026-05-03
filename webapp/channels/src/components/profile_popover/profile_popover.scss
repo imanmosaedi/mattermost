@@ -60,7 +60,7 @@ $profilePopoverBorderWidth: 1px;
         .closeButtonRelativePosition {
             position: absolute;
             top: 0;
-            right: 0;
+            inset-inline-end: 0;
             margin: 8px 8px 0 0;
         }
     }
@@ -80,7 +80,7 @@ $profilePopoverBorderWidth: 1px;
             .user-popover-status {
                 position: absolute;
                 top: auto;
-                right: 8px;
+                inset-inline-end: 8px;
                 bottom: 0;
                 display: flex;
                 width: 24px;

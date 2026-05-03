@@ -17,12 +17,12 @@
     transition: all 0.15s ease-out;
 
     > svg {
-        margin-right: 3px;
+        margin-inline-end: 3px;
         fill: var(--online-indicator);
     }
 
     &--default {
-        padding-right: 9px;
+        padding-inline-end: 9px;
     }
 
     &--disabled,
@@ -44,7 +44,7 @@
         color: #fff;
 
         > svg {
-            margin-right: 3px;
+            margin-inline-end: 3px;
             fill: #fff;
         }
 
@@ -55,7 +55,7 @@
             color: #fff;
 
             > svg {
-                margin-right: 3px;
+                margin-inline-end: 3px;
                 fill: #fff;
             }
         }

@@ -26,10 +26,10 @@ body {
 
 .scrollbar--vertical--RHS {
     top: 2px;
-    right: 2px;
+    inset-inline-end: 2px;
     bottom: 2px;
     border-radius: 3px;
-    margin-right: 3px;
+    margin-inline-end: 3px;
 }
 
 .scrollbar--thumb--RHS {

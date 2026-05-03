@@ -7,19 +7,19 @@
         .modal-title {
             display: flex;
             align-items: center;
-            margin-left: 16px;
+            margin-inline-start: 16px;
             gap: 4px;
 
             i,
             svg {
-                margin-left: 5px;
+                margin-inline-start: 5px;
                 color: rgba(var(--center-channel-color-rgb), 0.64);
             }
         }
 
         .details-action {
             .MenuWrapper {
-                margin-left: auto;
+                margin-inline-start: auto;
             }
         }
     }
@@ -35,7 +35,7 @@
             margin: -24px 0 24px 6px;
 
             span.group-name {
-                margin-left: 70px;
+                margin-inline-start: 70px;
                 color: rgba(var(--center-channel-color-rgb), 0.75);
                 font-size: 12px;
                 line-height: 12px;
@@ -44,7 +44,7 @@
             span.group-source span {
                 padding: 0 4px;
                 border-radius: 4px;
-                margin-left: 8px;
+                margin-inline-start: 8px;
                 background: rgba(var(--center-channel-color-rgb), 0.08);
                 font-size: 10px;
                 line-height: 16px;
@@ -94,19 +94,19 @@
                     padding: 8px 32px;
 
                     .group-member-name {
-                        padding-left: 12px;
+                        padding-inline-start: 12px;
                     }
 
                     .group-member-username {
-                        padding-left: 6px;
+                        padding-inline-start: 6px;
                         color: rgba(var(--center-channel-color-rgb), 0.75);
                         font-size: 12px;
                         line-height: 18px;
                     }
 
                     button.remove-group-member {
-                        margin-right: 0;
-                        margin-left: auto;
+                        margin-inline-end: 0;
+                        margin-inline-start: auto;
                         opacity: 0;
                     }
 

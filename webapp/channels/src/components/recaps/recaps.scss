@@ -190,7 +190,7 @@
             .recap-item-actions {
                 display: flex;
                 align-items: center;
-                margin-left: 16px;
+                margin-inline-start: 16px;
                 gap: 8px;
 
                 .recap-action-button {
@@ -448,7 +448,7 @@
                 .recap-list {
                     display: flex;
                     flex-direction: column;
-                    padding-left: 0;
+                    padding-inline-start: 0;
                     margin: 0;
                     gap: 4px;
                     list-style: none;
@@ -457,12 +457,12 @@
                         position: relative;
                         display: flex;
                         align-items: flex-start;
-                        padding-left: 21px;
+                        padding-inline-start: 21px;
                         gap: 8px;
 
                         &::before {
                             position: absolute;
-                            left: 0;
+                            inset-inline-start: 0;
                             color: var(--center-channel-color);
                             content: '•';
                         }

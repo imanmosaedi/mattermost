@@ -18,7 +18,7 @@ const Title = styled.div`
 
 const Actions = styled.div`
     button + button {
-        margin-left: 8px;
+        margin-inline-start: 8px;
     }
 `;
 

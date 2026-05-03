@@ -40,7 +40,7 @@ export const ProductMenuContainer = styled.nav`
     cursor: pointer;
 
     > * + * {
-        margin-left: 12px;
+        margin-inline-start: 12px;
     }
 `;
 
@@ -66,7 +66,7 @@ export const ProductMenuButton = styled.button.attrs(() => ({
     }
 
     > * + * {
-        margin-left: 8px;
+        margin-inline-start: 8px;
     }
 `;
 

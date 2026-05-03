@@ -9,7 +9,7 @@
         flex-grow: 1;
         flex-shrink: 1;
         align-self: center;
-        padding-left: 10px;
+        padding-inline-start: 10px;
         text-overflow: ellipsis;
 
         span {
@@ -20,5 +20,5 @@
 }
 
 .UserGrid_removeRow {
-    padding-right: 20px;
+    padding-inline-end: 20px;
 }

@@ -48,7 +48,7 @@ const TaskItems = styled.div`
     opacity: 0;
     box-shadow: var(--elevation-6);
     transition: opacity 250ms ease-in-out 0ms, transform 250ms ease-in-out 0ms;
-    transform-origin: left bottom;
+    transform-origin: inset-inline-start bottom;
     max-height: ${document.documentElement.clientHeight}px;
     overflow-y: auto;
     display: none;
@@ -90,7 +90,7 @@ const Button = styled.button<{open: boolean}>(({open}) => {
         height: 36px;
         padding: 7px;
         border-radius: var(--radius-full);
-        left: 15px;
+        inset-inline-start: 15px;
         bottom: 15px;
         position: fixed;
         z-index: 101;
@@ -119,7 +119,7 @@ const Button = styled.button<{open: boolean}>(({open}) => {
             font-size: 11px;
             line-height: 16px;
             bottom: 22px;
-            left: 22px;
+            inset-inline-start: 22px;
         }
     `;
 });

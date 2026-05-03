@@ -58,7 +58,7 @@
 
             &:last-child {
                 .channel-header__icon {
-                    margin-left: 12px;
+                    margin-inline-start: 12px;
                 }
             }
         }
@@ -107,7 +107,7 @@
     }
 
     .sidebar--right__buttons {
-        float: left;
+        float: inset-inline-start;
     }
 
     .sidebar--right__expand {
@@ -144,7 +144,7 @@
         overflow: hidden;
         height: 2.4rem;
         padding: 0 8px;
-        border-right: var(--border-light);
+        border-inline-end: var(--border-light);
         margin: 0 0 0 8px;
         color: rgba(var(--center-channel-color-rgb), 0.75);
         cursor: pointer;
@@ -172,7 +172,7 @@
         overflow: hidden;
         height: 2.4rem;
         padding: 0 8px;
-        border-right: var(--border-default);
+        border-inline-end: var(--border-default);
         margin: 0 0 0 8px;
         color: rgba(var(--center-channel-color-rgb), 0.75);
         font-family: "Open Sans", sans-serif;
@@ -185,7 +185,7 @@
 
     .sidebar--right__follow__thread {
         height: 2.4rem;
-        margin-left: 4px;
+        margin-inline-start: 4px;
         font-size: 12px;
         line-height: 16px;
     }
@@ -207,8 +207,8 @@
         }
 
         .sidebar--right__back {
-            margin-left: 4px !important;
-            margin-right: -8px !important;
+            margin-inline-start: 4px !important;
+            margin-inline-end: -8px !important;
         }
 
         .controls {
@@ -224,7 +224,7 @@
         text-align: center;
 
         .fa {
-            margin-left: 5px;
+            margin-inline-start: 5px;
         }
     }
 
@@ -292,7 +292,7 @@
 #sidebar-left {
     overflow: hidden;
     height: 100%;
-    border-right: var(--border-default);
+    border-inline-end: var(--border-default);
     box-shadow: var(--elevation-2);
 
     &.expanded {

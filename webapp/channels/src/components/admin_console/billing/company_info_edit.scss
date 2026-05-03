@@ -18,7 +18,7 @@
         }
 
         span {
-            padding-left: 4px;
+            padding-inline-start: 4px;
         }
     }
 
@@ -35,7 +35,7 @@
         }
 
         width: 66%;
-        margin-right: 16px;
+        margin-inline-end: 16px;
     }
 
     .form-row-third-2 {
@@ -47,7 +47,7 @@
         color: var(--sys-center-channel-text);
         font-size: 16px;
         font-weight: 600;
-        text-align: left;
+        text-align: start;
     }
 
     .section-title:not(:first-child) {
@@ -85,7 +85,7 @@
 
         &.Input_fieldset___legend {
             >label {
-                margin-left: 11px;
+                margin-inline-start: 11px;
             }
         }
 

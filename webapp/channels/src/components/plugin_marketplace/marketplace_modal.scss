@@ -38,7 +38,7 @@
 
     .input-clear {
         top: 32px;
-        right: 36px;
+        inset-inline-end: 36px;
         display: flex;
         width: 32px;
         height: 32px;
@@ -52,7 +52,7 @@
         margin: 0 0 8px;
 
         li {
-            margin-right: 0;
+            margin-inline-end: 0;
 
             a {
                 padding: 13px 12px;
@@ -84,7 +84,7 @@
             }
 
             &:not(:first-child) {
-                margin-left: 8px;
+                margin-inline-start: 8px;
             }
         }
     }
@@ -109,7 +109,7 @@
             border-bottom: none;
 
             .marketplace__tag {
-                margin-left: 6px;
+                margin-inline-start: 6px;
             }
 
             .update {
@@ -121,7 +121,7 @@
             }
 
             .more-modal__details {
-                padding-left: 16px;
+                padding-inline-start: 16px;
 
                 .more-modal__row--link {
                     color: var(--center-channel-color);
@@ -140,7 +140,7 @@
             }
 
             .more-modal__actions {
-                padding-left: 16px;
+                padding-inline-start: 16px;
                 margin: 0;
 
                 .plugin-configure,
@@ -231,7 +231,7 @@
     }
 
     .subtitle {
-        margin-left: 5px;
+        margin-inline-start: 5px;
     }
 
     .plugin__list {
@@ -297,6 +297,6 @@
 
 .more-modal__description-tooltip {
     .tooltip-inner {
-        text-align: left;
+        text-align: start;
     }
 }

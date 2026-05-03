@@ -60,7 +60,7 @@
         .fileDataName {
             overflow: hidden;
             margin-bottom: 3px;
-            text-align: left;
+            text-align: start;
             text-overflow: ellipsis;
         }
 
@@ -86,10 +86,10 @@
 
     .action-icon {
         display: none;
-        margin-left: 2px;
+        margin-inline-start: 2px;
 
         &.download-icon {
-            margin-right: 2px;
+            margin-inline-end: 2px;
         }
 
         svg {

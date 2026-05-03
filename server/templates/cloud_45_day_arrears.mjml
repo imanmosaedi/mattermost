@@ -4,7 +4,7 @@
   </mj-head>
   <mj-body css-class="emailBody" width="660px">
     <mj-wrapper mj-class="email" border-radius="0">
-      <mj-section padding="24px" border-top="1px solid #E5E5E5" border-left="1px solid #E5E5E5" border-right="1px solid #E5E5E5">
+      <mj-section padding="24px" border-top="1px solid #E5E5E5" border-inline-start="1px solid #E5E5E5" border-inline-end="1px solid #E5E5E5">
         <mj-column>
           <mj-image mj-class="logo" src="{{.Props.SiteURL}}/static/images/logo_email_dark.png" />
         </mj-column>

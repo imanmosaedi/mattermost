@@ -11,7 +11,7 @@
     color: var(--center-channel-color);
 
     > li {
-        margin-right: 5px;
+        margin-inline-end: 5px;
 
         &.active {
             > a {
@@ -25,7 +25,7 @@
             border-bottom-color: transparent !important;
 
             .small {
-                margin-left: 4px;
+                margin-inline-start: 4px;
                 opacity: 0.8;
             }
         }
@@ -80,7 +80,7 @@
             border-radius: 0;
             margin: 0;
             fill: var(--sidebar-header-text-color);
-            float: left;
+            float: inset-inline-start;
             line-height: 48px;
 
             &.navbar-right__icon {
@@ -102,7 +102,7 @@
             }
 
             &.menu-toggle {
-                margin-right: 16px;
+                margin-inline-end: 16px;
             }
 
             .icon-bar {
@@ -113,7 +113,7 @@
             .icon__search {
                 svg {
                     position: relative;
-                    left: -1px;
+                    inset-inline-start: -1px;
                     width: 17px;
                 }
             }
@@ -156,7 +156,7 @@
             }
 
             .header-dropdown__icon {
-                margin-left: 6px;
+                margin-inline-start: 6px;
             }
 
             .dropdown-toggle,
@@ -170,7 +170,7 @@
 
             .description {
                 display: inline-block;
-                margin-right: 1em;
+                margin-inline-end: 1em;
                 color: inherit;
             }
         }
@@ -182,13 +182,13 @@
         white-space: nowrap;
 
         span {
-            margin-left: 2px;
+            margin-inline-start: 2px;
             white-space: nowrap;
         }
     }
 
     .channel-create-btn {
-        margin-right: 15px;
+        margin-inline-end: 15px;
     }
 
     .more-channel-table {

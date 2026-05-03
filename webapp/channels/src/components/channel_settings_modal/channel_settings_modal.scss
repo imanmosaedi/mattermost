@@ -83,7 +83,7 @@
             position: absolute;
             z-index: 10;
             top: 5px;
-            right: 5px;
+            inset-inline-end: 5px;
         }
 
         // This is a workaround forcing styles to override the ones from the textbox component that affect post input

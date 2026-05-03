@@ -20,7 +20,7 @@
     flex-grow: 3;
 
     .TeamIcon {
-        margin-right: 0;
+        margin-inline-end: 0;
     }
 
     .TeamRow__team-description {
@@ -47,7 +47,7 @@
     }
 
     i {
-        margin-right: 5px;
+        margin-inline-end: 5px;
     }
 
     > a {
@@ -73,7 +73,7 @@
     height: 100%;
     align-items: center;
     justify-content: flex-end;
-    padding-right: 15px;
+    padding-inline-end: 15px;
 }
 
 .TeamRow__row .TeamIcon__content {

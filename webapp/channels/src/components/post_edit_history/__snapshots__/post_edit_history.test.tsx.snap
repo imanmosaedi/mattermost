@@ -25,7 +25,7 @@ exports[`components/post_edit_history should display error screen if errors are 
         >
           <div
             class="simplebar-offset"
-            style="right: 0px; bottom: 0px;"
+            style="inset-inline-end: 0px; bottom: 0px;"
           >
             <div
               aria-label="scrollable content"
@@ -227,7 +227,7 @@ exports[`components/post_edit_history should match snapshot 1`] = `
         >
           <div
             class="simplebar-offset"
-            style="right: 0px; bottom: 0px;"
+            style="inset-inline-end: 0px; bottom: 0px;"
           >
             <div
               aria-label="scrollable content"

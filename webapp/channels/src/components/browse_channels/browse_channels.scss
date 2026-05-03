@@ -23,14 +23,14 @@
 
         .input-clear {
             top: 16px;
-            right: 14px;
+            inset-inline-end: 14px;
         }
 
         #searchIcon {
             position: absolute;
             z-index: 2;
             top: 16px;
-            left: 42px;
+            inset-inline-start: 42px;
             color: rgba(var(--center-channel-color-rgb), 0.64);
             pointer-events: none;
         }
@@ -85,7 +85,7 @@
                 align-items: center;
                 border: 1px solid rgba(var(--center-channel-color-rgb), 0.24);
                 border-radius: var(--radius-xs);
-                margin-right: 6px;
+                margin-inline-end: 6px;
                 background-color: var(--center-channel-bg);
 
                 &.checked {
@@ -95,7 +95,7 @@
                 svg {
                     position: absolute;
                     top: 0;
-                    left: 0;
+                    inset-inline-start: 0;
                     width: 16px;
                     height: 16px;
                     fill: var(--button-bg);
@@ -114,7 +114,7 @@
                 justify-content: center;
                 padding: 4px 6px 4px 8px;
                 border: none;
-                margin-right: 10px;
+                margin-inline-end: 10px;
                 background-color: unset;
 
                 &[aria-expanded='true'] {
@@ -144,7 +144,7 @@
             .more-modal__details {
                 overflow: hidden;
                 min-width: 0;
-                padding-left: 0;
+                padding-inline-start: 0;
                 color: rgba(var(--center-channel-color-rgb), 0.75);
 
                 svg {
@@ -176,7 +176,7 @@
 
                     .more-modal__description {
                         overflow: hidden;
-                        margin-left: 4px;
+                        margin-inline-start: 4px;
                         font-weight: 400;
                         text-overflow: ellipsis;
                         white-space: nowrap;
@@ -204,7 +204,7 @@
                 .shared-channel-icon {
                     width: 18px;
                     height: 18px;
-                    margin-right: 6px;
+                    margin-inline-end: 6px;
                     color: rgba(61, 60, 64, 0.75);
                     font-size: 18px;
                     line-height: 18px;
@@ -256,7 +256,7 @@
             width: 100%;
             align-items: center;
             justify-content: space-between;
-            padding-right: 4px;
+            padding-inline-end: 4px;
         }
     }
 

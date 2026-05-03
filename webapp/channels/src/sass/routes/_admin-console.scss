@@ -88,15 +88,15 @@
         }
 
         &.btn-spacing--right {
-            margin-right: 10px;
+            margin-inline-end: 10px;
         }
 
         .fa {
-            margin-right: 7px;
+            margin-inline-end: 7px;
 
-            &.margin-left {
-                margin-right: 0;
-                margin-left: 7px;
+            &.margin-inline-start {
+                margin-inline-end: 0;
+                margin-inline-start: 7px;
             }
         }
     }
@@ -109,7 +109,7 @@
         position: absolute;
         z-index: 5;
         top: 40px;
-        right: 0;
+        inset-inline-end: 0;
     }
 
     .color-input {
@@ -215,9 +215,9 @@
         height: 100%;
 
         .control-label {
-            padding-right: 0;
+            padding-inline-end: 0;
             font-weight: 600;
-            text-align: left;
+            text-align: start;
         }
 
         .has-error {
@@ -260,7 +260,7 @@
             margin: 1em 0 0;
 
             .fa {
-                margin-right: 5px;
+                margin-inline-end: 5px;
             }
 
             &.alert-transparent {
@@ -379,7 +379,7 @@
             .fa {
                 margin-top: 8px;
                 color: #aaa;
-                float: right;
+                float: inset-inline-end;
                 font-size: 18px;
             }
 
@@ -463,9 +463,9 @@
                 height: 64px;
                 align-items: center;
                 justify-content: center;
-                border-right: 1px solid
+                border-inline-end: 1px solid
                     rgba(var(--center-channel-color-rgb), 0.12);
-                margin-right: 20px;
+                margin-inline-end: 20px;
                 font-size: 3.2rem;
                 text-decoration: none;
 
@@ -542,9 +542,9 @@
         }
 
         .reset-defaults-btn {
-            right: 0;
-            padding-right: 10px;
-            padding-left: 10px;
+            inset-inline-end: 0;
+            padding-inline-end: 10px;
+            padding-inline-start: 10px;
         }
     }
 
@@ -631,7 +631,7 @@
         .search__icon {
             position: absolute;
             top: 16px;
-            left: 21px;
+            inset-inline-start: 21px;
             width: 16px;
             height: 16px;
             fill: rgba(var(--sys-sidebar-text-rgb), 0.75);
@@ -659,7 +659,7 @@
         .input-clear {
             .input-clear-x {
                 position: absolute;
-                right: 16px;
+                inset-inline-end: 16px;
                 color: variables.$white;
                 font-weight: bold;
             }
@@ -731,7 +731,7 @@
                 top: 6px;
                 overflow: hidden;
                 width: 16px;
-                margin-right: 6px;
+                margin-inline-end: 6px;
                 text-align: center;
                 vertical-align: bottom;
 
@@ -787,7 +787,7 @@
         height: 16px;
         padding: 0 4px 0 4px;
         border-radius: 4px;
-        margin-left: 8px;
+        margin-inline-start: 8px;
         background-color: rgba(255, 255, 255, 0.75);
         color: rgba(61, 60, 64, 1);
         font-size: 10px;
@@ -798,7 +798,7 @@
     .sidebar-section-indicator {
         position: absolute;
         top: 0;
-        right: 0;
+        inset-inline-end: 0;
         display: flex;
         height: 100%;
 
@@ -860,7 +860,7 @@
             &::after {
                 position: absolute;
                 top: 2px;
-                right: -1px;
+                inset-inline-end: -1px;
                 display: inline-block;
                 color: whitesmoke;
                 content: "\f0d9";
@@ -875,7 +875,7 @@
     .menu-icon--right {
         position: absolute;
         top: 8px;
-        right: 12px;
+        inset-inline-end: 12px;
         width: 20px;
         height: 20px;
         font-size: 18px;
@@ -885,14 +885,14 @@
 
         .fa {
             position: relative;
-            right: -2px;
+            inset-inline-end: -2px;
             color: variables.$white;
             font-size: 13px;
         }
 
         &.menu__close {
             top: 3px;
-            right: 10px;
+            inset-inline-end: 10px;
             cursor: pointer;
         }
     }
@@ -924,7 +924,7 @@
 
 .system-users__filter-row {
     position: sticky;
-    left: 0;
+    inset-inline-start: 0;
     display: flex;
     padding-block-end: 12px;
     padding-block-start: 24px;
@@ -977,13 +977,13 @@
     }
 
     .member-row--padded {
-        padding-left: 20px;
+        padding-inline-start: 20px;
 
         strong {
-            margin-right: 10px;
+            margin-inline-end: 10px;
         }
         p strong {
-            margin-right: 5px;
+            margin-inline-end: 5px;
         }
     }
 
@@ -1002,7 +1002,7 @@
     .manage-teams__info {
         overflow: hidden;
         flex: 1;
-        margin-left: 10px;
+        margin-inline-start: 10px;
         white-space: nowrap;
 
         .manage-teams__name {
@@ -1019,8 +1019,8 @@
     }
 
     .manage-teams__system-admin {
-        padding-right: 10px;
-        margin-left: 10px;
+        padding-inline-end: 10px;
+        margin-inline-start: 10px;
         opacity: 0.5;
     }
 
@@ -1046,7 +1046,7 @@
     }
 
     .manage-teams__team-actions {
-        margin-left: 10px;
+        margin-inline-start: 10px;
 
         // Override default react-bootstrap style
         .dropdown-toggle {
@@ -1072,7 +1072,7 @@
     &::before {
         position: absolute;
         top: 15px;
-        right: 11px;
+        inset-inline-end: 11px;
         width: 0;
         height: 0;
         border-width: 5px 5px 2.5px;
@@ -1089,7 +1089,7 @@
 
 .password__group-addon {
     min-width: 150px;
-    text-align: left;
+    text-align: start;
 }
 
 .password__group-addon-space {
@@ -1126,7 +1126,7 @@
         .banner-buttons__log-format {
             display: flex;
             align-items: center;
-            margin-right: 28px;
+            margin-inline-end: 28px;
             gap: 8px;
 
             label {

@@ -3,7 +3,7 @@
 exports[`components/learn_more_trial_modal/learn_more_trial_modal should match snapshot 1`] = `
 <body
   class="modal-open"
-  style="padding-right: 0px;"
+  style="padding-inline-end: 0px;"
 >
   <div
     aria-hidden="true"
@@ -20,7 +20,7 @@ exports[`components/learn_more_trial_modal/learn_more_trial_modal should match s
       class="fade in modal"
       id="learnMoreTrialModal"
       role="dialog"
-      style="display: block; padding-right: 0px;"
+      style="display: block; padding-inline-end: 0px;"
       tabindex="-1"
     >
       <div

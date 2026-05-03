@@ -17,7 +17,7 @@
             position: absolute;
             z-index: 10;
             top: 13px;
-            left: 30px;
+            inset-inline-start: 30px;
             color: rgba(0,0,0, 0.40);
             font-family: monospace;
             font-size: 12px;
@@ -29,7 +29,7 @@
 
     &__cursor-position {
         position: absolute;
-        right: 8px;
+        inset-inline-end: 8px;
         border-radius: 4px;
         color: var(--button-color);
         font-family: monospace;
@@ -85,7 +85,7 @@
 
         .help-text-container {
             flex: 1;
-            padding-right: 16px;
+            padding-inline-end: 16px;
             color: var(--center-channel-color-72);
             font-size: 12px;
         }
@@ -103,7 +103,7 @@
         align-items: center;
 
         i {
-            margin-right: 8px;
+            margin-inline-end: 8px;
         }
     }
   
@@ -137,7 +137,7 @@
         align-items: center;
 
         .icon {
-            margin-right: 4px;
+            margin-inline-end: 4px;
             font-size: 14px;
         }
     }
@@ -153,7 +153,7 @@
         align-items: center;
 
         .icon {
-            margin-right: 4px;
+            margin-inline-end: 4px;
             font-size: 14px;
 
             &.icon-refresh {
@@ -188,7 +188,7 @@
             align-items: center;
 
             i {
-                margin-right: 4px;
+                margin-inline-end: 4px;
                 font-size: 12px;
             }
         }
@@ -239,7 +239,7 @@
 
                 .cel-subject-attribute {
                     .cel-attribute-key {
-                        margin-right: 4px;
+                        margin-inline-end: 4px;
                         font-weight: 500;
                     }
 

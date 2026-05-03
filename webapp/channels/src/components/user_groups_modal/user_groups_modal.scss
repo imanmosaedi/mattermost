@@ -12,9 +12,9 @@
         .ad_ldap_upsell_banner {
             position: sticky;
             z-index: 4;
-            right: 12px;
+            inset-inline-end: 12px;
             bottom: 6px;
-            left: 12px;
+            inset-inline-start: 12px;
             display: flex;
             height: 44px;
             align-items: center;
@@ -60,9 +60,9 @@
             position: sticky;
             z-index: 4;
             top: 0;
-            right: 0;
+            inset-inline-end: 0;
             bottom: 0;
-            left: 0;
+            inset-inline-start: 0;
             overflow: hidden;
             width: 100%;
             height: 100%;
@@ -99,7 +99,7 @@
 
             .btns-container {
                 display: flex;
-                justify-content: right;
+                justify-content: inset-inline-end;
                 gap: 10px;
 
                 .confrim-btn {
@@ -162,7 +162,7 @@
             .fa-search {
                 position: absolute;
                 top: 15px;
-                left: 16px;
+                inset-inline-start: 16px;
                 color: rgba(var(--center-channel-color-rgb), 0.64);
                 font-size: 16px;
                 pointer-events: none;
@@ -204,7 +204,7 @@
                 i {
                     display: flex;
                     align-items: center;
-                    margin-left: auto;
+                    margin-inline-start: auto;
                     color: var(--button-bg);
                 }
             }
@@ -271,13 +271,13 @@
                     }
 
                     .group-name {
-                        padding-left: 8px;
+                        padding-inline-start: 8px;
                         color: rgba(var(--center-channel-color-rgb), 0.75);
                     }
 
                     .group-member-count {
-                        margin-right: 8px;
-                        margin-left: auto;
+                        margin-inline-end: 8px;
+                        margin-inline-start: auto;
                         color: rgba(var(--center-channel-color-rgb), 0.75);
                         font-size: 12px;
                         line-height: 16px;
@@ -288,7 +288,7 @@
 
                         .MenuWrapper {
                             width: 24px;
-                            margin-left: auto;
+                            margin-inline-start: auto;
 
                             .Menu {
                                 position: absolute;
@@ -315,7 +315,7 @@
                         padding: 4px 6px;
                         border: none;
                         border-radius: 4px;
-                        margin-left: auto;
+                        margin-inline-start: auto;
                         background: transparent;
                         color: rgba(var(--center-channel-color-rgb), 0.75);
                         text-decoration: none;

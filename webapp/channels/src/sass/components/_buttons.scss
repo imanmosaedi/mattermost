@@ -12,7 +12,7 @@
 
     &.btn--block {
         width: 100%;
-        text-align: left;
+        text-align: start;
     }
 
     &:hover,
@@ -140,7 +140,7 @@ button {
     }
 
     & + .btn {
-        margin-left: 8px;
+        margin-inline-start: 8px;
     }
 
     &.btn-full {
@@ -153,7 +153,7 @@ button {
         height: 16px;
         align-items: center;
         justify-content: center;
-        margin-right: 0;
+        margin-inline-end: 0;
         font-size: 18px;
     }
 
@@ -401,14 +401,14 @@ button {
     }
 
     .fa {
-        margin-right: 3px;
+        margin-inline-end: 3px;
 
-        &.margin-right {
-            margin-right: 6px;
+        &.margin-inline-end {
+            margin-inline-end: 6px;
         }
 
-        &.margin-left {
-            margin-left: 6px;
+        &.margin-inline-start {
+            margin-inline-start: 6px;
         }
     }
 }

@@ -36,7 +36,7 @@ export const FormattingBarSpacer = styled.div`
 const FormattingBarContainer = styled.div`
     display: flex;
     height: 48px;
-    padding-left: 7px;
+    padding-inline-start: 7px;
     background: transparent;
     align-items: center;
     gap: 2px;

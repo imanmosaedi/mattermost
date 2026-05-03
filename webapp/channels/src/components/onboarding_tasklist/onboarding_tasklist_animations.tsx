@@ -8,7 +8,7 @@ const Animation = styled.div`
     position: absolute;
     z-index: 30;
     flex-direction: column;
-    left: 15px;
+    inset-inline-start: 15px;
     bottom: 0;
     display: none;
 
@@ -25,10 +25,10 @@ const Animation = styled.div`
         bottom: 15%;
         position: absolute;
         height: 1rem;
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+        inset-inline-start: 0;
+        inset-inline-end: 0;
     }
 
     .icon-check-circle {
@@ -55,13 +55,13 @@ const Animation = styled.div`
 
     .x2 {
         transform: scale(0.6);
-        margin-left: 6px;
+        margin-inline-start: 6px;
         animation-delay: 250ms;
         opacity: 0;
     }
     .x3 {
         transform: scale(0.6);
-        margin-left: -6px;
+        margin-inline-start: -6px;
         animation-delay: 300ms;
         opacity: 0;
     }

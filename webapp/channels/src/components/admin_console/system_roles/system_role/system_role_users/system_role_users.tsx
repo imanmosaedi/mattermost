@@ -221,7 +221,7 @@ export default class SystemRoleUsers extends React.PureComponent<Props, State> {
             {
                 name: '',
                 field: 'remove',
-                textAlign: 'right' as const,
+                textAlign: 'end' as const,
                 fixed: true,
             },
         ];

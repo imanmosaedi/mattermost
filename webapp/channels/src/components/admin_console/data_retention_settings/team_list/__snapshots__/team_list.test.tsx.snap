@@ -93,7 +93,7 @@ exports[`components/admin_console/data_retention_settings/team_list should match
           </div>
           <div
             class="DataGrid_cell TeamList__actionColumn"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <a
               class="group-actions TeamList_editText"
@@ -234,7 +234,7 @@ exports[`components/admin_console/data_retention_settings/team_list should match
           </div>
           <div
             class="DataGrid_cell TeamList__actionColumn"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <a
               class="group-actions TeamList_editText"
@@ -288,7 +288,7 @@ exports[`components/admin_console/data_retention_settings/team_list should match
           </div>
           <div
             class="DataGrid_cell TeamList__actionColumn"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <a
               class="group-actions TeamList_editText"
@@ -342,7 +342,7 @@ exports[`components/admin_console/data_retention_settings/team_list should match
           </div>
           <div
             class="DataGrid_cell TeamList__actionColumn"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <a
               class="group-actions TeamList_editText"
@@ -396,7 +396,7 @@ exports[`components/admin_console/data_retention_settings/team_list should match
           </div>
           <div
             class="DataGrid_cell TeamList__actionColumn"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <a
               class="group-actions TeamList_editText"
@@ -450,7 +450,7 @@ exports[`components/admin_console/data_retention_settings/team_list should match
           </div>
           <div
             class="DataGrid_cell TeamList__actionColumn"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <a
               class="group-actions TeamList_editText"
@@ -504,7 +504,7 @@ exports[`components/admin_console/data_retention_settings/team_list should match
           </div>
           <div
             class="DataGrid_cell TeamList__actionColumn"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <a
               class="group-actions TeamList_editText"
@@ -558,7 +558,7 @@ exports[`components/admin_console/data_retention_settings/team_list should match
           </div>
           <div
             class="DataGrid_cell TeamList__actionColumn"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <a
               class="group-actions TeamList_editText"
@@ -612,7 +612,7 @@ exports[`components/admin_console/data_retention_settings/team_list should match
           </div>
           <div
             class="DataGrid_cell TeamList__actionColumn"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <a
               class="group-actions TeamList_editText"
@@ -666,7 +666,7 @@ exports[`components/admin_console/data_retention_settings/team_list should match
           </div>
           <div
             class="DataGrid_cell TeamList__actionColumn"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <a
               class="group-actions TeamList_editText"
@@ -720,7 +720,7 @@ exports[`components/admin_console/data_retention_settings/team_list should match
           </div>
           <div
             class="DataGrid_cell TeamList__actionColumn"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <a
               class="group-actions TeamList_editText"

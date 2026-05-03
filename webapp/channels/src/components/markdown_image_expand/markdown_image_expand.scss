@@ -10,7 +10,7 @@
 .markdown-image-expand__collapse-button {
     position: absolute;
     top: 0;
-    left: 0;
+    inset-inline-start: 0;
     display: none;
     width: 24px;
     height: 24px;
@@ -63,8 +63,8 @@
         height: 18px;
 
         &::before {
-            margin-right: 0;
-            margin-left: 0;
+            margin-inline-end: 0;
+            margin-inline-start: 0;
         }
     }
 }
@@ -79,7 +79,7 @@
     overflow: hidden;
     font-size: 12px;
     line-height: 16px;
-    text-align: left;
+    text-align: start;
     text-overflow: ellipsis;
     white-space: nowrap;
 }

@@ -63,12 +63,12 @@
             &.form-control--lg {
                 height: 48px;
                 font-size: 16px;
-                padding-left: 16px;
-                padding-right: 16px;
+                padding-inline-start: 16px;
+                padding-inline-end: 16px;
 
                 & + .input-clear {
                     top: 17px;
-                    right: 16px;
+                    inset-inline-end: 16px;
                 }
             }
 
@@ -84,13 +84,13 @@
 
         .MaxLengthInput {
             &.form-control.has-error {
-                padding-right: 66px;
+                padding-inline-end: 66px;
             }
 
             &__validation {
                 position: absolute;
                 top: 12px;
-                right: 56px;
+                inset-inline-end: 56px;
                 color: var(--error-text);
                 font-size: 14px;
                 font-style: normal;
@@ -105,7 +105,7 @@
 
         .input-clear {
             top: 12px;
-            right: 12px;
+            inset-inline-end: 12px;
             width: 16px;
             height: 16px;
             color: var(--center-channel-color);
@@ -150,7 +150,7 @@
                 }
 
                 i {
-                    margin-right: 8px;
+                    margin-inline-end: 8px;
                     color: var(--error-text);
                     font-size: 24px;
                     line-height: 24px;

@@ -4,9 +4,9 @@
 }
 
 .visit-marketplace {
-    padding-right: 16px;
+    padding-inline-end: 16px;
     padding-bottom: 8px;
-    padding-left: 16px;
+    padding-inline-start: 16px;
 }
 
 .visit-marketplace-button {
@@ -14,7 +14,7 @@
 
     .Menu {
         padding: 8px 0;
-        text-align: left;
+        text-align: start;
     }
 }
 

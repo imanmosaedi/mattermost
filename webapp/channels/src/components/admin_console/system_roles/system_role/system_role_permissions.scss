@@ -74,21 +74,21 @@
                         .PermissionSectionDropdownButton_text {
                             max-width: 230px;
                             flex-grow: 3;
-                            padding-left: 8px;
+                            padding-inline-start: 8px;
                             overflow-x: hidden;
-                            text-align: left;
+                            text-align: start;
                             text-overflow: ellipsis;
                         }
 
                         .PermissionSectionDropdownButton_more {
-                            margin-right: 8px;
+                            margin-inline-end: 8px;
                             color: rgba(var(--sys-center-channel-color-rgb), 0.75);
                         }
 
                         .PermissionSectionDropdownButton_icon {
                             min-width: 32px;
                             height: 31px;
-                            border-left: 1px solid rgba(var(--sys-center-channel-color-rgb), 0.16);
+                            border-inline-start: 1px solid rgba(var(--sys-center-channel-color-rgb), 0.16);
                             margin-top: -1px;
 
                             .Icon {
@@ -96,8 +96,8 @@
                                 width: 14px;
                                 height: 14px;
                                 padding-top: 8px;
-                                margin-right: 0;
-                                margin-left: 6px;
+                                margin-inline-end: 0;
+                                margin-inline-start: 6px;
                             }
                         }
                     }
@@ -131,8 +131,8 @@
         }
 
         .PermissionSubsections {
-            padding-left: 16px;
-            border-left: 1px solid rgba(var(--sys-center-channel-color-rgb), 0.16);
+            padding-inline-start: 16px;
+            border-inline-start: 1px solid rgba(var(--sys-center-channel-color-rgb), 0.16);
             margin: 0 0 14px 16px;
 
             .PermissionSection {

@@ -23,7 +23,7 @@ export interface ProductMenuItemProps {
 }
 
 const MenuItemTextContainer = styled.div`
-    margin-left: 8px;
+    margin-inline-start: 8px;
     flex-grow: 1;
     font-weight: 600;
     font-size: 14px;
@@ -40,7 +40,7 @@ const OpenInNewTabButton = styled.button`
     cursor: pointer;
     color: rgba(var(--center-channel-color-rgb), 0.56);
     padding: 6px !important;
-    margin-right: -6px;
+    margin-inline-end: -6px;
     opacity: 0;
     pointer-events: none;
 
@@ -58,8 +58,8 @@ const MenuItem = styled(Link)`
 
     height: 40px;
     width: 270px;
-    padding-left: 16px;
-    padding-right: 20px;
+    padding-inline-start: 16px;
+    padding-inline-end: 20px;
     display: flex;
     align-items: center;
     cursor: pointer;

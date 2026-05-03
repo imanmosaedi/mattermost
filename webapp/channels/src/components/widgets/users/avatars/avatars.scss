@@ -46,7 +46,7 @@
         transition: all 100ms ease-in-out;
 
         &:not(:first-child) {
-            margin-left: var(--offset);
+            margin-inline-start: var(--offset);
         }
 
         &:hover,
@@ -61,7 +61,7 @@
         border: var(--border-width) solid rgba(var(--center-channel-bg-rgb), 1);
 
         &:not(:first-child) {
-            margin-left: var(--offset);
+            margin-inline-start: var(--offset);
         }
 
         &:hover,

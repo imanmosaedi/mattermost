@@ -22,7 +22,7 @@ import {createSafeId, displayFullAndNicknameForUser} from 'utils/utils';
 
 const CustomStatus = styled.span`
     margin: auto 0;
-    padding-left: 8px;
+    padding-inline-start: 8px;
     span {
         display: flex;
     }

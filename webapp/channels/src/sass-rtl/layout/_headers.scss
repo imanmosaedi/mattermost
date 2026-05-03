@@ -25,7 +25,7 @@
         align-items: center;
         padding: 4px 2px 4px 4px;
         border-radius: 4px;
-        margin-left: 2px;
+        margin-inline-start: 2px;
 
         &:hover {
             background: rgba(functions.v(center-channel-color-rgb), 0.08);
@@ -46,8 +46,8 @@
     }
 
     .icon::before {
-        margin-left: 0;
-        margin-right: 0;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
     }
 
     .btn.channel-header__favorites {
@@ -57,7 +57,7 @@
         padding: 4px;
         border-radius: 4px;
         color: var(--center-channel-color);
-        float: right;
+        float: inset-inline-end;
 
         i {
             position: relative;
@@ -127,7 +127,7 @@
         .icon {
             width: 20px;
             height: 20px;
-            margin-left: 8px;
+            margin-inline-start: 8px;
             color: rgba(var(--center-channel-color-rgb), 0.64);
             fill: rgba(var(--center-channel-color-rgb), 0.64);
             font-size: 1.6rem;
@@ -142,7 +142,7 @@
 
         a {
             padding: 10px 16px;
-            border-right: 3px solid transparent;
+            border-inline-end: 3px solid transparent;
             background: rgba(var(--sidebar-text-rgb), 0.08);
 
             &:hover {
@@ -171,7 +171,7 @@
             vertical-align: top;
 
             &.header-list__right {
-                padding-left: 4px;
+                padding-inline-start: 4px;
                 white-space: nowrap;
             }
         }
@@ -192,8 +192,8 @@
                 &:has(.header-placeholder) .has-guest-header {
                     &::after {
                         height: 20px;
-                        border-right: solid 1px rgba(var(--center-channel-color-rgb), 0.12);
-                        margin-right: 8px;
+                        border-inline-end: solid 1px rgba(var(--center-channel-color-rgb), 0.12);
+                        margin-inline-end: 8px;
                         content: "";
                     }
                 }
@@ -201,8 +201,8 @@
                 &:has(.header-placeholder) .header-status__text {
                     &::after {
                         height: 20px;
-                        border-right: solid 1px rgba(var(--center-channel-color-rgb), 0.12);
-                        margin-right: 8px;
+                        border-inline-end: solid 1px rgba(var(--center-channel-color-rgb), 0.12);
+                        margin-inline-end: 8px;
                         content: "";
                     }
                 }
@@ -210,8 +210,8 @@
                 &:has(.header-placeholder) .autotranslation-header {
                     &::after {
                         height: 20px;
-                        border-right: solid 1px rgba(var(--center-channel-color-rgb), 0.12);
-                        margin-right: 8px;
+                        border-inline-end: solid 1px rgba(var(--center-channel-color-rgb), 0.12);
+                        margin-inline-end: 8px;
                         content: "";
                     }
                 }
@@ -313,7 +313,7 @@
 
     .status-wrapper {
         .status {
-            left: -5px;
+            inset-inline-start: -5px;
             bottom: 0;
             display: flex;
             width: 16px;
@@ -323,7 +323,7 @@
 
             svg {
                 top: 0;
-                right: 0;
+                inset-inline-end: 0;
                 width: 12px;
                 height: 12px;
                 max-height: initial;
@@ -334,7 +334,7 @@
     .dropdown-toggle {
         display: flex;
         overflow: hidden;
-        text-align: right;
+        text-align: end;
         text-overflow: ellipsis;
     }
 
@@ -367,7 +367,7 @@
 
     .channel-header__icons {
         display: flex;
-        margin-left: 8px;
+        margin-inline-start: 8px;
         gap: 4px;
 
         .btn-icon {
@@ -409,7 +409,7 @@
             }
 
             .icon {
-                margin-right: 4px;
+                margin-inline-end: 4px;
             }
         }
 
@@ -418,8 +418,8 @@
             .has-guest-header {
                 &::after {
                     height: 20px;
-                    border-right: solid 1px rgba(var(--center-channel-color-rgb), 0.12);
-                    margin-right: 8px;
+                    border-inline-end: solid 1px rgba(var(--center-channel-color-rgb), 0.12);
+                    margin-inline-end: 8px;
                     content: "";
                 }
             }
@@ -427,8 +427,8 @@
             .header-status__text {
                 &::after {
                     height: 20px;
-                    border-right: solid 1px rgba(var(--center-channel-color-rgb), 0.12);
-                    margin-right: 8px;
+                    border-inline-end: solid 1px rgba(var(--center-channel-color-rgb), 0.12);
+                    margin-inline-end: 8px;
                     content: "";
                 }
             }
@@ -436,8 +436,8 @@
             .autotranslation-header {
                 &::after {
                     height: 20px;
-                    border-right: solid 1px rgba(var(--center-channel-color-rgb), 0.12);
-                    margin-right: 8px;
+                    border-inline-end: solid 1px rgba(var(--center-channel-color-rgb), 0.12);
+                    margin-inline-end: 8px;
                     content: "";
                 }
             }
@@ -474,7 +474,7 @@
 
                 &::before {
                     top: 0;
-                    right: 2px;
+                    inset-inline-end: 2px;
                     font-size: 15px;
                 }
             }
@@ -522,7 +522,7 @@
         }
 
         .status {
-            margin-right: 0;
+            margin-inline-end: 0;
             line-height: 16px;
         }
     }
@@ -538,7 +538,7 @@
         overflow: hidden;
         flex-shrink: 0;
         align-items: center;
-        margin-left: 8px;
+        margin-inline-start: 8px;
         line-height: 16px;
 
         &:empty {
@@ -549,14 +549,14 @@
             color: rgba(var(--center-channel-color-rgb), 0.75);
 
             ~ .custom-emoji__wrapper {
-                margin-right: 8px;
+                margin-inline-end: 8px;
             }
 
             @media screen and (max-width: 1024px){
                 display: none;
 
                 ~ .custom-emoji__wrapper {
-                    margin-right: 0px;
+                    margin-inline-end: 0px;
                 }
             }
         }
@@ -568,7 +568,7 @@
             align-items: center;
 
             > span {
-                margin-left: 2px;
+                margin-inline-start: 2px;
             }
 
             @media screen and (max-width: 1024px){
@@ -638,7 +638,7 @@
             .status {
                 position: absolute;
                 top: 70px;
-                left: 4px;
+                inset-inline-start: 4px;
                 width: 24px;
                 height: 24px;
 
@@ -680,7 +680,7 @@
             display: inline-block;
             height: auto;
             padding: 4px;
-            margin-right: 8px;
+            margin-inline-end: 8px;
             font-size: 14px;
             line-height: 1;
         }
@@ -697,7 +697,7 @@
             position: relative;
             top: 2px;
             display: inline;
-            margin-left: 4px;
+            margin-inline-start: 4px;
         }
     }
 
@@ -740,7 +740,7 @@
         &::before {
             position: absolute;
             top: 0;
-            right: 0;
+            inset-inline-end: 0;
             width: 100%;
             height: 100%;
             background: none;
@@ -817,10 +817,10 @@
         .admin-navbar-dropdown {
             position: absolute;
             top: 0;
-            left: 22px;
-            right: 0;
+            inset-inline-start: 22px;
+            inset-inline-end: 0;
             height: 100%;
-            margin-left: -22px;
+            margin-inline-start: -22px;
             font-size: 0.85em;
 
             li {
@@ -829,7 +829,7 @@
 
             .sidebar-header-dropdown__toggle,
             .admin-navbar-dropdown__toggle {
-                right: 0;
+                inset-inline-end: 0;
                 display: block;
                 width: 100%;
                 height: 100%;
@@ -844,7 +844,7 @@
             .dropdown-menu {
                 min-width: 199px;
                 margin-top: 4px;
-                margin-right: 10px;
+                margin-inline-end: 10px;
 
                 a,
                 button {
@@ -857,19 +857,19 @@
             .admin-navbar-dropdown__icon {
                 position: relative;
                 top: 0;
-                left: -5px;
+                inset-inline-start: -5px;
                 width: 36px;
                 height: 36px;
                 border-radius: 36px;
                 fill: variables.$white;
-                float: left;
+                float: inset-inline-start;
                 line-height: 36px;
                 text-align: center;
             }
         }
 
         .Avatar {
-            float: right;
+            float: inset-inline-end;
         }
 
         .header__info {
@@ -905,7 +905,7 @@
         .user__name {
             position: relative;
             top: -3px;
-            padding-left: 4px;
+            padding-inline-start: 4px;
             color: rgba(var(--sidebar-header-text-color-rgb), 0.8);
             font-size: 14px;
             font-weight: 400;
@@ -918,7 +918,7 @@
             font-weight: bold;
 
             &-text {
-                margin-right: 4px;
+                margin-inline-end: 4px;
             }
 
             &-emoji {
@@ -955,7 +955,7 @@
     font-size: 16px;
 
     .heading {
-        margin-left: 3px;
+        margin-inline-start: 3px;
     }
 
     .header-dropdown__icon {
@@ -966,12 +966,12 @@
 .channel-header-archived-icon {
     position: relative;
     top: -1px;
-    margin-left: 5px;
+    margin-inline-start: 5px;
     fill: var(--center-channel-color);
 }
 
 // Specific styling for archive icon in search results context
 .search-channel__archived .channel-header-archived-icon {
     top: 2px;
-    margin-right: 4px;
+    margin-inline-end: 4px;
 }

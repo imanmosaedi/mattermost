@@ -57,7 +57,7 @@
         .modal-back {
             position: absolute;
             top: 18px;
-            left: 12px;
+            inset-inline-start: 12px;
             display: flex;
             width: 40px;
             height: 40px;
@@ -94,7 +94,7 @@
 
         label {
             &.text-left {
-                text-align: left;
+                text-align: start;
             }
 
             &.has-error {
@@ -103,7 +103,7 @@
         }
 
         .no-padding--left {
-            padding-left: 0;
+            padding-inline-start: 0;
         }
 
         .profile-img {
@@ -129,7 +129,7 @@
         .profile-img__remove {
             position: absolute;
             top: 4px;
-            right: 8px;
+            inset-inline-end: 8px;
             display: flex;
             width: 26px;
             height: 26px;
@@ -180,7 +180,7 @@
         .team-img__remove {
             position: absolute;
             top: -8px;
-            right: -8px;
+            inset-inline-end: -8px;
             width: 24px;
             height: 24px;
             padding: 0;
@@ -209,11 +209,11 @@
             margin: 0;
 
             .security-links {
-                margin-right: 20px;
+                margin-inline-end: 20px;
                 text-decoration: none;
 
                 .icon {
-                    margin-right: 6px;
+                    margin-inline-end: 6px;
                     font-size: inherit;
                 }
 
@@ -339,7 +339,7 @@
 
                     .group--code {
                         select {
-                            padding-right: 25px;
+                            padding-inline-end: 25px;
                             appearance: none;
                         }
 
@@ -349,7 +349,7 @@
                             position: absolute;
                             z-index: 5;
                             top: 11px;
-                            right: 50px;
+                            inset-inline-end: 50px;
                             display: inline-block;
                             content: '\f0d7';
                             font: normal normal normal 14px/1 FontAwesome;
@@ -400,13 +400,13 @@
                     }
 
                     .theme-elements {
-                        padding-left: 16px;
+                        padding-inline-start: 16px;
 
                         .element {
-                            margin-right: 10px;
+                            margin-inline-end: 10px;
 
                             &:nth-child(2n) {
-                                margin-right: 0;
+                                margin-inline-end: 0;
                             }
                         }
                     }
@@ -443,7 +443,7 @@
                         }
 
                         .header__icon {
-                            float: right;
+                            float: inset-inline-end;
                             opacity: 0.5;
                         }
                     }
@@ -490,7 +490,7 @@
                     .copy-theme-success {
                         height: 30px;
                         padding: 5px 12px;
-                        margin-left: 10px;
+                        margin-inline-start: 10px;
                     }
                 }
 
@@ -517,7 +517,7 @@
                     .radio {
                         p {
                             padding-top: 5px;
-                            padding-left: 20px;
+                            padding-inline-start: 20px;
                         }
                     }
                 }
@@ -539,7 +539,7 @@
                 }
 
                 .setting-box__inline-error {
-                    margin-left: 5px;
+                    margin-inline-start: 5px;
                 }
 
                 .setting-list__hint {
@@ -601,7 +601,7 @@
             margin-bottom: 8px;
             color: variables.$gray;
             font-weight: 600;
-            text-align: left;
+            text-align: start;
             text-overflow: ellipsis;
             white-space: nowrap;
 
@@ -620,7 +620,7 @@
             .icon {
                 position: relative;
                 width: 16px;
-                margin-right: 8px;
+                margin-inline-end: 8px;
                 font-size: 18px;
                 text-align: center;
             }
@@ -637,7 +637,7 @@
                     &::before {
                         position: absolute;
                         top: 0;
-                        left: 0;
+                        inset-inline-start: 0;
                         width: 5px;
                         height: 100%;
                         background: variables.$black;
@@ -687,7 +687,7 @@
 
     .post-profile-img {
         border-radius: 50px;
-        margin-right: 8px;
+        margin-inline-end: 8px;
     }
 }
 
@@ -700,18 +700,18 @@
 
     .member-menu {
         top: 24px;
-        right: 0;
+        inset-inline-end: 0;
     }
 }
 
 .member-invite {
     position: absolute;
     top: 7px;
-    right: 10px;
+    inset-inline-end: 10px;
 }
 
 .member-menu {
-    right: 0;
+    inset-inline-end: 0;
     left: auto;
 }
 
@@ -729,8 +729,8 @@
 }
 
 .user-settings__radio-group-inline {
-    // Counteract the margin-left added by Bootstrap's radio-inline class
-    margin-left: -20px;
+    // Counteract the margin-inline-start added by Bootstrap's radio-inline class
+    margin-inline-start: -20px;
 }
 
 .user-settings__submit-checkbox {
@@ -803,7 +803,7 @@
 .section-min__title {
     display: flex;
     flex-direction: row;
-    padding-right: 50px;
+    padding-inline-end: 50px;
     margin: 0 0 5px;
     font-size: 14px;
     font-weight: 600;
@@ -817,7 +817,7 @@
 
 .section-min__edit {
     margin-bottom: 5px;
-    text-align: right;
+    text-align: end;
 }
 
 .section-min__describe {

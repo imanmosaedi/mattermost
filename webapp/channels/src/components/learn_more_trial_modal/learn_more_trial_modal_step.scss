@@ -29,7 +29,7 @@
             font-style: normal;
             font-weight: 600;
             line-height: 28px;
-            text-align: left;
+            text-align: start;
         }
 
         .description {
@@ -41,7 +41,7 @@
             font-style: normal;
             font-weight: normal;
             line-height: 16px;
-            text-align: left;
+            text-align: start;
         }
 
         .disclaimer {
@@ -59,7 +59,7 @@
         .bottom-text-left-message {
             position: fixed;
             bottom: 24px;
-            left: 24px;
+            inset-inline-start: 24px;
             color: rgba(var(--center-channel-color-rgb), 0.75);
             font-size: 12px;
             font-style: normal;

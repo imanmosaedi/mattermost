@@ -21,7 +21,7 @@ const HistoryButtonsContainer = styled.nav`
     align-items: center;
 
     > :first-child {
-           margin-right: 1px;
+           margin-inline-end: 1px;
     }
 `;
 

@@ -92,7 +92,7 @@
                 }
 
                 .emoticon {
-                    margin-left: 0;
+                    margin-inline-start: 0;
                 }
             }
 
@@ -101,7 +101,7 @@
                 width: 100%;
                 color: rgba(var(--center-channel-color-rgb), 0.56);
                 grid-column: 3 / 4;
-                text-align: right;
+                text-align: end;
                 text-overflow: ellipsis;
                 white-space: nowrap;
             }

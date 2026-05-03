@@ -35,7 +35,7 @@ const EmptyPlace = styled.button`
     i {
         display: none;
         font-size: 14px;
-        margin-left: 4px;
+        margin-inline-start: 4px;
     }
     &:hover {
         color: rgba(var(--center-channel-color-rgb), 0.75);

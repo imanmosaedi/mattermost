@@ -9,24 +9,24 @@ span.greyed-out {
 .groups-list-no-padding {
     div.group-row {
         height: 40px;
-        padding-left: 20px;
+        padding-inline-start: 20px;
     }
 
     div.groups-list--header {
         div.group-name.adjusted {
-            margin-left: 20px;
+            margin-inline-start: 20px;
         }
 
         div.group-description.adjusted {
-            margin-right: 22px;
+            margin-inline-end: 22px;
         }
 
         div.group-description.group-description-adjusted {
-            margin-right: 22px;
+            margin-inline-end: 22px;
         }
 
         div.group-name.group-name-adjusted {
-            margin-left: 22px;
+            margin-inline-start: 22px;
         }
     }
 }
@@ -45,10 +45,10 @@ span.greyed-out {
 
 .large-team-image-col {
     max-width: 129px;
-    padding-right: 20px;
+    padding-inline-end: 20px;
 
     .TeamIcon {
-        margin-right: 12px;
+        margin-inline-end: 12px;
         background: rgba(0, 0, 0, 0.12);
     }
 }

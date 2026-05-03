@@ -73,10 +73,10 @@
         canvas {
             display: block;
             max-height: 100%;
-            padding-right: 0;
-            padding-left: 0;
-            margin-right: auto;
-            margin-left: auto;
+            padding-inline-end: 0;
+            padding-inline-start: 0;
+            margin-inline-end: auto;
+            margin-inline-start: auto;
         }
     }
 }

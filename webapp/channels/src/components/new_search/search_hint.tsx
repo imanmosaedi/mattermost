@@ -21,7 +21,7 @@ const SearchHintsContainer = styled.div`
     padding: 20px 24px;
     color: rgba(var(--center-channel-color-rgb), 0.75);
     i {
-        margin-right: 8px;
+        margin-inline-end: 8px;
         color: var(--center-channel-color-56);
     }
     h2 {
@@ -42,7 +42,7 @@ const SearchFilter = styled.button`
     font-size: 10px;
     font-weight: 600;
     line-height: 12px;
-    margin-left: 8px;
+    margin-inline-start: 8px;
     &:hover {
         background: rgba(var(--center-channel-color-rgb), 0.16);
     }

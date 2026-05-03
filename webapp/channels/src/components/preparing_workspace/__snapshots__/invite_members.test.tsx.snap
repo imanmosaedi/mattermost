@@ -12,7 +12,7 @@ exports[`InviteMembers component should match snapshot 1`] = `
       <div>
         <div
           class="PageLine PageLine--no-left"
-          style="margin-bottom: 50px; margin-left: 50px; height: calc(25vh);"
+          style="margin-bottom: 50px; margin-inline-start: 50px; height: calc(25vh);"
         />
         <div>
           Previous step
@@ -71,7 +71,7 @@ exports[`InviteMembers component should match snapshot 1`] = `
         </div>
         <div
           class="PageLine PageLine--no-left"
-          style="margin-top: 50px; margin-left: 50px; height: calc(35vh);"
+          style="margin-top: 50px; margin-inline-start: 50px; height: calc(35vh);"
         />
       </div>
     </div>
@@ -91,7 +91,7 @@ exports[`InviteMembers component should match snapshot when it is cloud 1`] = `
       <div>
         <div
           class="PageLine PageLine--no-left"
-          style="margin-bottom: 50px; margin-left: 50px; height: calc(25vh);"
+          style="margin-bottom: 50px; margin-inline-start: 50px; height: calc(25vh);"
         />
         <div>
           Previous step
@@ -222,7 +222,7 @@ exports[`InviteMembers component should match snapshot when it is cloud 1`] = `
         </div>
         <div
           class="PageLine PageLine--no-left"
-          style="margin-top: 50px; margin-left: 50px; height: calc(35vh);"
+          style="margin-top: 50px; margin-inline-start: 50px; height: calc(35vh);"
         />
       </div>
     </div>

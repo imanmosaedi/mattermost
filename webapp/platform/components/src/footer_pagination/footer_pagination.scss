@@ -72,11 +72,11 @@
             @include button-small;
 
             &:not(:first-child) {
-                margin-left: 8px;
+                margin-inline-start: 8px;
             }
 
             > :not(:first-child) {
-                margin-left: 5px;
+                margin-inline-start: 5px;
             }
         }
     }

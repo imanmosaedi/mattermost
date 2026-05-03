@@ -18,7 +18,7 @@
         }
 
         &:not(:first-child) {
-            margin-left: 8px;
+            margin-inline-start: 8px;
         }
 
         &:not(.a11y--focused):hover {
@@ -59,8 +59,8 @@
         .public-private-selector-button-text {
             min-width: 0;
             flex: 1;
-            margin-left: 12px;
-            text-align: left;
+            margin-inline-start: 12px;
+            text-align: start;
 
             .public-private-selector-button-title {
                 overflow: hidden;
@@ -75,7 +75,7 @@
                     display: inline-flex;
                     width: 16px;
                     height: 16px;
-                    margin-left: 8px;
+                    margin-inline-start: 8px;
                     fill: var(--online-indicator);
                     vertical-align: sub;
                 }
@@ -100,7 +100,7 @@
         .public-private-selector-button-icon-check {
             display: flex;
             flex: none;
-            margin-left: auto;
+            margin-inline-start: auto;
         }
     }
 

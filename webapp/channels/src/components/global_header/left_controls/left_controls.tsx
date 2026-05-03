@@ -17,7 +17,7 @@ const LeftControlsContainer = styled.div`
     flex-basis: 30%;
 
     > * + * {
-        margin-left: 12px;
+        margin-inline-start: 12px;
     }
 `;
 

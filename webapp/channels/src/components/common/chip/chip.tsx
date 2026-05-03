@@ -30,11 +30,11 @@ const StyledChip = styled.button<{ otherOption?: boolean }>`
     font-weight: bold;
 
     padding: 6px 12px;
-    margin-right: 12px;
+    margin-inline-end: 12px;
     margin-bottom: 12px;
 
     &:last-child {
-        margin-right: 0;
+        margin-inline-end: 0;
     }
 
     border: 1px solid rgba(var(--center-channel-color-rgb), 0.08);

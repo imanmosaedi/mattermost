@@ -23,7 +23,7 @@ const GlobalHeaderContainer = styled.header`
     z-index: 99;
 
     > * + * {
-        margin-left: 12px;
+        margin-inline-start: 12px;
     }
 
     @media screen and (max-width: 768px) {

@@ -14,7 +14,7 @@
     padding: 8px 12px 8px 12px;
 
     .Input_wrapper {
-        padding-left: 8px;
+        padding-inline-start: 8px;
     }
 
     .Input_legend {
@@ -22,7 +22,7 @@
     }
 
     .Input_container .Input_wrapper > :not(:first-child) {
-        margin-left: 10px;
+        margin-inline-start: 10px;
     }
 
     .agent-dropdown {
@@ -46,7 +46,7 @@
         }
 
         button {
-            margin-left: auto;
+            margin-inline-start: auto;
             background: rgba(var(--center-channel-color-rgb), 0.04);
             color: rgba(var(--center-channel-color-rgb), 0.75);
 
@@ -90,9 +90,9 @@
     position: absolute;
     z-index: 999;
     top: 0;
-    right: 0;
+    inset-inline-end: 0;
     bottom: 0;
-    left: 0;
+    inset-inline-start: 0;
     border-radius: 4px;
     animation: rewrite-gradient 3.5s linear infinite;
     background: linear-gradient(

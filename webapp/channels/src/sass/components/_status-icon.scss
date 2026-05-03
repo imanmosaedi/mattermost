@@ -12,7 +12,7 @@
         height: 36px;
 
         .status {
-            right: -6px;
+            inset-inline-end: -6px;
             bottom: -5px;
             width: 19px;
             height: 19px;
@@ -32,7 +32,7 @@
                 &::after {
                     position: absolute;
                     top: 4px;
-                    left: 4px;
+                    inset-inline-start: 4px;
                     width: 10px;
                     height: 10px;
                     border-radius: 20px;
@@ -44,7 +44,7 @@
                 position: relative;
                 z-index: 1;
                 top: 0;
-                left: 0;
+                inset-inline-start: 0;
                 width: 13px;
                 height: 13px;
                 max-height: initial;
@@ -60,7 +60,7 @@
     .status {
         position: absolute;
         top: auto;
-        right: -3px;
+        inset-inline-end: -3px;
         bottom: -4px;
         width: 15px;
         height: 15px;
@@ -176,7 +176,7 @@
     }
 
     .fa-lock {
-        margin-left: 1px;
+        margin-inline-start: 1px;
     }
 
     .fa-globe {

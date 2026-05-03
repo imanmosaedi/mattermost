@@ -365,7 +365,7 @@ const Placeholder = (props: {filter: 'home' | 'remote'; rc: RemoteCluster}) => {
 };
 
 const AddChannelsButton = styled.button.attrs({className: 'btn btn-primary'})`
-    padding-left: 15px;
+    padding-inline-start: 15px;
 `;
 
 const TabsWrapper = styled.div`
@@ -384,7 +384,7 @@ const TabsWrapper = styled.div`
         margin: 0 0 8px;
 
         li {
-            margin-right: 0;
+            margin-inline-end: 0;
 
             a {
                 padding: 13px 12px;
@@ -416,7 +416,7 @@ const TabsWrapper = styled.div`
             }
 
             &:not(:first-child) {
-                margin-left: 8px;
+                margin-inline-start: 8px;
             }
         }
     }
@@ -435,7 +435,7 @@ const ChannelIcon = ({channelId}: {channelId: string}) => {
 
 const ChannelIconWrapper = styled.span`
     vertical-align: middle;
-    margin-right: 5px;
+    margin-inline-end: 5px;
 `;
 
 const ChannelName = styled.span`
@@ -600,5 +600,5 @@ const RemoteActions = ({remote, fetch}: {remote: SharedChannelRemoteRow; fetch: 
 };
 
 const RemoteActionsRoot = styled.div`
-    text-align: right;
+    text-align: end;
 `;

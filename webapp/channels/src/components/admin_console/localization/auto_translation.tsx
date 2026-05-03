@@ -164,7 +164,7 @@ export default function AutoTranslation(props: SystemConsoleCustomSettingsCompon
                         </h5>
                     </hgroup>
                     <div className='autotranslation-section-toggle'>
-                        <span style={{marginRight: '12px'}}>
+                        <span style={{marginInlineEnd: '12px'}}>
                             {autoTranslationSettings.Enable ? on : off}
                         </span>
                         <Toggle

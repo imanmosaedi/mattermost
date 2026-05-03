@@ -24,7 +24,7 @@
         }
 
         .invite-as-guest {
-            margin-right: 0 !important;
+            margin-inline-end: 0 !important;
         }
     }
     
@@ -34,11 +34,11 @@
     
     &__user-mapping {
         position: absolute;
-        right: 20px;
+        inset-inline-end: 20px;
     }
 
     &__recommended-tag {
-        margin-left: 8px;
+        margin-inline-start: 8px;
     }
 
     &__policy-banner {

@@ -130,9 +130,9 @@
      inkscape:snap-center="false"
      inkscape:object-paths="false"
      inkscape:object-nodes="false"
-     fit-margin-left="0.01"
+     fit-margin-inline-start="0.01"
      fit-margin-top="0.01"
-     fit-margin-right="0.01"
+     fit-margin-inline-end="0.01"
      fit-margin-bottom="0.01" />
   <metadata
      id="metadata5">

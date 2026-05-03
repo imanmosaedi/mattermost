@@ -4,8 +4,8 @@
         margin-top: 50px;
 
         .col-sm-4 {
-            padding-right: 20px;
-            padding-left: 20px;
+            padding-inline-end: 20px;
+            padding-inline-start: 20px;
         }
 
         .modal-header {
@@ -23,7 +23,7 @@
 
                 span {
                     &:first-child {
-                        margin-right: 12px;
+                        margin-inline-end: 12px;
                     }
                 }
             }

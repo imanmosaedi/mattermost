@@ -22,7 +22,7 @@ type Props = {
 }
 
 const UsernameMention = styled.span`
-    margin-left: 5px;
+    margin-inline-start: 5px;
     color: var(--link-color);
 `;
 

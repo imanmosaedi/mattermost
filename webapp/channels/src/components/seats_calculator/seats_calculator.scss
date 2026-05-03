@@ -31,7 +31,7 @@
         position: absolute;
         top: 11px;
         // to the right of the input
-        left: 118px;
+        inset-inline-start: 118px;
     }
 
     &__total {

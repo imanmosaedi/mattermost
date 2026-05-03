@@ -45,7 +45,7 @@
         .annnouncementBar__purchaseNow,
         .annnouncementBar__renewLicense {
             margin-top: 0;
-            margin-left: 8px;
+            margin-inline-start: 8px;
         }
 
         .annnouncementBar__renewLicense {
@@ -65,7 +65,7 @@
 
         &.announcement-bar__close {
             top: 5px;
-            right: 0;
+            inset-inline-end: 0;
             padding: 0 10px;
             color: variables.$white;
             font-family: 'Open Sans', sans-serif;
@@ -135,13 +135,13 @@
 }
 
 .announcement-bar__link {
-    margin-left: 4px;
+    margin-inline-start: 4px;
 }
 
 .advisor-icon {
     width: 16px;
     height: 16px;
-    margin-right: 8px;
+    margin-inline-end: 8px;
     margin-bottom: 2px;
-    margin-left: 8px;
+    margin-inline-start: 8px;
 }

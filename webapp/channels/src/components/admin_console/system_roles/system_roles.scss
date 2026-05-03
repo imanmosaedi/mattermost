@@ -5,7 +5,7 @@
         .DataGrid {
             .DataGrid_row {
                 min-height: 40px;
-                padding-left: 16px;
+                padding-inline-start: 16px;
                 cursor: pointer;
             }
 
@@ -14,7 +14,7 @@
                 white-space: normal;
 
                 .SystemRoles_editRow {
-                    padding-right: 20px;
+                    padding-inline-end: 20px;
                 }
             }
         }

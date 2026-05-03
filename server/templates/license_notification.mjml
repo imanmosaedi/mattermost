@@ -4,13 +4,13 @@
   </mj-head>
   <mj-body css-class="emailBody">
     <mj-wrapper mj-class="email" border-radius="0">
-      <mj-section padding="24px" border-top="1px solid #E5E5E5" border-left="1px solid #E5E5E5" border-right="1px solid #E5E5E5">
+      <mj-section padding="24px" border-top="1px solid #E5E5E5" border-inline-start="1px solid #E5E5E5" border-inline-end="1px solid #E5E5E5">
         <mj-column>
           <mj-image mj-class="logo" align="center" src="{{.Props.SiteURL}}/static/images/logo_email_dark.png" />
         </mj-column>
       </mj-section>
 
-      <mj-section padding="0 60px" border-left="1px solid #E5E5E5" border-right="1px solid #E5E5E5">
+      <mj-section padding="0 60px" border-inline-start="1px solid #E5E5E5" border-inline-end="1px solid #E5E5E5">
         <mj-column>
           <mj-text css-class="title" align="center" font-family="Arial" padding="10px 0px" font-size="28px" font-weight="bold" line-height="32px">
             {{.Props.Title}}
@@ -27,13 +27,13 @@
         </mj-column>
       </mj-section>
 
-      <mj-section padding="40px" border-left="1px solid #E5E5E5" border-right="1px solid #E5E5E5">
+      <mj-section padding="40px" border-inline-start="1px solid #E5E5E5" border-inline-end="1px solid #E5E5E5">
         <mj-column>
           <mj-image src="{{.Props.SiteURL}}/static/images/license_illustration.png" width="320px" padding="0px" />
         </mj-column>
       </mj-section>
 
-      <mj-section padding="24px 24px 24px 24px" border-left="1px solid #E5E5E5" border-right="1px solid #E5E5E5">
+      <mj-section padding="24px 24px 24px 24px" border-inline-start="1px solid #E5E5E5" border-inline-end="1px solid #E5E5E5">
         <mj-column border-top="1px solid #E5E5E5">
           <mj-text css-class="footerTitle" padding="24px 0px 0px 0px" align="left" font-family="Arial" color="#000000">
             {{.Props.NeedHelpTitle}}
@@ -44,7 +44,7 @@
         </mj-column>
       </mj-section>
 
-      <mj-section padding="0px 24px 24px 24px" border-left="1px solid #E5E5E5" border-right="1px solid #E5E5E5" border-bottom="1px solid #E5E5E5">
+      <mj-section padding="0px 24px 24px 24px" border-inline-start="1px solid #E5E5E5" border-inline-end="1px solid #E5E5E5" border-bottom="1px solid #E5E5E5">
         <mj-column border-top="1px solid #E5E5E5">
           <mj-text css-class="emailFooter" padding="0px" font-family="Arial" font-size="12px" line-height="20px" color="#AAAAAA">
             {{.Props.Organization}}

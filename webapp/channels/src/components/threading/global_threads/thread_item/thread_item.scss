@@ -7,7 +7,7 @@
     position: relative;
     padding: 18px 18px 18px 28px;
     cursor: pointer;
-    text-align: left;
+    text-align: start;
 
     .alt-visible {
         visibility: hidden;
@@ -33,7 +33,7 @@
 
         overflow: hidden;
         max-width: 100%;
-        text-align: left;
+        text-align: start;
         text-overflow: ellipsis;
         -moz-user-select: all; /* Firefox all */
         white-space: nowrap;
@@ -99,7 +99,7 @@
 
     .indicator {
         position: absolute;
-        left: -24px;
+        inset-inline-start: -24px;
         display: grid;
         width: 24px;
         height: 20px;
@@ -139,7 +139,7 @@
     .menu-anchor {
         position: absolute;
         top: 12px;
-        right: 14px;
+        inset-inline-end: 14px;
 
         .Button {
             width: 28px;
@@ -154,7 +154,7 @@
     }
 
     .Avatars {
-        margin-right: 10px;
+        margin-inline-end: 10px;
     }
 
     // Remove the focus-visible case when MM-62778 is completed

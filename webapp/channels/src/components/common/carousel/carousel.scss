@@ -45,12 +45,12 @@
 
         &.chevron-right {
             position: absolute;
-            right: 0;
+            inset-inline-end: 0;
         }
 
         &.chevron-left {
             position: absolute;
-            left: 0;
+            inset-inline-start: 0;
         }
     }
 
@@ -65,7 +65,7 @@
         padding: 24px 0;
 
         .container-buttons {
-            margin-left: auto;
+            margin-inline-start: auto;
 
             .btn-slide {
                 position: absolute;
@@ -87,7 +87,7 @@
 
             .prev,
             .next {
-                left: 20px;
+                inset-inline-start: 20px;
                 transform: translateY(-60%);
             }
         }

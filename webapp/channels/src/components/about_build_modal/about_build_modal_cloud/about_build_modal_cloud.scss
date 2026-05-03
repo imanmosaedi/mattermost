@@ -26,8 +26,8 @@
             padding: 0 50px;
 
             .about-modal__logo {
-                padding-right: 32px;
-                padding-left: 0;
+                padding-inline-end: 32px;
+                padding-inline-start: 0;
 
                 svg {
                     width: 104px;
@@ -48,7 +48,7 @@
 
             .subtitle {
                 top: 32px;
-                left: 0;
+                inset-inline-start: 0;
                 width: 294px;
                 height: 24px;
                 margin-bottom: 16px;
@@ -60,7 +60,7 @@
             .description,
             .form-group {
                 top: 0;
-                left: 0;
+                inset-inline-start: 0;
                 width: 342px;
                 height: 20px;
                 align-self: center;

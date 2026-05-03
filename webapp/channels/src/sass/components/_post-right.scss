@@ -22,7 +22,7 @@
                         &::before {
                             position: absolute;
                             top: -16px;
-                            left: 0;
+                            inset-inline-start: 0;
                             width: 100%;
                             height: 16px;
                             background: rgba(functions.v(center-channel-color-rgb), 0.04);
@@ -48,7 +48,7 @@
         div {
             z-index: 1;
             padding: 0 12px;
-            margin-left: 34px;
+            margin-inline-start: 34px;
             background: rgba(functions.v(center-channel-bg-rgb), 1);
             color: rgba(functions.v(center-channel-color-rgb), 0.72);
             font-size: 12px;
@@ -58,7 +58,7 @@
         &::before {
             position: absolute;
             top: calc(50% - 1px);
-            left: 0;
+            inset-inline-start: 0;
             display: block;
             width: 100%;
             border-top: 1px solid rgba(var(--center-channel-color-rgb), 0.12);
@@ -76,19 +76,19 @@
             }
 
             &.post--compact {
-                padding-left: 1em;
+                padding-inline-start: 1em;
             }
         }
 
         .post-pre-header__icons-container {
             width: 54px; // If the width of post__img changes, this needs to be adjusted accordingly;
-            padding-right: 12px; // If the padding of post__img changes, this needs to be adjusted accordingly;
-            margin-left: 0; // if left margin of post__content changes, this needs to be adjusted accordingly;
+            padding-inline-end: 12px; // If the padding of post__img changes, this needs to be adjusted accordingly;
+            margin-inline-start: 0; // if left margin of post__content changes, this needs to be adjusted accordingly;
         }
 
         .post__header {
             .post-menu {
-                text-align: right;
+                text-align: end;
             }
         }
 
@@ -103,7 +103,7 @@
 
         &.post--comment {
             .post__body {
-                border-left: none;
+                border-inline-start: none;
             }
         }
 
@@ -113,23 +113,23 @@
 
         .post__body {
             width: 100%;
-            padding-left: 0;
+            padding-inline-start: 0;
         }
 
         &.post--compact {
-            padding-left: 1em;
+            padding-inline-start: 1em;
 
             .post__body {
-                padding-left: 0;
+                padding-inline-start: 0;
             }
 
             &.same--root {
                 &.post--comment {
-                    padding-left: 1em;
+                    padding-inline-start: 1em;
 
                     .post__header {
                         height: auto;
-                        margin-left: 0;
+                        margin-inline-start: 0;
                         float: none;
 
                         .post__time {
@@ -206,14 +206,14 @@
             height: 20px;
             margin: 2px 0;
             color: rgba(var(--center-channel-color-rgb), 0.75);
-            float: left;
+            float: inset-inline-start;
             font-size: 12px;
             line-height: 16px;
         }
 
         .post-right-comments-upload-in-progress {
             padding: 6px 0;
-            margin-right: 10px;
+            margin-inline-end: 10px;
             opacity: 0.7;
         }
 
@@ -262,7 +262,7 @@
     border-bottom: variables.$border-gray;
 
     ul {
-        padding-left: 0;
+        padding-inline-start: 0;
         margin-bottom: 2px;
     }
 }
@@ -279,7 +279,7 @@
 
 .post-right-root-container li {
     display: inline;
-    padding-right: 3px;
+    padding-inline-end: 3px;
     list-style-type: none;
 }
 
@@ -290,7 +290,7 @@
 .post-right-create-comment-container {
     position: absolute;
     bottom: 0;
-    left: 0;
+    inset-inline-start: 0;
     width: 100%;
     padding: 5px;
     margin-bottom: 18px;

@@ -37,7 +37,7 @@ const Description = styled.div`
 
 const StyledCheckIcon = styled(CheckIcon)`
     display: flex;
-    margin-left: 24px;
+    margin-inline-start: 24px;
     fill: var(--button-bg);
 `;
 
@@ -66,7 +66,7 @@ const Header = styled.h4`
     letter-spacing: 0;
     line-height: 20px;
     padding: 14px 20px;
-    text-align: left;
+    text-align: start;
     color: var(--center-channel-color);
 `;
 

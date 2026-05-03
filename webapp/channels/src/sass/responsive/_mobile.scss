@@ -6,7 +6,7 @@
     #navbar_wrapper {
         .navbar-default {
             .navbar-brand {
-                margin-left: 0;
+                margin-inline-start: 0;
             }
 
             .navbar-header {
@@ -95,7 +95,7 @@
                             }
 
                             .section-min__title {
-                                padding-right: 15px;
+                                padding-inline-end: 15px;
                             }
 
                             .section-min {
@@ -113,10 +113,10 @@
                             .appearance-section {
                                 .theme-elements {
                                     .element {
-                                        margin-right: 10px;
+                                        margin-inline-end: 10px;
 
                                         &:nth-child(2n) {
-                                            margin-right: 10px;
+                                            margin-inline-end: 10px;
                                         }
                                     }
                                 }
@@ -131,7 +131,7 @@
                             }
 
                             .no-padding--left {
-                                padding-left: 15px;
+                                padding-inline-start: 15px;
                             }
                         }
 
@@ -236,7 +236,7 @@
 
             .info__label {
                 padding-bottom: 5px;
-                text-align: left;
+                text-align: start;
             }
 
             .modal-header {
@@ -268,7 +268,7 @@
         .more-modal {
             .modal-header {
                 flex-direction: column;
-                padding-right: 15px;
+                padding-inline-end: 15px;
             }
         }
 
@@ -279,7 +279,7 @@
                 position: fixed;
                 z-index: 9999;
                 top: 0;
-                left: 0;
+                inset-inline-start: 0;
                 display: flex;
                 overflow: auto;
                 width: 100%;
@@ -304,7 +304,7 @@
                 &::after {
                     position: fixed;
                     top: 0;
-                    left: 0;
+                    inset-inline-start: 0;
                     width: 100%;
                     height: 100%;
                     background: functions.alpha-color(variables.$black, 0.3);
@@ -331,7 +331,7 @@
         .row--invite {
             .col-sm-6 {
                 &:first-child {
-                    padding-right: 15px;
+                    padding-inline-end: 15px;
                 }
             }
         }
@@ -344,8 +344,8 @@
             &.post--thread {
                 .post-pre-header__icons-container {
                     width: 44px; // If the width of post__img changes, this needs to be adjusted accordingly
-                    padding-right: 12px; // If the padding of post__img changes, this needs to be adjusted accordingly
-                    margin-left: 0; // if left margin of post__content changes, this needs to be adjusted accordingly
+                    padding-inline-end: 12px; // If the padding of post__img changes, this needs to be adjusted accordingly
+                    margin-inline-start: 0; // if left margin of post__content changes, this needs to be adjusted accordingly
                 }
             }
         }
@@ -378,7 +378,7 @@
         height: 100vh;
         flex-direction: column;
         border-radius: 0;
-        margin-right: 0;
+        margin-inline-end: 0;
 
         .search-grid-container {
             height: calc(100vh - 170px);
@@ -432,7 +432,7 @@
                 max-width: inherit;
                 max-height: inherit;
                 padding-top: 0;
-                padding-left: 0;
+                padding-inline-start: 0;
                 border: 0;
                 margin-bottom: 0;
                 background: transparent;
@@ -448,7 +448,7 @@
 
                 li {
                     .label-elements {
-                        padding-left: 3px;
+                        padding-inline-start: 3px;
                         color: rgba(var(--sidebar-text-rgb), 0.8);
 
                         span {
@@ -469,7 +469,7 @@
                         padding: 3px 16px;
                         font-size: 14px;
                         line-height: 32px;
-                        text-align: left;
+                        text-align: start;
                     }
 
                     i.icon {
@@ -533,7 +533,7 @@
         height: auto;
         flex: 0 0 100%;
         margin: 0 0 30px;
-        margin-left: 0;
+        margin-inline-start: 0;
     }
 
     .channel-header,
@@ -546,7 +546,7 @@
     .member-role .member-menu,
     .member-drop .member-menu {
         top: 30px;
-        right: 0;
+        inset-inline-end: 0;
     }
 
     .post-code {
@@ -620,7 +620,7 @@
             iframe {
                 position: absolute;
                 top: 0;
-                left: 0;
+                inset-inline-start: 0;
                 width: 100%;
                 height: 100%;
             }
@@ -668,7 +668,7 @@
     .audit-panel {
         .row {
             >.form-group {
-                padding-left: 15px;
+                padding-inline-start: 15px;
             }
         }
     }
@@ -688,13 +688,13 @@
         }
 
         .btn.btn-full {
-            padding-left: 10px;
+            padding-inline-start: 10px;
         }
 
         .btn {
             .icon,
             .fa {
-                margin-right: 6px;
+                margin-inline-end: 6px;
             }
         }
     }
@@ -747,12 +747,12 @@
         }
 
         .post__remove {
-            margin-right: 10px;
+            margin-inline-end: 10px;
             visibility: visible;
         }
 
         &.post--compact {
-            padding-left: 1em;
+            padding-inline-start: 1em;
 
             .post__img {
                 padding-top: 0;
@@ -764,7 +764,7 @@
 
             &.same--root {
                 &.same--user {
-                    padding-left: 1em;
+                    padding-inline-start: 1em;
 
                     .post__header {
                         height: auto;
@@ -794,12 +794,12 @@
         .post-pre-header {
             .post-pre-header__icons-container {
                 width: 40px; // If the width of post__img changes, this needs to be adjusted accordingly
-                padding-right: 8px; // If the padding of post__img changes, this needs to be adjusted accordingly
-                margin-left: 0;
+                padding-inline-end: 8px; // If the padding of post__img changes, this needs to be adjusted accordingly
+                margin-inline-start: 0;
 
                 .icon--post-pre-header {
                     &:nth-of-type(even) {
-                        margin-left: 8px;
+                        margin-inline-start: 8px;
                     }
                 }
             }
@@ -828,7 +828,7 @@
         }
 
         .post__header {
-            padding-right: 70px;
+            padding-inline-end: 70px;
             margin-bottom: 0;
 
             .post-menu {
@@ -885,8 +885,8 @@
         }
 
         .post__reply {
-            margin-right: 20px;
-            float: right;
+            margin-inline-end: 20px;
+            float: inset-inline-end;
 
             svg {
                 top: 1px;
@@ -973,7 +973,7 @@
                 .alert {
                     position: relative;
                     top: 0;
-                    left: 0;
+                    inset-inline-start: 0;
                     display: inline-block;
                     margin: 1rem 0 0.4rem;
                 }
@@ -982,7 +982,7 @@
             .attachment__body__wrap {
                 .btn-close {
                     top: 7px;
-                    left: -15px;
+                    inset-inline-start: -15px;
                     width: 30px;
                     height: 30px;
                     visibility: visible;
@@ -1008,7 +1008,7 @@
             display: block;
             width: 100%;
             height: 150px;
-            border-right: none;
+            border-inline-end: none;
             border-bottom: 1px solid #ddd;
 
             img {
@@ -1025,7 +1025,7 @@
 
     .search__form {
         .search-help-popover {
-            left: 0;
+            inset-inline-start: 0;
             width: auto;
             max-width: 100%;
 
@@ -1056,7 +1056,7 @@
 
         &.center-file-overlay {
             .overlay__indent {
-                margin-left: 0;
+                margin-inline-start: 0;
             }
         }
 
@@ -1084,12 +1084,12 @@
             margin-top: 0;
 
             >li {
-                float: left;
+                float: inset-inline-start;
             }
 
             .dropdown-menu {
                 position: absolute;
-                right: 0;
+                inset-inline-end: 0;
                 left: auto;
                 background: var(--center-channel-bg);
             }
@@ -1117,7 +1117,7 @@
             width: 100%;
             padding: 0;
             line-height: 1.7;
-            text-align: right;
+            text-align: end;
 
             &.copyright {
                 width: 100%;
@@ -1225,7 +1225,7 @@
                             display: block;
                             width: 30px;
                             height: 30px;
-                            margin-right: 4px;
+                            margin-inline-end: 4px;
                             font-size: 25px;
                             line-height: 30px;
                             opacity: 0.5;
@@ -1258,7 +1258,7 @@
         transition: transform 0.35s ease;
 
         +.inner-wrap #app-content {
-            margin-left: 0;
+            margin-inline-start: 0;
         }
 
         &.move--right {
@@ -1331,7 +1331,7 @@
                             display: block;
                             width: 30px;
                             height: 30px;
-                            margin-right: 4px;
+                            margin-inline-end: 4px;
                             font-size: 25px;
                             line-height: 30px;
                             opacity: 0.5;
@@ -1370,7 +1370,7 @@
     }
 
     .sidebar--right {
-        right: 0;
+        inset-inline-end: 0;
         width: 100%;
         transform: translate3d(100%, 0, 0);
 
@@ -1396,7 +1396,7 @@
                 // display: none;
                 position: relative;
                 top: 1px;
-                right: -1px;
+                inset-inline-end: -1px;
             }
 
             .msg-typing:empty {
@@ -1450,7 +1450,7 @@
                 position: absolute;
                 z-index: 0;
                 top: 0;
-                left: -15px;
+                inset-inline-start: -15px;
                 width: calc(100% + 30px);
                 height: 100%;
                 //Some trickery in order for the z-index transition to happen immediately on move-in and delayed on move-out.
@@ -1513,19 +1513,19 @@
 
     .multi-teams {
         .app__content {
-            margin-left: 0;
+            margin-inline-start: 0;
         }
 
         #SidebarContainer + .inner-wrap #app-content {
-            margin-left: 0;
+            margin-inline-start: 0;
         }
 
         .sidebar--left,
         #SidebarContainer {
-            left: 0;
+            inset-inline-start: 0;
 
             &.move--right {
-                left: 64px;
+                inset-inline-start: 64px;
             }
         }
 
@@ -1711,7 +1711,7 @@
 
         .activity-log__action {
             margin-top: 10px;
-            text-align: left;
+            text-align: start;
         }
     }
 }
@@ -1757,7 +1757,7 @@
 
     .member-select__container {
         top: 60px;
-        left: 15px;
+        inset-inline-start: 15px;
         width: calc(100% - 30px);
     }
 }
@@ -1786,7 +1786,7 @@
         margin-top: 1em;
 
         >li {
-            margin-right: 0;
+            margin-inline-end: 0;
 
             a {
                 padding: 6px 11px;
@@ -1869,7 +1869,7 @@
                 align-items: flex-start;
 
                 #modalPreferenceContainer #menuWrapper {
-                    padding-left: 0;
+                    padding-inline-start: 0;
                 }
             }
         }
@@ -1882,14 +1882,14 @@
         .member-role {
             position: relative;
             top: 0;
-            right: 0;
+            inset-inline-end: 0;
             padding: 5px 0;
             margin: 0 0 0 44px;
         }
 
         .open > .dropdown-menu {
             right: auto;
-            left: 0;
+            inset-inline-start: 0;
         }
     }
 
@@ -1961,7 +1961,7 @@
 @media screen and (max-width: 350px) {
     .post-attachment-dropdown {
         &::after {
-            right: 12px;
+            inset-inline-end: 12px;
             left: auto;
         }
     }

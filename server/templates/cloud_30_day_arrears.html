@@ -234,7 +234,7 @@
 
     .senderName {
       font-family: Open Sans, sans-serif;
-      text-align: left !important;
+      text-align: start !important;
       font-weight: 600 !important;
       font-size: 14px !important;
       line-height: 20px !important;
@@ -248,21 +248,21 @@
       color: rgba(63, 67, 80, 0.56);
       padding: 2px 6px;
       align-items: center;
-      float: left;
+      float: inset-inline-start;
     }
 
     .channelBg {
       background: rgba(63, 67, 80, 0.08);
       border-radius: 4px;
       display: flex;
-      padding-left: 4px;
+      padding-inline-start: 4px;
     }
 
     .channelLogo {
       width: 10px;
       height: 10px;
       padding: 5px 4px 5px 6px;
-      float: left;
+      float: inset-inline-start;
     }
 
     .channelName {
@@ -280,11 +280,11 @@
       background-color: rgba(63, 67, 80, 0.2);
       padding: 0 5px;
       border-radius: 2px;
-      margin-right: 2px;
+      margin-inline-end: 2px;
     }
 
     .senderMessage div {
-      text-align: left !important;
+      text-align: start !important;
       font-size: 14px !important;
       line-height: 20px !important;
       color: #3F4350 !important;
@@ -366,7 +366,7 @@
                 <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                   <tbody>
                     <tr>
-                      <td style="border-left:1px solid #E5E5E5;border-right:1px solid #E5E5E5;border-top:1px solid #E5E5E5;direction:ltr;font-size:0px;padding:24px;text-align:center;">
+                      <td style="border-inline-start:1px solid #E5E5E5;border-inline-end:1px solid #E5E5E5;border-top:1px solid #E5E5E5;direction:ltr;font-size:0px;padding:24px;text-align:center;">
                         <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:562px;" ><![endif]-->
                         <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
@@ -398,14 +398,14 @@
                 <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                   <tbody>
                     <tr>
-                      <td style="border-left:1px solid #E5E5E5;border-right:1px solid #E5E5E5;direction:ltr;font-size:0px;padding:0 60px;text-align:center;">
+                      <td style="border-inline-start:1px solid #E5E5E5;border-inline-end:1px solid #E5E5E5;direction:ltr;font-size:0px;padding:0 60px;text-align:center;">
                         <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:490px;" ><![endif]-->
                         <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                             <tbody>
                               <tr>
-                                <td align="left" class="title" style="font-size:0px;padding:10px 0px;padding-left:25px;word-break:break-word;">
-                                  <div style="text-align: left; font-weight: 600; font-size: 28px; line-height: 36px; letter-spacing: -0.01em; color: #3F4350; font-family: Open Sans, sans-serif;">{{.Props.Title}}</div>
+                                <td align="left" class="title" style="font-size:0px;padding:10px 0px;padding-inline-start:25px;word-break:break-word;">
+                                  <div style="text-align: start; font-weight: 600; font-size: 28px; line-height: 36px; letter-spacing: -0.01em; color: #3F4350; font-family: Open Sans, sans-serif;">{{.Props.Title}}</div>
                                 </td>
                               </tr>
                               <tr>
@@ -419,9 +419,9 @@
                                 </td>
                               </tr>
                               <tr>
-                                <td align="left" style="font-size:0px;padding:10px 25px;padding-top:0px;padding-right:118px;padding-left:60px;word-break:break-word;">
+                                <td align="left" style="font-size:0px;padding:10px 25px;padding-top:0px;padding-inline-end:118px;padding-inline-start:60px;word-break:break-word;">
                                   <div style="font-family:Open Sans, sans-serif;font-size:16px;font-weight:400;line-height:24px;text-align:left;color:#3F4350;"><mj-raw>
-                                      <ul padding-left="118px" padding-right="118px">
+                                      <ul padding-inline-start="118px" padding-inline-end="118px">
                                         {{ range .Props.BulletListItems}}
                                         <li text-align="left">{{.}}</li>
                                         {{end}}
@@ -469,7 +469,7 @@
                 <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                   <tbody>
                     <tr>
-                      <td style="border-left:1px solid #E5E5E5;border-right:1px solid #E5E5E5;direction:ltr;font-size:0px;padding:20px 0;padding-top:0px;text-align:center;">
+                      <td style="border-inline-start:1px solid #E5E5E5;border-inline-end:1px solid #E5E5E5;direction:ltr;font-size:0px;padding:20px 0;padding-top:0px;text-align:center;">
                         <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:610px;" ><![endif]-->
                         <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
@@ -509,7 +509,7 @@
                 <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                   <tbody>
                     <tr>
-                      <td style="border-left:1px solid #E5E5E5;border-right:1px solid #E5E5E5;direction:ltr;font-size:0px;padding:20px 0;padding-top:0px;text-align:center;">
+                      <td style="border-inline-start:1px solid #E5E5E5;border-inline-end:1px solid #E5E5E5;direction:ltr;font-size:0px;padding:20px 0;padding-top:0px;text-align:center;">
                         <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:305px;" ><![endif]-->
                         <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
@@ -519,12 +519,12 @@
                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style width="100%">
                                     <tbody>
                                       <tr>
-                                        <td align="left" style="font-size:0px;padding:0px;padding-bottom:0px;padding-left:48px;word-break:break-word;">
+                                        <td align="left" style="font-size:0px;padding:0px;padding-bottom:0px;padding-inline-start:48px;word-break:break-word;">
                                           <div style="font-family:Open Sans, sans-serif;font-size:16px;font-weight:600;line-height:1;text-align:left;color:#000000;">{{.Props.QuestionTitle}}</div>
                                         </td>
                                       </tr>
                                       <tr>
-                                        <td align="left" style="font-size:0px;padding:10px 25px;padding-bottom:0px;padding-left:48px;word-break:break-word;">
+                                        <td align="left" style="font-size:0px;padding:10px 25px;padding-bottom:0px;padding-inline-start:48px;word-break:break-word;">
                                           <div style="font-family:Open Sans, sans-serif;font-size:14px;line-height:1;text-align:left;color:#3F4350;">{{.Props.QuestionInfo}}
                                             <a href="mailto:{{.Props.SupportEmail}}" style="color: #1C58D9; text-decoration: none;">
                                               {{.Props.SupportEmail}}</a>
@@ -572,7 +572,7 @@
                 <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
                   <tbody>
                     <tr>
-                      <td style="border-bottom:1px solid #E5E5E5;border-left:1px solid #E5E5E5;border-right:1px solid #E5E5E5;direction:ltr;font-size:0px;padding:20px 0;padding-bottom:24px;padding-top:0px;text-align:center;">
+                      <td style="border-bottom:1px solid #E5E5E5;border-inline-start:1px solid #E5E5E5;border-inline-end:1px solid #E5E5E5;direction:ltr;font-size:0px;padding:20px 0;padding-bottom:24px;padding-top:0px;text-align:center;">
                         <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:610px;" ><![endif]-->
                         <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">

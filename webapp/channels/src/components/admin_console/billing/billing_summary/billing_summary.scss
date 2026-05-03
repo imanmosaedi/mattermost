@@ -3,7 +3,7 @@
     padding: 28px 32px;
     border: 1px solid rgba(var(--sys-center-channel-color-rgb), 0.08);
     border-radius: 4px;
-    margin-left: 20px;
+    margin-inline-start: 20px;
     background-color: var(--sys-center-channel-bg);
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.08);
 }
@@ -60,7 +60,7 @@
 .BillingSummary__lastInvoice-headerStatus {
     display: flex;
     align-items: center;
-    margin-left: auto;
+    margin-inline-start: auto;
     font-size: 12px;
     font-weight: 600;
     line-height: 16px;
@@ -80,7 +80,7 @@
     svg {
         width: 16px;
         height: 16px;
-        margin-left: 4px;
+        margin-inline-start: 4px;
         font-size: 14.4px;
 
         &::before {
@@ -89,7 +89,7 @@
     }
 
     span {
-        margin-left: 4px;
+        margin-inline-start: 4px;
     }
 }
 
@@ -128,7 +128,7 @@
 }
 
 .BillingSummary__lastInvoice-chargeAmount {
-    margin-left: auto;
+    margin-inline-start: auto;
 }
 
 .BillingSummary__lastInvoice-partialCharges {

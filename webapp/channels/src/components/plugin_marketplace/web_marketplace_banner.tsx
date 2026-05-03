@@ -53,7 +53,7 @@ const ExternalBannerLink = styled(ExternalLink)`
         display: grid;
         grid-template-columns: auto auto;
         justify-content: space-between;
-        text-align: left;
+        text-align: start;
         padding: 24px 32px;
     }
 `;
@@ -80,7 +80,7 @@ const Title = styled.div`
     svg {
         vertical-align: middle;
         display: inline-block;
-        margin-left: 4px;
+        margin-inline-start: 4px;
     }
 `;
 
@@ -105,7 +105,7 @@ const IconsContainer = styled.div`
     grid-column: 2;
     grid-row: span 2/2;
     ${PluginIcon}:nth-child(n+2) {
-        margin-left: calc(-54px / 1/4);
+        margin-inline-start: calc(-54px / 1/4);
     }
 `;
 

@@ -16,7 +16,7 @@ const ProductBrandingFreeEditionContainer = styled.span`
     align-items: center;
 
     > * + * {
-        margin-left: 8px;
+        margin-inline-start: 8px;
     }
 `;
 
@@ -31,7 +31,7 @@ const Badge = styled.span`
     align-self: center;
     padding: 2px 6px;
     border-radius: var(--radius-s);
-    margin-left: 12px;
+    margin-inline-start: 12px;
     background: rgba(var(--sidebar-text-rgb), 0.08);
     color: rgba(var(--sidebar-text-rgb), 0.75);
     font-family: 'Open Sans', sans-serif;

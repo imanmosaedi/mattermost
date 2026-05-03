@@ -244,7 +244,7 @@
 
     .senderName {
       font-family: Open Sans, sans-serif;
-      text-align: left !important;
+      text-align: start !important;
       font-weight: 600 !important;
       font-size: 14px !important;
       line-height: 20px !important;
@@ -258,21 +258,21 @@
       color: rgba(63, 67, 80, 0.56);
       padding: 2px 6px;
       align-items: center;
-      float: left;
+      float: inset-inline-start;
     }
 
     .channelBg {
       background: rgba(63, 67, 80, 0.08);
       border-radius: 4px;
       display: flex;
-      padding-left: 4px;
+      padding-inline-start: 4px;
     }
 
     .channelLogo {
       width: 10px;
       height: 10px;
       padding: 5px 4px 5px 6px;
-      float: left;
+      float: inset-inline-start;
     }
 
     .channelName {
@@ -290,11 +290,11 @@
       background-color: rgba(63, 67, 80, 0.2);
       padding: 0 5px;
       border-radius: 2px;
-      margin-right: 2px;
+      margin-inline-end: 2px;
     }
 
     .senderMessage div {
-      text-align: left !important;
+      text-align: start !important;
       font-size: 14px !important;
       line-height: 20px !important;
       color: #3F4350 !important;
@@ -375,7 +375,7 @@
     .messageAttachmentContent>table,
     .attachment__body {
       font-family: Open Sans, sans-serif;
-      text-align: left;
+      text-align: start;
       font-size: 14px;
       line-height: 20px;
       color: #3F4350;
@@ -384,7 +384,7 @@
     .messageAttachmentContent .attachment__author-icon {
       width: 14px;
       height: 14px;
-      margin-right: 5px;
+      margin-inline-end: 5px;
       border-radius: 50px;
       vertical-align: middle;
     }
@@ -610,7 +610,7 @@
                           <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="width:552px;" ><![endif]-->
                           <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;">
                             <!--[if mso | IE]><table border="0" cellpadding="0" cellspacing="0" role="presentation" ><tr><td style="vertical-align:top;width:184px;" ><![endif]-->
-                            <div class="mj-column-per-33-333333333333336 mj-outlook-group-fix messageAvatarCol" style="font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 32px;">
+                            <div class="mj-column-per-33-333333333333336 mj-outlook-group-fix messageAvatarCol" style="font-size: 0px; text-align: start; direction: ltr; display: inline-block; vertical-align: top; width: 32px;">
                               <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                                 <tbody>
                                   <tr>
@@ -630,24 +630,24 @@
                               </table>
                             </div>
                             <!--[if mso | IE]></td><td style="vertical-align:top;width:496px;" ><![endif]-->
-                            <div class="mj-column-per-90 mj-outlook-group-fix senderInfoCol" style="font-size: 0px; text-align: left; direction: ltr; display: inline-block; vertical-align: top; width: 394px; padding: 0px 0px 0px 12px;">
+                            <div class="mj-column-per-90 mj-outlook-group-fix senderInfoCol" style="font-size: 0px; text-align: start; direction: ltr; display: inline-block; vertical-align: top; width: 394px; padding: 0px 0px 0px 12px;">
                               <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                                 <tbody>
                                   <tr>
                                     <td>
                                       <div class="postNameAndTime" style="display: flex; padding: 0px 0px 4px 0px;">
-                                        <div class="senderName" style="font-family: Open Sans, sans-serif; text-align: left; font-weight: 600; font-size: 14px; line-height: 20px; color: #3F4350;">{{.SenderName}}</div>
+                                        <div class="senderName" style="font-family: Open Sans, sans-serif; text-align: start; font-weight: 600; font-size: 14px; line-height: 20px; color: #3F4350;">{{.SenderName}}</div>
                                         {{if .Time}}
-                                        <div class="time" style="font-family: Open Sans, sans-serif; font-size: 12px; line-height: 16px; color: rgba(63, 67, 80, 0.56); padding: 2px 6px; align-items: center; float: left;">{{.Time}}</div>
+                                        <div class="time" style="font-family: Open Sans, sans-serif; font-size: 12px; line-height: 16px; color: rgba(63, 67, 80, 0.56); padding: 2px 6px; align-items: center; float: inset-inline-start;">{{.Time}}</div>
                                         {{end}}
                                         {{if .ChannelName}}
-                                        <div class="channelBg" style="background: rgba(63, 67, 80, 0.08); border-radius: 4px; display: flex; padding-left: 4px;">
+                                        <div class="channelBg" style="background: rgba(63, 67, 80, 0.08); border-radius: 4px; display: flex; padding-inline-start: 4px;">
                                           {{if .ShowChannelIcon}}
-                                          <div class="channelLogo" style="width: 10px; height: 10px; padding: 5px 4px 5px 6px; float: left;"><img src="{{$.Props.SiteURL}}/static/images/channel_icon.png" width="10px" height="10px"></div>
+                                          <div class="channelLogo" style="width: 10px; height: 10px; padding: 5px 4px 5px 6px; float: inset-inline-start;"><img src="{{$.Props.SiteURL}}/static/images/channel_icon.png" width="10px" height="10px"></div>
                                           {{end}}
                                           <div class="channelName" style="font-family: Open Sans, sans-serif; font-weight: 600; font-size: 10px; line-height: 16px; letter-spacing: 0.01em; text-transform: uppercase; color: rgba(63, 67, 80, 0.64); padding: 2px 6px 2px 0px;">
                                             {{if .OtherChannelMembersCount}}
-                                            <span class="gmChannelCount" style="background-color: rgba(63, 67, 80, 0.2); padding: 0 5px; border-radius: 2px; margin-right: 2px;">{{.OtherChannelMembersCount}}</span>
+                                            <span class="gmChannelCount" style="background-color: rgba(63, 67, 80, 0.2); padding: 0 5px; border-radius: 2px; margin-inline-end: 2px;">{{.OtherChannelMembersCount}}</span>
                                             {{end}}
                                             {{.ChannelName}}
                                           </div>
@@ -658,7 +658,7 @@
                                   </tr>
                                   <tr>
                                     <td align="center" class="senderMessage" style="font-size:0px;padding:0px;word-break:break-word;">
-                                      <div style="font-family: Open Sans, sans-serif; text-align: left; font-size: 14px; line-height: 20px; color: #3F4350; padding: 0px;">{{.Message}}</div>
+                                      <div style="font-family: Open Sans, sans-serif; text-align: start; font-size: 14px; line-height: 20px; color: #3F4350; padding: 0px;">{{.Message}}</div>
                                     </td>
                                   </tr>
                                 </tbody>
@@ -669,17 +669,17 @@
                             <div class="messageAttachments" style="margin-top: 22px;">
                               {{range .MessageAttachments}}
                               <div class="messageAttachment" style="vertical-align: top; font-family: Open Sans, sans-serif;" width="100%">
-                                <div class="pretext" style="text-align: left; font-size: 14px; line-height: 20px; color: #3F4350; padding: 0px; font-family: Open Sans, sans-serif;">
+                                <div class="pretext" style="text-align: start; font-size: 14px; line-height: 20px; color: #3F4350; padding: 0px; font-family: Open Sans, sans-serif;">
                                   {{.Pretext}}
                                 </div>
-                                <div class="messageAttachmentContent" style="border: 1px solid rgba(63, 67, 80, 0.16); margin-bottom: 20px; border-radius: 0 4px 4px 0; border-left: 4px solid {{.Color}}; padding: 12px; font-family: Open Sans, sans-serif;">
-                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="text-align: left; line-height: 20px; color: #3F4350; vertical-align: top; font-size: 14px; font-family: Open Sans, sans-serif;" width="100%" valign="top" align="left">
+                                <div class="messageAttachmentContent" style="border: 1px solid rgba(63, 67, 80, 0.16); margin-bottom: 20px; border-radius: 0 4px 4px 0; border-inline-start: 4px solid {{.Color}}; padding: 12px; font-family: Open Sans, sans-serif;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="text-align: start; line-height: 20px; color: #3F4350; vertical-align: top; font-size: 14px; font-family: Open Sans, sans-serif;" width="100%" valign="top" align="left">
                                     <tbody style="font-family: Open Sans, sans-serif;">
                                       {{if or .AuthorIcon .AuthorName}}
                                       <tr style="font-family: Open Sans, sans-serif;">
                                         <td style="font-family: Open Sans, sans-serif;">
                                           {{if .AuthorLink}}<a href="{{.AuthorLink}}" style="color: #1C58D9; font-family: Open Sans, sans-serif; text-decoration: none; background-color: unset; border: none; padding: unset;">{{end}}
-                                            {{if .AuthorIcon}}<img class="attachment__author-icon" alt="attachment author icon" src="{{.AuthorIcon}}" style="width: 14px; height: 14px; margin-right: 5px; border-radius: 50px; vertical-align: middle; font-family: Open Sans, sans-serif;" width="14" height="14">{{end}}
+                                            {{if .AuthorIcon}}<img class="attachment__author-icon" alt="attachment author icon" src="{{.AuthorIcon}}" style="width: 14px; height: 14px; margin-inline-end: 5px; border-radius: 50px; vertical-align: middle; font-family: Open Sans, sans-serif;" width="14" height="14">{{end}}
                                             {{if .AuthorName}}<span class="attachment__author-name" style="opacity: 0.6; font-family: Open Sans, sans-serif;">{{.AuthorName}}</span>{{end}}
                                             {{if .AuthorLink}}</a>{{end}}
                                         </td>
@@ -699,7 +699,7 @@
                                     </tbody>
                                   </table>
                                   <div class="attachment__wrapper" style="width: 100%; display: flex; flex-direction: row; gap: 12px; font-family: Open Sans, sans-serif;">
-                                    <div class="attachment__body" style="text-align: left; font-size: 14px; line-height: 20px; color: #3F4350; flex: 1; font-family: Open Sans, sans-serif;">
+                                    <div class="attachment__body" style="text-align: start; font-size: 14px; line-height: 20px; color: #3F4350; flex: 1; font-family: Open Sans, sans-serif;">
                                       <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align: top; font-size: 14px; color: #3F4350; font-family: Open Sans, sans-serif;" width="100%" valign="top">
                                         <tbody style="font-family: Open Sans, sans-serif;">
                                           <tr style="font-family: Open Sans, sans-serif;">
@@ -737,7 +737,7 @@
                                     {{end}}
                                   </div>
                                   {{if .Footer}}
-                                  <table class="attachment__footer-container" border="0" cellpadding="0" cellspacing="0" role="presentation" style="text-align: left; line-height: 20px; color: #a3a3a3; vertical-align: top; font-size: 14px; font-family: Open Sans, sans-serif;" width="100%" valign="top" align="left">
+                                  <table class="attachment__footer-container" border="0" cellpadding="0" cellspacing="0" role="presentation" style="text-align: start; line-height: 20px; color: #a3a3a3; vertical-align: top; font-size: 14px; font-family: Open Sans, sans-serif;" width="100%" valign="top" align="left">
                                     <tbody style="font-family: Open Sans, sans-serif;">
                                       <tr style="font-family: Open Sans, sans-serif;">
                                         <td style="font-family: Open Sans, sans-serif;">

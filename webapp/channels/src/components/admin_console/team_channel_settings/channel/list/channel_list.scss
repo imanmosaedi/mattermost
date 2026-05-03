@@ -2,13 +2,13 @@
     .DataGrid {
         .DataGrid_row {
             min-height: 40px;
-            padding-left: 16px;
+            padding-inline-start: 16px;
             cursor: pointer;
         }
 
         .DataGrid_cell {
             .TeamList_editRow {
-                padding-right: 20px;
+                padding-inline-end: 20px;
             }
 
             .TeamList_channelDisplayName {
@@ -21,7 +21,7 @@
                 display: inline-flex;
                 width: 16px;
                 justify-content: center;
-                margin-right: 10px;
+                margin-inline-end: 10px;
                 font-size: 120%;
                 opacity: 0.8;
             }

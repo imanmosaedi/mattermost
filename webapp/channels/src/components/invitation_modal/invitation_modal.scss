@@ -21,11 +21,11 @@
     }
 
     &__header {
-        padding-left: 0 !important;
+        padding-inline-start: 0 !important;
     }
 
     &__footer {
-        padding-right: 0 !important;
+        padding-inline-end: 0 !important;
     }
 
     @media screen and (max-width: 768px) {

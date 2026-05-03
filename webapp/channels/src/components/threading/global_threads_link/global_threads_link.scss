@@ -11,8 +11,8 @@
 
         .icon {
             padding: 3px;
-            margin-right: 7px;
-            margin-left: -1px;
+            margin-inline-end: 7px;
+            margin-inline-start: -1px;
 
             svg {
                 fill: rgba(var(--sidebar-text-rgb), 0.64);
@@ -27,7 +27,7 @@
         }
 
         &:hover {
-            padding-right: 16px;
+            padding-inline-end: 16px;
 
             .badge {
                 position: initial;
@@ -44,7 +44,7 @@
 
     .icon {
         width: auto;
-        padding-left: 1px;
+        padding-inline-start: 1px;
         margin-top: 1px;
 
         svg {

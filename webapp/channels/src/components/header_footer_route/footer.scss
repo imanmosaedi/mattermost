@@ -23,12 +23,12 @@
         line-height: 16px;
 
         &:not(:last-child) {
-            margin-right: 24px;
+            margin-inline-end: 24px;
         }
     }
 
     .footer-copyright {
-        margin-right: 24px;
+        margin-inline-end: 24px;
         color: rgba(var(--center-channel-color-rgb), 0.75);
         font-size: 11px;
         line-height: 16px;

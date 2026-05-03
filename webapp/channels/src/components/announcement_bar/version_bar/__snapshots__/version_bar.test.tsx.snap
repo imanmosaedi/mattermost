@@ -13,7 +13,7 @@ exports[`components/VersionBar should match snapshot - bar rendered after build 
       <span>
         A new version of Mattermost is available.
         <a
-          style="margin-left: 0.5rem;"
+          style="margin-inline-start: 0.5rem;"
         >
           Refresh the app now
         </a>

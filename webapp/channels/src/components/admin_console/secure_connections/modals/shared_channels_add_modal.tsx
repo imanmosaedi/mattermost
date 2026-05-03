@@ -242,8 +242,8 @@ const ChannelLabelWrapper = styled.span`
 
     svg {
         vertical-align: middle;
-        margin-left: 8px;
-        margin-right: 6px;
+        margin-inline-start: 8px;
+        margin-inline-end: 6px;
         width: 16px;
     }
 
@@ -280,14 +280,14 @@ const ChannelIcon = ({channel, size = 16, ...otherProps}: {channel: Channel} & I
 
 const SecondaryTextRight = styled.span`
     color: rgba(var(--center-channel-color-rgb), 0.64);
-    padding-left: 5px;
+    padding-inline-start: 5px;
 
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
 
     &:last-child {
-        margin-left: auto;
+        margin-inline-start: auto;
     }
 `;
 

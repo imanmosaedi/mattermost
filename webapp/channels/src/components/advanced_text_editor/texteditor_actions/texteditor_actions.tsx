@@ -20,9 +20,9 @@ const TexteditorActions = styled.span<TexteditorActionsProps>`
     /* define the position based on the placement prop */
     ${({placement, isScrollbarRendered}) => (placement === 'top' ? css`
         top: 7px;
-        right: ${isScrollbarRendered ? 15 : 7}px;
+        inset-inline-end: ${isScrollbarRendered ? 15 : 7}px;
     ` : css`
-        right: 7px;
+        inset-inline-end: 7px;
         bottom: 7px;
     `)}
 

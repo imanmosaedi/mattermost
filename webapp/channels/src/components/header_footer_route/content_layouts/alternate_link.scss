@@ -4,7 +4,7 @@
 @use 'utils/mixins';
 
 .alternate-link {
-    margin-left: auto;
+    margin-inline-start: auto;
 
     &__message {
         color: var(--center-channel-color-rgb);
@@ -13,7 +13,7 @@
     }
 
     &__link {
-        padding-left: 4px;
+        padding-inline-start: 4px;
 
         @include mixins.link;
     }

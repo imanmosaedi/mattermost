@@ -3,7 +3,7 @@
 exports[`components/delete_channel_modal should match snapshot for delete_channel_modal 1`] = `
 <body
   class="modal-open"
-  style="padding-right: 0px;"
+  style="padding-inline-end: 0px;"
 >
   <div
     aria-hidden="true"
@@ -19,7 +19,7 @@ exports[`components/delete_channel_modal should match snapshot for delete_channe
       class="fade in modal"
       id="deleteChannelModal"
       role="dialog"
-      style="display: block; padding-right: 0px;"
+      style="display: block; padding-inline-end: 0px;"
       tabindex="-1"
     >
       <div

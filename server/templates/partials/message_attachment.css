@@ -11,7 +11,7 @@
 
 .messageAttachmentContent > table, .attachment__body {
     font-family: Open Sans, sans-serif;
-    text-align: left;
+    text-align: start;
     font-size: 14px;
     line-height: 20px;
     color: #3F4350;
@@ -20,7 +20,7 @@
 .messageAttachmentContent .attachment__author-icon {
     width: 14px;
     height: 14px;
-    margin-right: 5px;
+    margin-inline-end: 5px;
     border-radius: 50px;
     vertical-align: middle;
 }

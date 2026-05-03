@@ -370,7 +370,7 @@ exports[`admin_console/team_channel_settings/channel/ChannelList should match sn
           </div>
           <div
             class="DataGrid_cell"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <span
               class="group-actions TeamList_editRow"
@@ -791,7 +791,7 @@ exports[`admin_console/team_channel_settings/channel/ChannelList should match sn
           </div>
           <div
             class="DataGrid_cell"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <span
               class="group-actions TeamList_editRow"
@@ -870,7 +870,7 @@ exports[`admin_console/team_channel_settings/channel/ChannelList should match sn
           </div>
           <div
             class="DataGrid_cell"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <span
               class="group-actions TeamList_editRow"
@@ -949,7 +949,7 @@ exports[`admin_console/team_channel_settings/channel/ChannelList should match sn
           </div>
           <div
             class="DataGrid_cell"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <span
               class="group-actions TeamList_editRow"
@@ -1028,7 +1028,7 @@ exports[`admin_console/team_channel_settings/channel/ChannelList should match sn
           </div>
           <div
             class="DataGrid_cell"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <span
               class="group-actions TeamList_editRow"
@@ -1107,7 +1107,7 @@ exports[`admin_console/team_channel_settings/channel/ChannelList should match sn
           </div>
           <div
             class="DataGrid_cell"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <span
               class="group-actions TeamList_editRow"
@@ -1186,7 +1186,7 @@ exports[`admin_console/team_channel_settings/channel/ChannelList should match sn
           </div>
           <div
             class="DataGrid_cell"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <span
               class="group-actions TeamList_editRow"
@@ -1265,7 +1265,7 @@ exports[`admin_console/team_channel_settings/channel/ChannelList should match sn
           </div>
           <div
             class="DataGrid_cell"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <span
               class="group-actions TeamList_editRow"
@@ -1344,7 +1344,7 @@ exports[`admin_console/team_channel_settings/channel/ChannelList should match sn
           </div>
           <div
             class="DataGrid_cell"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <span
               class="group-actions TeamList_editRow"
@@ -1423,7 +1423,7 @@ exports[`admin_console/team_channel_settings/channel/ChannelList should match sn
           </div>
           <div
             class="DataGrid_cell"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <span
               class="group-actions TeamList_editRow"
@@ -1502,7 +1502,7 @@ exports[`admin_console/team_channel_settings/channel/ChannelList should match sn
           </div>
           <div
             class="DataGrid_cell"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <span
               class="group-actions TeamList_editRow"
@@ -1926,7 +1926,7 @@ exports[`admin_console/team_channel_settings/channel/ChannelList should match sn
           </div>
           <div
             class="DataGrid_cell"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <span
               class="group-actions TeamList_editRow"
@@ -2339,7 +2339,7 @@ exports[`admin_console/team_channel_settings/channel/ChannelList should render c
           </div>
           <div
             class="DataGrid_cell"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <span
               class="group-actions TeamList_editRow"
@@ -2752,7 +2752,7 @@ exports[`admin_console/team_channel_settings/channel/ChannelList should render c
           </div>
           <div
             class="DataGrid_cell"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <span
               class="group-actions TeamList_editRow"

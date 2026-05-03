@@ -14,14 +14,14 @@
     &.mode_short {
         padding: 16px 19px;
         border: 1px solid rgba(var(--center-channel-color-rgb), 0.12);
-        border-left: 3px solid var(--error-text, #5D89EA);
+        border-inline-start: 3px solid var(--error-text, #5D89EA);
     }
 }
 
 // This is needed to make the DataSpillageReport component full width in the RHS.
 #rhsContainer  .post__body:has(.DataSpillageReport) {
     position: relative;
-    left: -44px;
+    inset-inline-start: -44px;
     width: calc(100% + 44px) !important;
     margin-top: 25px;
 }

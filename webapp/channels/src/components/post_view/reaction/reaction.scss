@@ -159,14 +159,14 @@
         &--reacted {
             position: absolute;
             top: 100%;
-            left: 0;
+            inset-inline-start: 0;
             display: none;
         }
 
         &--unreacted {
             position: absolute;
             top: 0%;
-            left: 0;
+            inset-inline-start: 0;
             display: none;
         }
     }

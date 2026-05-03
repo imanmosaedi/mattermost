@@ -93,7 +93,7 @@
 
         &::before {
             top: 0;
-            left: 2px;
+            inset-inline-start: 2px;
             font-size: 15px;
         }
     }

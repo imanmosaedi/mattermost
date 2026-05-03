@@ -17,7 +17,7 @@
     .badge {
         position: absolute;
         top: 8px;
-        right: 10px;
+        inset-inline-end: 10px;
         background: rgba(var(--center-channel-color-rgb), 0.48);
         color: var(--center-channel-bg);
         font-size: 10px;
@@ -36,7 +36,7 @@
     .shared-channel-icon {
         width: 16px;
         height: 16px;
-        margin-left: 8px;
+        margin-inline-start: 8px;
         color: rgba(var(--center-channel-color-rgb), 0.64);
         font-size: 16px;
         line-height: 16px;
@@ -68,7 +68,7 @@
     max-width: 100%;
     max-height: 292px;
     padding-bottom: 12px;
-    padding-left: 0;
+    padding-inline-start: 0;
     border: 1px solid rgba(var(--center-channel-color-rgb), 0.16);
     border-radius: 4px;
     background-color: functions.v(center-channel-bg);
@@ -123,7 +123,7 @@
 
 .slash-command__info {
     overflow: hidden;
-    margin-left: 12px;
+    margin-inline-start: 12px;
     line-height: 1;
 }
 
@@ -176,7 +176,7 @@
     &::before {
         position: absolute;
         top: -7px;
-        left: 0;
+        inset-inline-start: 0;
         width: 100%;
         height: 1px;
         background: rgba(var(--center-channel-color-rgb), 0.08);
@@ -230,7 +230,7 @@
             white-space: nowrap;
 
             .suggestion-list__desc {
-                margin-left: 8px;
+                margin-inline-start: 8px;
                 color: rgba(var(--center-channel-color-rgb), 0.75);
             }
         }
@@ -279,7 +279,7 @@
 
         .suggestion-list_unread-mentions {
             flex: 0 0 auto;
-            margin-left: auto;
+            margin-inline-start: auto;
         }
 
         .suggestion-list__team-name {
@@ -287,7 +287,7 @@
             overflow: hidden;
             max-width: 40%;
             flex: 0 0 auto;
-            text-align: right;
+            text-align: end;
             text-overflow: ellipsis;
             white-space: nowrap;
         }
@@ -297,7 +297,7 @@
             display: flex;
             width: 20px;
             height: 16px;
-            margin-left: 8px;
+            margin-inline-start: 8px;
         }
     }
 
@@ -354,7 +354,7 @@
     .shared-user-icon {
         width: 16px;
         height: 16px;
-        margin-left: 8px;
+        margin-inline-start: 8px;
         color: rgba(var(--center-channel-color-rgb), 0.64);
         font-size: 16px;
         line-height: 16px;
@@ -366,25 +366,25 @@
 
     .Avatar {
         display: block;
-        margin-right: 12px;
+        margin-inline-end: 12px;
         text-align: center;
     }
 
     .status-wrapper {
         overflow: visible;
         height: 24px;
-        margin-right: 12px;
+        margin-inline-end: 12px;
 
         .Avatar.Avatar-sm {
             margin: 0;
         }
 
         .status {
-            right: -4px;
+            inset-inline-end: -4px;
             bottom: -4px;
 
             svg {
-                left: 2px;
+                inset-inline-start: 2px;
                 max-width: 11px;
             }
         }

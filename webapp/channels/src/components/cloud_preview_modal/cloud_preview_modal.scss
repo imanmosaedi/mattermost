@@ -2,7 +2,7 @@
     position: fixed;
     z-index: 999;
     bottom: 16px;
-    left: 16px;
+    inset-inline-start: 16px;
 
     &__button {
         display: flex;

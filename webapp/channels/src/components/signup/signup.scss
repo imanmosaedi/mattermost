@@ -55,7 +55,7 @@
         }
 
         .signup-body-message-subtitle {
-            padding-right: 170px;
+            padding-inline-end: 170px;
             color: rgba(var(--center-channel-color-rgb), 0.75);
             font-size: 18px;
             font-weight: 400;
@@ -69,7 +69,7 @@
             align-self: flex-start;
 
             .signup-body-message-title {
-                padding-right: 60px;
+                padding-inline-end: 60px;
                 color: var(--title-color-indigo-500);
                 font-family: Metropolis;
                 font-size: 80px;
@@ -86,7 +86,7 @@
                     position: absolute;
                     z-index: 2;
                     bottom: -220px;
-                    left: -267px;
+                    inset-inline-start: -267px;
                     display: block;
                 }
             }
@@ -104,7 +104,7 @@
                 }
 
                 .signup-body-message-subtitle {
-                    padding-right: 0;
+                    padding-inline-end: 0;
                 }
 
                 .signup-body-custom-branding-image {
@@ -125,7 +125,7 @@
             box-sizing: border-box;
             border: 1px solid rgba(var(--center-channel-color-rgb), 0.08);
             border-radius: 8px;
-            margin-left: 60px;
+            margin-inline-start: 60px;
             background-color: var(--center-channel-bg);
             box-shadow: var(--elevation-5);
 
@@ -260,7 +260,7 @@
         }
 
         .signup-body-message .signup-body-message-title {
-            padding-right: 130px;
+            padding-inline-end: 130px;
             margin-top: 48px;
         }
     }
@@ -269,7 +269,7 @@
 @media screen and (max-width: 1199px) {
     .signup-body {
         .signup-body-alternate-link {
-            padding-right: 24px;
+            padding-inline-end: 24px;
         }
 
         .signup-body-content {
@@ -286,7 +286,7 @@
                 padding: 24px;
 
                 .signup-body-message-title {
-                    padding-right: 0;
+                    padding-inline-end: 0;
                     font-size: 64px;
                     line-height: 76px;
                 }
@@ -347,7 +347,7 @@
                         .signup-body-message-subtitle {
                             display: block;
                             margin: 0 0 32px;
-                            text-align: left;
+                            text-align: start;
                         }
                     }
                 }
@@ -374,7 +374,7 @@
                 padding: 24px;
 
                 .signup-body-message-title {
-                    padding-right: 0;
+                    padding-inline-end: 0;
                     font-size: 45px;
                     line-height: 56px;
                 }

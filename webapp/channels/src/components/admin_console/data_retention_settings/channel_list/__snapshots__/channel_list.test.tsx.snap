@@ -290,7 +290,7 @@ exports[`components/admin_console/data_retention_settings/channel_list should ma
           </div>
           <div
             class="DataGrid_cell"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <a
               class="group-actions TeamList_editText"
@@ -628,7 +628,7 @@ exports[`components/admin_console/data_retention_settings/channel_list should ma
           </div>
           <div
             class="DataGrid_cell"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <a
               class="group-actions TeamList_editText"
@@ -689,7 +689,7 @@ exports[`components/admin_console/data_retention_settings/channel_list should ma
           </div>
           <div
             class="DataGrid_cell"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <a
               class="group-actions TeamList_editText"
@@ -750,7 +750,7 @@ exports[`components/admin_console/data_retention_settings/channel_list should ma
           </div>
           <div
             class="DataGrid_cell"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <a
               class="group-actions TeamList_editText"
@@ -811,7 +811,7 @@ exports[`components/admin_console/data_retention_settings/channel_list should ma
           </div>
           <div
             class="DataGrid_cell"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <a
               class="group-actions TeamList_editText"
@@ -872,7 +872,7 @@ exports[`components/admin_console/data_retention_settings/channel_list should ma
           </div>
           <div
             class="DataGrid_cell"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <a
               class="group-actions TeamList_editText"
@@ -933,7 +933,7 @@ exports[`components/admin_console/data_retention_settings/channel_list should ma
           </div>
           <div
             class="DataGrid_cell"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <a
               class="group-actions TeamList_editText"
@@ -994,7 +994,7 @@ exports[`components/admin_console/data_retention_settings/channel_list should ma
           </div>
           <div
             class="DataGrid_cell"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <a
               class="group-actions TeamList_editText"
@@ -1055,7 +1055,7 @@ exports[`components/admin_console/data_retention_settings/channel_list should ma
           </div>
           <div
             class="DataGrid_cell"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <a
               class="group-actions TeamList_editText"
@@ -1116,7 +1116,7 @@ exports[`components/admin_console/data_retention_settings/channel_list should ma
           </div>
           <div
             class="DataGrid_cell"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <a
               class="group-actions TeamList_editText"
@@ -1177,7 +1177,7 @@ exports[`components/admin_console/data_retention_settings/channel_list should ma
           </div>
           <div
             class="DataGrid_cell"
-            style="text-align: right;"
+            style="text-align: end;"
           >
             <a
               class="group-actions TeamList_editText"

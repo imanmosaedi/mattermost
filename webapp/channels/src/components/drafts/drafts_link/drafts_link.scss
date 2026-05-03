@@ -26,7 +26,7 @@
         }
 
         &:hover {
-            padding-right: 16px;
+            padding-inline-end: 16px;
 
             .badge {
                 position: initial;
@@ -43,7 +43,7 @@
             }
 
             &.scheduledPostBadge {
-                margin-left: 8px;
+                margin-inline-start: 8px;
                 padding-block: 2px;
 
                 &.urgent {
@@ -72,7 +72,7 @@
 
     .icon {
         width: auto;
-        padding-left: 1px;
+        padding-inline-start: 1px;
         margin-top: 1px;
 
         svg {

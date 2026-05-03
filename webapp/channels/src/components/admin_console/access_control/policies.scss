@@ -11,11 +11,11 @@
         }
 
         &_searchBar {
-            margin-left: 0 !important;
+            margin-inline-start: 0 !important;
         }
 
         &_header {
-            padding-left: 12px;
+            padding-inline-start: 12px;
             font-size: 1em;
             font-weight: 600;
             
@@ -28,7 +28,7 @@
                 
                 &[data-field="resources"] {
                     display: flex;
-                    align-items: left;
+                    align-items: inset-inline-start;
                     justify-content: flex-start;
                 }
             }
@@ -38,13 +38,13 @@
             .DataGrid_row {
                 display: flex;
                 min-height: 40px;
-                padding-left: 12px !important;
-                border-left: none;
+                padding-inline-start: 12px !important;
+                border-inline-start: none;
                 background-color: rgba(var(--sys-white-rgb), 0.04);
                 cursor: pointer;
 
                 &:hover {
-                    border-left: none;
+                    border-inline-start: none;
                     background-color: rgba(0, 0, 0, 0.05);
                 }
 
@@ -56,14 +56,14 @@
                 .policy-resources {
                     width: 100%;
                     padding: 10px 0;
-                    text-align: left;
+                    text-align: start;
                 }
 
                 .policy-actions {
                     display: flex;
                     width: 100%;
                     justify-content: flex-end;
-                    padding-right: 8px;
+                    padding-inline-end: 8px;
                 }
 
                 .policy-menu-button {
@@ -193,7 +193,7 @@
 
 .actions-column {
     justify-content: flex-end !important;
-    text-align: right;
+    text-align: end;
 }
 
 .PolicyList__no-results {

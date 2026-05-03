@@ -39,7 +39,7 @@ const MenuItemButton = styled.button`
 
     background: none;
     border: none;
-    text-align: left;
+    text-align: start;
     cursor: pointer;
 
     &:hover {
@@ -52,7 +52,7 @@ const Icon = styled.div`
 `;
 
 const MenuItemText = styled.div`
-    padding-left: 8px;
+    padding-inline-start: 8px;
     flex: 1;
 `;
 

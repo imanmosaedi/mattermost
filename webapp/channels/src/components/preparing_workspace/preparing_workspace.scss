@@ -9,13 +9,13 @@
         position: fixed;
         z-index: 1;
         top: 32px;
-        right: 32px;
+        inset-inline-end: 32px;
     }
 
     &__previous {
         display: inline-flex;
         align-items: center;
-        padding-right: 2px;
+        padding-inline-end: 2px;
         margin-bottom: 25px;
         color: var(--button-bg);
         cursor: pointer;
@@ -23,7 +23,7 @@
         font-weight: 600;
 
         :first-child {
-            margin-right: 5px;
+            margin-inline-end: 5px;
         }
     }
 
@@ -51,14 +51,14 @@
     &__submit-error-message {
         flex-grow: 1;
         flex-shrink: 0;
-        padding-left: 9px;
+        padding-inline-start: 9px;
     }
 
     .tertiary-button {
         @include utils-mixins.tertiary-button;
         @include utils-mixins.button-medium;
 
-        margin-left: 16px;
+        margin-inline-start: 16px;
     }
 
     .primary-button {
@@ -90,7 +90,7 @@
     &__invite-members-illustration {
         position: absolute;
         top: 25%;
-        right: -697px;
+        inset-inline-end: -697px;
         animation-duration: 0.3s;
         animation-fill-mode: forwards;
         animation-timing-function: ease-in-out;
@@ -116,7 +116,7 @@
 
     // centering
     margin: 0 auto;
-    margin-left: 300px;
+    margin-inline-start: 300px;
 }
 
 @media screen and (max-width: 768px) {

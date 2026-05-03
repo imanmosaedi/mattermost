@@ -38,7 +38,7 @@ export const PresetDropdownWrapper = styled.div`
     }
 
     .DropdownInput__indicatorsContainer {
-        margin-right: 0;
+        margin-inline-end: 0;
     }
 
     .DropdownInput__indicatorsContainer .icon-chevron-down {
@@ -68,7 +68,7 @@ export const ClassificationLevelsSectionContent = styled(SectionContent).attrs({
 
 export const AddLevelButtonRow = styled.div`
     margin-top: 16px;
-    margin-left: 16px;
+    margin-inline-start: 16px;
 `;
 
 export const AddLevelButton = styled.button.attrs({
@@ -143,7 +143,7 @@ export const TableWrapper = styled.div`
         }
 
         .dragHandle {
-            left: 12px;
+            inset-inline-start: 12px;
         }
 
         tfoot {
@@ -189,7 +189,7 @@ export const RankCell = styled.div`
 `;
 
 export const ActionsCell = styled.div`
-    text-align: right;
+    text-align: end;
 `;
 
 export const DeleteButton = styled.button.attrs({className: 'btn btn-sm btn-transparent'})`

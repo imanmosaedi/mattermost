@@ -5,7 +5,7 @@
     height: 122px;
     align-items: center;
     justify-content: center;
-    padding-left: 10px;
+    padding-inline-start: 10px;
     border: 2px solid rgba(var(--center-channel-color-rgb), 0.16);
     border-radius: 4px;
     margin: 0 24px 24px;
@@ -39,7 +39,7 @@
         .AutoHeight {
             position: absolute;
             bottom: 0;
-            left: 0;
+            inset-inline-start: 0;
         }
     }
 
@@ -49,14 +49,14 @@
         .AutoHeight {
             position: absolute;
             bottom: 0;
-            left: 0;
+            inset-inline-start: 0;
         }
     }
 
     .custom-textarea {
         // fix for a miscalculation due to the heavily overwritten custom-textarea class
         height: 0;
-        padding-right: calc(16px + var(--right-padding-for-scrollbar) + var(--right-padding-for-preview-button));
+        padding-inline-end: calc(16px + var(--right-padding-for-scrollbar) + var(--right-padding-for-preview-button));
         box-shadow: none;
 
         &:focus {
@@ -65,7 +65,7 @@
 
         &.textbox-preview-area {
             height: auto;
-            padding-right: 20px;
+            padding-inline-end: 20px;
             white-space: normal;
 
             blockquote:before {
@@ -140,7 +140,7 @@
         &+input {
             position: absolute;
             top: 0;
-            right: 0;
+            inset-inline-end: 0;
             width: 100%;
             height: 100%;
             margin: 0;
@@ -181,11 +181,11 @@
         font-size: 12px;
 
         .help__text {
-            text-align: right;
+            text-align: end;
 
             a,
             button {
-                margin-left: 10px;
+                margin-inline-start: 10px;
             }
         }
 
@@ -200,7 +200,7 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        padding-left: 16px;
+        padding-inline-start: 16px;
         gap: 8px;
     }
 
@@ -213,16 +213,16 @@
 
             &__body {
                 border-radius: 0;
-                border-right: none;
-                border-left: none;
+                border-inline-end: none;
+                border-inline-start: none;
 
                 &:focus-visible,
                 &:focus-within,
                 &:focus-visible:hover,
                 &:focus-within:hover,
                 &:hover {
-                    border-right: none;
-                    border-left: none;
+                    border-inline-end: none;
+                    border-inline-start: none;
                 }
             }
 

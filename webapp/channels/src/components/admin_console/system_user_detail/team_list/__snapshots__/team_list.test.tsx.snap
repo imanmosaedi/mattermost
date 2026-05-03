@@ -30,7 +30,7 @@ exports[`admin_console/system_user_detail/team_list/TeamList should match snapsh
     >
       <div
         class="AbstractList__header-label"
-        style="flex-grow: 1; min-width: 284px; margin-left: 16px;"
+        style="flex-grow: 1; min-width: 284px; margin-inline-start: 16px;"
       >
         Name
       </div>

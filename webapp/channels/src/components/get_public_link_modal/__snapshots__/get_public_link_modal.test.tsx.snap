@@ -3,7 +3,7 @@
 exports[`components/GetPublicLinkModal should match snapshot when link is empty 1`] = `
 <body
   class="modal-open"
-  style="padding-right: 0px;"
+  style="padding-inline-end: 0px;"
 >
   <div
     aria-hidden="true"
@@ -18,7 +18,7 @@ exports[`components/GetPublicLinkModal should match snapshot when link is empty 
       aria-labelledby="getLinkModalLabel"
       class="fade in modal"
       role="dialog"
-      style="display: block; padding-right: 0px;"
+      style="display: block; padding-inline-end: 0px;"
       tabindex="-1"
     >
       <div
@@ -101,7 +101,7 @@ exports[`components/GetPublicLinkModal should match snapshot when link is empty 
 exports[`components/GetPublicLinkModal should match snapshot when link is not empty 1`] = `
 <body
   class="modal-open"
-  style="padding-right: 0px;"
+  style="padding-inline-end: 0px;"
 >
   <div
     aria-hidden="true"
@@ -116,7 +116,7 @@ exports[`components/GetPublicLinkModal should match snapshot when link is not em
       aria-labelledby="getLinkModalLabel"
       class="fade in modal"
       role="dialog"
-      style="display: block; padding-right: 0px;"
+      style="display: block; padding-inline-end: 0px;"
       tabindex="-1"
     >
       <div

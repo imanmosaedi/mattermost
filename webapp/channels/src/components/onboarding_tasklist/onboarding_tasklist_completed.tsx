@@ -89,7 +89,7 @@ const CompletedWrapper = styled.div`
     }
 
     .disclaimer {
-        text-align: left;
+        text-align: start;
         margin-top: auto;
         font-size: 11px;
     }

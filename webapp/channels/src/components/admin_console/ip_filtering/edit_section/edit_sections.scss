@@ -248,7 +248,7 @@
                     flex-direction: column;
                     align-items: flex-start;
                     justify-content: flex-start;
-                    padding-right: 24px;
+                    padding-inline-end: 24px;
                     gap: 8px;
 
                     .Title {
@@ -275,7 +275,7 @@
                         display: inline;
                         height: 16px;
                         padding: 0;
-                        padding-left: 2px;
+                        padding-inline-start: 2px;
                         background: none;
                         color: var(--button-bg, rgba(28, 88, 217, 1));
                         font-size: 14px;

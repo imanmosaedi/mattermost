@@ -46,7 +46,7 @@
         position: relative;
         z-index: 2;
         top: 0;
-        left: 0;
+        inset-inline-start: 0;
 
         &:focus {
             border-color: rgba(functions.v(center-channel-color-rgb), 0.4);
@@ -72,7 +72,7 @@
     }
 
     .textbox-preview-link {
-        margin-right: 8px;
+        margin-inline-end: 8px;
     }
 }
 
@@ -126,7 +126,7 @@
     }
 
     .textbox-preview-link {
-        margin-left: 15px;
+        margin-inline-start: 15px;
         cursor: pointer;
         font-size: 13px;
     }
@@ -194,7 +194,7 @@
         .fa {
             position: relative;
             top: 1px;
-            margin-right: 0.5rem;
+            margin-inline-end: 0.5rem;
             font-size: 1.2em;
             font-weight: bold;
         }
@@ -203,7 +203,7 @@
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            margin-left: 5px;
+            margin-inline-start: 5px;
         }
 
         div {
@@ -240,7 +240,7 @@
     position: absolute;
     z-index: 50;
     top: 8px;
-    left: 0;
+    inset-inline-start: 0;
     display: none;
     width: 100%;
     opacity: 0;
@@ -277,7 +277,7 @@
     position: absolute;
     z-index: 50;
     bottom: 0;
-    left: 9px;
+    inset-inline-start: 9px;
     display: none;
     width: 40px;
     height: 40px;
@@ -377,7 +377,7 @@
 .post-body__actions {
     position: absolute;
     top: 0;
-    right: 0;
+    inset-inline-end: 0;
     display: flex;
     margin: 0 1px 0 0;
 
@@ -415,7 +415,7 @@
         & + input {
             position: absolute;
             top: 0;
-            right: 0;
+            inset-inline-end: 0;
             width: 100%;
             height: 100%;
             margin: 0;
@@ -499,11 +499,11 @@
     font-size: 13px;
 
     .help__text {
-        text-align: right;
+        text-align: end;
 
         a,
         button {
-            margin-left: 10px;
+            margin-inline-start: 10px;
         }
     }
 
@@ -525,7 +525,7 @@
     .post-list__content {
         overflow: hidden;
         height: 100%;
-        margin-right: 5px;
+        margin-inline-end: 5px;
 
         .dropdown-menu {
             &.bottom {
@@ -578,7 +578,7 @@
                 }
 
                 .post-body__actions {
-                    right: 10px;
+                    inset-inline-end: 10px;
                 }
             }
         }
@@ -588,7 +588,7 @@
             background-color: var(--center-channel-bg);
 
             &.custom-textarea--emoji-picker {
-                padding-right: 50px;
+                padding-inline-end: 50px;
             }
         }
 
@@ -672,17 +672,17 @@
 
                 .post__header--info {
                     position: absolute;
-                    left: -5px;
+                    inset-inline-start: -5px;
 
                     .post__time {
                         position: absolute;
                         top: 4px;
-                        left: -14px;
+                        inset-inline-start: -14px;
                         display: inline-block;
                         width: 51px;
                         font-size: 0.7em;
                         line-height: 20px;
-                        text-align: right;
+                        text-align: end;
                         text-rendering: auto;
                     }
                 }
@@ -719,7 +719,7 @@
             &::before {
                 position: absolute;
                 top: 0;
-                left: 0;
+                inset-inline-start: 0;
                 width: 100%;
                 height: 100%;
                 content: "";
@@ -751,20 +751,20 @@
 
             .attachment__body__wrap {
                 .btn-close {
-                    left: -2px;
+                    inset-inline-start: -2px;
                 }
             }
         }
 
         &.post--comment {
             .post__body {
-                padding-left: 8px;
+                padding-inline-start: 8px;
             }
 
             .attachment {
                 .attachment__body__wrap {
                     .btn-close {
-                        left: -13px;
+                        inset-inline-start: -13px;
                     }
                 }
             }
@@ -789,7 +789,7 @@
                 top: 1px;
                 right: auto;
                 bottom: auto;
-                left: -2px;
+                inset-inline-start: -2px;
                 width: 13px;
                 height: 13px;
             }
@@ -810,7 +810,7 @@
 
             &::before {
                 top: 0;
-                left: 0;
+                inset-inline-start: 0;
                 font-size: 15px;
             }
         }
@@ -838,7 +838,7 @@
         }
 
         .badges-wrapper {
-            margin-right: 5px;
+            margin-inline-end: 5px;
         }
 
         .post__body {
@@ -857,7 +857,7 @@
 
             ol,
             ul {
-                padding-left: 20px;
+                padding-inline-start: 20px;
                 clear: both;
             }
 
@@ -910,8 +910,8 @@
 
                 .icon {
                     display: block;
-                    margin-right: 5px;
-                    float: left;
+                    margin-inline-end: 5px;
+                    float: inset-inline-start;
                     opacity: 0.73;
                 }
             }
@@ -937,7 +937,7 @@
                 white-space: nowrap;
 
                 i {
-                    margin-right: 5px;
+                    margin-inline-end: 5px;
                     font-size: 0.9em;
                     opacity: 0.5;
                 }
@@ -976,7 +976,7 @@
         user-select: none;
 
         > i {
-            margin-right: 2px;
+            margin-inline-end: 2px;
         }
     }
 
@@ -1008,20 +1008,20 @@
 
     &.post--comment {
         .post__body {
-            padding-left: 12px;
-            border-left: 4px solid rgba(var(--button-bg-rgb), 0.24);
+            padding-inline-start: 12px;
+            border-inline-start: 4px solid rgba(var(--button-bg-rgb), 0.24);
         }
 
         &.mention-comment {
             .post__body {
-                border-left: 4px solid var(--mention-highlight-bg);
+                border-inline-start: 4px solid var(--mention-highlight-bg);
             }
         }
 
         .attachment {
             .attachment__body__wrap {
                 .btn-close {
-                    left: -11px;
+                    inset-inline-start: -11px;
                 }
             }
         }
@@ -1096,7 +1096,7 @@
 
                     &.post--compact {
                         .post__header {
-                            float: left;
+                            float: inset-inline-start;
                         }
                     }
 
@@ -1159,8 +1159,8 @@
             width: 52px; // If the width of post__img changes, this needs to be adjusted accordingly
             align-items: center;
             justify-content: flex-end;
-            padding-right: 9px; // If the padding of post__img changes, this needs to be adjusted accordingly
-            margin-left: 5px; // if left margin of post__content changes, this needs to be adjusted accordingly
+            padding-inline-end: 9px; // If the padding of post__img changes, this needs to be adjusted accordingly
+            margin-inline-start: 5px; // if left margin of post__content changes, this needs to be adjusted accordingly
 
             .icon--post-pre-header {
                 width: 10px;
@@ -1170,7 +1170,7 @@
                 font-size: 12px;
 
                 &:nth-of-type(even) {
-                    margin-left: 9px;
+                    margin-inline-start: 9px;
                 }
 
                 &.icon-pin::before {
@@ -1227,19 +1227,19 @@
             display: flex;
             min-width: 0;
             flex: 0 auto;
-            margin-right: 8px;
+            margin-inline-end: 8px;
             font-weight: 600;
             gap: 8px;
             text-overflow: ellipsis;
 
             &.permalink--username {
-                margin-right: 6px;
+                margin-inline-end: 6px;
             }
 
             .user-popover {
                 @include mixins.clearfix;
 
-                text-align: left;
+                text-align: start;
                 text-overflow: ellipsis;
                 -moz-user-select: all; /* Firefox all */
                 vertical-align: top;
@@ -1248,14 +1248,14 @@
 
             .colon {
                 display: none;
-                margin-left: -6px;
+                margin-inline-start: -6px;
                 font-weight: 900;
             }
         }
 
         .col__remove {
             position: absolute;
-            right: 10px;
+            inset-inline-end: 10px;
         }
 
         .permalink-popover {
@@ -1290,7 +1290,7 @@
         .badges-wrapper {
             gap: 6px;
             .BurnOnReadTimerChip, .BurnOnReadBadge  {
-                margin-left: 0;
+                margin-inline-start: 0;
             }
         }
 
@@ -1299,8 +1299,8 @@
 
     .post__img {
         width: 53px; // if this changes, the width of post-pre-header__icons-container needs to be adjusted accordingly
-        padding-right: 10px; // if this changes, the padding of post-pre-header__icons-container needs to be adjusted accordingly
-        text-align: right;
+        padding-inline-end: 10px; // if this changes, the padding of post-pre-header__icons-container needs to be adjusted accordingly
+        text-align: end;
 
         .icon {
             fill: functions.v(center-channel-color);
@@ -1351,12 +1351,12 @@
         visibility: hidden;
 
         &:last-child {
-            margin-right: 0;
+            margin-inline-end: 0;
         }
 
         .dropdown-menu {
             top: 20px;
-            right: 0;
+            inset-inline-end: 0;
             left: auto;
             min-width: 130px;
             padding: 2px 0;
@@ -1373,7 +1373,7 @@
 
     .post__remove {
         position: relative;
-        right: -10px;
+        inset-inline-end: -10px;
         color: inherit;
         font-size: 20px;
         font-weight: 600;
@@ -1404,7 +1404,7 @@
         }
 
         &.post--ephemeral {
-            padding-right: 20px !important;
+            padding-inline-end: 20px !important;
         }
 
         p + p {
@@ -1444,7 +1444,7 @@
             position: absolute;
             z-index: 100;
             top: 0;
-            right: 0;
+            inset-inline-end: 0;
             padding: 5px 7px;
             background: functions.alpha-color(variables.$black, 0.7);
             color: variables.$white;
@@ -1534,7 +1534,7 @@
         position: absolute;
         z-index: 3;
         top: 8px;
-        right: 8px;
+        inset-inline-end: 8px;
         display: none;
         padding: 4px;
         border: 1px solid rgba(var(--center-channel-color-rgb), 0.16);
@@ -1588,12 +1588,12 @@
         &--small-image {
             position: absolute;
             top: -8px;
-            left: 24px;
+            inset-inline-start: 24px;
             width: 68px;
         }
 
         &--small-image-no-copy-button {
-            left: 32px;
+            inset-inline-start: 32px;
             width: 38px;
         }
 
@@ -1627,7 +1627,7 @@
     .ai-generated-indicator {
         display: inline-flex;
         align-items: center;
-        margin-left: 4px;
+        margin-inline-start: 4px;
         color: inherit;
         opacity: 0.73;
 
@@ -1638,7 +1638,7 @@
     }
 
     &.post--compact .col__name .ai-generated-indicator {
-        margin-left: 0px;
+        margin-inline-start: 0px;
     }
 
     .post__permalink {
@@ -1665,7 +1665,7 @@
         line-height: 16px;
 
         .LoadingSpinner.with-text .spinner {
-            margin-right: 3px;
+            margin-inline-end: 3px;
         }
     }
 
@@ -1710,7 +1710,7 @@
 
     .post__reply {
         display: inline-block;
-        margin-right: 6px;
+        margin-inline-end: 6px;
         visibility: hidden;
 
         svg {
@@ -1743,7 +1743,7 @@
         }
 
         .comment-count {
-            margin-left: 2px;
+            margin-inline-start: 2px;
         }
 
         .comment-icon {
@@ -1836,7 +1836,7 @@
             width: 24px;
             height: 24px;
             padding: 0;
-            text-align: left;
+            text-align: start;
 
             img.avatar-post-preview {
                 display: block;
@@ -1873,7 +1873,7 @@
             p {
                 display: inline-block;
                 width: auto;
-                margin-right: 8px;
+                margin-inline-end: 8px;
                 color: rgba(var(--center-channel-color-rgb), 0.75);
                 font-size: 12px;
                 line-height: 16px;
@@ -1898,7 +1898,7 @@
 
 .permalink-popover {
     min-width: 320px;
-    margin-left: 50px !important;
+    margin-inline-start: 50px !important;
 }
 
 .post-message {
@@ -1954,7 +1954,7 @@
         .fa {
             position: relative;
             top: 2px;
-            margin-right: 5px;
+            margin-inline-end: 5px;
             font-size: 1.4em;
             font-weight: bold;
 
@@ -2002,7 +2002,7 @@
 
                 .os--windows & {
                     position: relative;
-                    left: -4px;
+                    inset-inline-start: -4px;
                     font-size: 29px;
                 }
             }
@@ -2040,7 +2040,7 @@
 }
 
 .post-message__text {
-    text-align: left;
+    text-align: start;
 }
 
 .view-history__text {
@@ -2060,7 +2060,7 @@
 .file-attachment-menu-item-input {
     position: absolute;
     top: 0;
-    right: 0;
+    inset-inline-end: 0;
     width: 0;
     height: 35px;
     margin: 0;
@@ -2109,11 +2109,11 @@
     }
 
     .edit-post-history__content_container {
-        margin-left: 26px;
+        margin-inline-start: 26px;
         cursor: default;
 
         .post__content {
-            padding-left: 0;
+            padding-inline-start: 0;
         }
     }
 
@@ -2200,7 +2200,7 @@
     margin-top: 8px;
 
     .edit-post-history__header__username {
-        margin-left: 8px;
+        margin-inline-start: 8px;
         font-weight: 600;
         text-overflow: ellipsis;
     }
@@ -2211,7 +2211,7 @@
     width: fit-content;
     padding: 1px 5px 2px;
     border-radius: 4px;
-    margin-left: 8px;
+    margin-inline-start: 8px;
     background-color: var(--sidebar-text-active-border);
     color: var(--sidebar-text-active-color);
     font-size: 12px;
@@ -2262,13 +2262,13 @@
             display: revert;
             padding: 0 6px;
             border-radius: 4px;
-            margin-left: 8px;
+            margin-inline-start: 8px;
             background: rgba(var(--center-channel-color-rgb), 0.08);
 
             &-icon > svg {
                 width: 12px;
                 height: 12px;
-                margin-right: 4px;
+                margin-inline-end: 4px;
                 background: inherit;
                 fill: rgba(var(--center-channel-color-rgb), 0.64);
                 vertical-align: middle;
@@ -2322,9 +2322,9 @@
     position: absolute;
     z-index: 999;
     top: 0;
-    right: 0;
+    inset-inline-end: 0;
     bottom: 0;
-    left: 0;
+    inset-inline-start: 0;
     border-radius: 4px;
     animation: post-message-shimmer 3.5s linear infinite;
     background: linear-gradient(
