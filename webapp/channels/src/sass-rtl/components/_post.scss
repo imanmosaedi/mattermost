@@ -558,6 +558,7 @@
     position: relative;
     overflow: hidden;
     max-width: 100%;
+    direction: rtl;
     padding: 8px 0.5em 0 1.5em; // If this needs to be changed then .post-row__padding needs to be adjusted accordingly
     transition: height 200ms, background-color 200ms;
     word-wrap: break-word;
@@ -679,7 +680,7 @@
         }
     }
 
-    &:hover,
+    //&:hover,
     &.a11y--active {
         overflow: visible;
 
@@ -2379,7 +2380,7 @@
     &.other--root,
     &.post--root {
         .post__header-set-custom-status {
-            display: revert;
+            display: none;
             padding: 0 6px;
             border-radius: 4px;
             margin-inline-end: 8px;

@@ -546,13 +546,12 @@
     position: relative;
     overflow: hidden;
     max-width: 100%;
+    direction: ltr;
     padding: 8px 0.5em 0 1.5em; // If this needs to be changed then .post-row__padding needs to be adjusted accordingly
     transition: height 200ms, background-color 200ms;
     word-wrap: break-word;
 
     &:not(.post--editing):not(.post--editing):hover {
-        background-color: rgba(functions.v(center-channel-color-rgb), 0.04);
-
         .PostAttachmentOpenGraph .remove-button {
             display: flex;
         }
@@ -670,7 +669,7 @@
         }
     }
 
-    &:hover,
+    //&:hover,
     &.a11y--active {
         overflow: visible;
 
@@ -1274,86 +1273,91 @@
         max-width: 1000px;
     }
 
-    .post__header,
-    .post-preview__header {
-        display: flex;
-        width: 100%;
-        align-items: center;
-        margin-bottom: 2px;
-        white-space: nowrap;
+    .post__header {
+        align-content: flex-end;
+        width: min-content;
+        direction: rtl;
 
-        .col__name {
+        .post-preview__header {
             display: flex;
-            min-width: 0;
-            flex: 0 auto;
-            margin-inline-end: 8px;
-            font-weight: 600;
-            gap: 8px;
-            text-overflow: ellipsis;
+            width: 100%;
+            align-items: center;
+            margin-bottom: 2px;
+            white-space: nowrap;
 
-            &.permalink--username {
-                margin-inline-end: 6px;
-            }
-
-            .user-popover {
-                @include mixins.clearfix;
-
-                text-align: start;
+            .col__name {
+                display: flex;
+                min-width: 0;
+                flex: 0 auto;
+                margin-inline-end: 8px;
+                font-weight: 600;
+                gap: 8px;
                 text-overflow: ellipsis;
-                -moz-user-select: all; /* Firefox all */
-                vertical-align: top;
-                white-space: nowrap;
+
+                &.permalink--username {
+                    margin-inline-end: 6px;
+                }
+
+                .user-popover {
+                    @include mixins.clearfix;
+
+                    text-align: start;
+                    text-overflow: ellipsis;
+                    -moz-user-select: all; /* Firefox all */
+                    vertical-align: top;
+                    white-space: nowrap;
+                }
+
+                .colon {
+                    display: none;
+                    margin-inline-start: -6px;
+                    font-weight: 900;
+                }
             }
 
-            .colon {
-                display: none;
-                margin-inline-start: -6px;
-                font-weight: 900;
+            .col__remove {
+                position: absolute;
+                inset-inline-end: 10px;
             }
+
+            .permalink-popover {
+                min-width: 0;
+
+                .popover-content {
+                    padding: 5px;
+                }
+
+                .form-control,
+                .btn {
+                    height: 30px;
+                    padding: 0 8px;
+                    font-size: 13px;
+                    line-height: 30px;
+                }
+            }
+
+            .shared-user-icon {
+                width: 16px;
+                height: 20px;
+                margin: 0 0 0 2px;
+                color: rgba(var(--center-channel-color-rgb), 0.75);
+                font-size: 16px;
+                line-height: 20px;
+
+                &::before {
+                    margin: 0;
+                }
+            }
+
+            .badges-wrapper {
+                gap: 6px;
+                .BurnOnReadTimerChip, .BurnOnReadBadge  {
+                    margin-inline-start: 0;
+                }
+            }
+
+
         }
-
-        .col__remove {
-            position: absolute;
-            inset-inline-end: 10px;
-        }
-
-        .permalink-popover {
-            min-width: 0;
-
-            .popover-content {
-                padding: 5px;
-            }
-
-            .form-control,
-            .btn {
-                height: 30px;
-                padding: 0 8px;
-                font-size: 13px;
-                line-height: 30px;
-            }
-        }
-
-        .shared-user-icon {
-            width: 16px;
-            height: 20px;
-            margin: 0 0 0 2px;
-            color: rgba(var(--center-channel-color-rgb), 0.75);
-            font-size: 16px;
-            line-height: 20px;
-
-            &::before {
-                margin: 0;
-            }
-        }
-
-        .badges-wrapper {
-            gap: 6px;
-            .BurnOnReadTimerChip, .BurnOnReadBadge  {
-                margin-inline-start: 0;
-            }
-        }
-
-
     }
 
     .post__img {
@@ -2318,7 +2322,7 @@
     &.other--root,
     &.post--root {
         .post__header-set-custom-status {
-            display: revert;
+            display: none;
             padding: 0 6px;
             border-radius: 4px;
             margin-inline-start: 8px;

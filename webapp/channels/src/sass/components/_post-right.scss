@@ -92,11 +92,32 @@
             }
         }
 
+        &.post--root,
+        &.other--root {
+            .post__message {
+                display: flex;
+                width: 100%;
+            }
+
+            .post__header {
+                width: 100%;
+            }
+        }
+
         &.current--user {
-            &.other--root,
-            &.post--root {
-                .post__header-set-custom-status {
-                    display: none;
+            &.post--root,
+            &.other--root {
+                .post__message {
+                    flex-direction: row-reverse;
+                }
+
+                .post__header {
+                    text-align: end;
+                }
+
+                .col__name {
+                    justify-content: flex-end;
+
                 }
             }
         }

@@ -97,6 +97,35 @@
             }
         }
 
+        &.post--root,
+        &.other--root {
+            .post__message {
+                display: flex;
+                width: 100%;
+            }
+
+            .post__header {
+                width: 100%;
+            }
+        }
+
+        &.current--user {
+            &.post--root,
+            &.other--root {
+                .post__message {
+                    flex-direction: row;
+                }
+
+                .post__header {
+                    text-align: end;
+                }
+
+                .col__name {
+                    justify-content: flex-end;
+                }
+            }
+        }
+
         &.current--user {
             &.other--root,
             &.post--root {
