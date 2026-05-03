@@ -589,7 +589,6 @@
 
                 .post-body__actions {
                     inset-inline-start: 10px;
-                    inset-inline-start: 10px;
                 }
             }
         }
@@ -599,7 +598,6 @@
             background-color: var(--center-channel-bg);
 
             &.custom-textarea--emoji-picker {
-                padding-inline-start: 50px;
                 padding-inline-start: 50px;
             }
         }
@@ -652,21 +650,18 @@
         }
 
         &.same--user .post__body {
-            border-top-inset-inline-end-radius: 6px;
+            border-top-left-radius: 6px;
         }
 
         &.post--chat-bubble-me {
-            padding-inline-start: 0.25em;
-            padding-inline-start: 0.25em;
+            padding-right: 0.25em;
 
             .post__content {
-                flex-direction: row-reverse;
                 justify-content: flex-start;
             }
 
             .post__img {
-                margin-inline-start: 0;
-                margin-inline-start: 0;
+                margin-right: 0;
             }
 
             .post__main {
@@ -679,7 +674,7 @@
             }
 
             &.same--user .post__body {
-                border-top-inset-inline-start-radius: 6px;
+                border-top-right-radius: 6px;
             }
         }
     }
