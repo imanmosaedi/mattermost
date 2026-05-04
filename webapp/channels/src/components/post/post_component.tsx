@@ -341,30 +341,31 @@ function PostComponent(props: Props) {
     const handleFileDropdownOpened = useCallback((open: boolean) => setFileDropdownOpened(open), []);
 
     const handleDropdownOpened = useCallback((opened: boolean) => {
-        if (togglePostMenu) {
+        /*if (togglePostMenu) {
             togglePostMenu(opened);
-        }
+        }*/
         setDropdownOpened(opened);
-    }, [togglePostMenu]);
+    }, []);
 
     const handleMouseOver = useCallback((e: MouseEvent<HTMLDivElement>) => {
-        setHover(true);
-        setAlt(e.altKey);
+        //setHover(true);
+        //setAlt(e.altKey);
     }, []);
 
     const handleMouseLeave = useCallback(() => {
-        setHover(false);
-        setAlt(false);
+        //setHover(false);
+        //setAlt(false);
     }, []);
 
     const handleCardClick = (post?: Post) => {
-        if (!post) {
+        return;
+        /*if (!post) {
             return;
         }
         if (props.handleCardClick) {
             props.handleCardClick(post);
         }
-        props.actions.selectPostCard(post);
+        props.actions.selectPostCard(post);*/
     };
 
     // When adding clickable targets within a root post to exclude from post's on click to open thread,
@@ -739,9 +740,9 @@ function PostComponent(props: Props) {
                 post={post}
                 className={getClassName()}
                 style={props.preventClickInteraction ? preventInteractionStyle : undefined}
-                onClick={handlePostClick}
-                onMouseOver={handleMouseOver}
-                onMouseLeave={handleMouseLeave}
+                //onClick={handlePostClick}
+                //onMouseOver={handleMouseOver}
+                //onMouseLeave={handleMouseLeave}
                 autotranslated={props.isChannelAutotranslated}
             >
                 {props.isChannelAutotranslated && isTranslating && (
