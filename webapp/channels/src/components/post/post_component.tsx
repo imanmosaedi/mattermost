@@ -408,6 +408,13 @@ function PostComponent(props: Props) {
         props.isPostBeingEdited,
     ]);
 
+    const handlePostContextMenu = useCallback((e: MouseEvent<HTMLDivElement>) => {
+        e.preventDefault();
+
+        const dotMenuButton = postRef.current?.querySelector<HTMLButtonElement>(`[data-testid="PostDotMenu-Button-${post.id}"]`);
+        dotMenuButton?.click();
+    }, [post.id]);
+
     const handleJumpClick = useCallback((e: React.MouseEvent) => {
         e.preventDefault();
         if (props.isMobileView) {
@@ -743,6 +750,7 @@ function PostComponent(props: Props) {
                 //onClick={handlePostClick}
                 //onMouseOver={handleMouseOver}
                 //onMouseLeave={handleMouseLeave}
+                onContextMenu={handlePostContextMenu}
                 autotranslated={props.isChannelAutotranslated}
             >
                 {props.isChannelAutotranslated && isTranslating && (
